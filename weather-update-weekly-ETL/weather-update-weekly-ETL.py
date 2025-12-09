@@ -21,7 +21,7 @@ s3 = boto3.client('s3')
 athena_client = boto3.client('athena', region_name='us-east-1')
 
 try:
-    print("starting weather-update-weekly-ETL (Option C: Only append new data)")
+    print("starting weather-update-weekly-ETL")
     
     # ===== EXTRACT WEEK IDENTIFIER FROM LATEST DELAY CSV =====
     try:
@@ -101,10 +101,8 @@ try:
                 
                 for i, date_str in enumerate(times):
                     record = {
+                        'region_id': location_id,
                         'date': date_str,
-                        'station_name': region_name,  # Region name as station_name
-                        'latitude': float(coords['lat']),
-                        'longitude': float(coords['lon']),
                         'temperature_mean_c': float(temps[i]),
                         'wind_gust_max_kmh': float(winds[i]),
                         'precipitation_sum_mm': float(precips[i]),
