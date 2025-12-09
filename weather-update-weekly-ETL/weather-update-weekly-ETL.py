@@ -106,7 +106,7 @@ try:
                         'temperature_mean_c': float(temps[i]),
                         'wind_gust_max_kmh': float(winds[i]),
                         'precipitation_sum_mm': float(precips[i]),
-                        'extreme_temperature': 1 if (temps[i] < -15 or temps[i] > 35) else 0,
+                        'extreme_temperature': 1 if (temps[i] < -5 or temps[i] > 25) else 0,
                         'extreme_wind': 1 if winds[i] > 60 else 0,
                         'extreme_precipitation': 1 if precips[i] > 20 else 0
                     }
@@ -151,10 +151,8 @@ try:
     try:
         print("applying schema and casting columns")
         df_final = df_weekly_weather.select(
+            col("location_id").cast("int").alias("region_id"),
             col("date").cast("date").alias("date"),
-            col("station_name").cast("string").alias("station_name"),
-            col("latitude").cast("double").alias("latitude"),
-            col("longitude").cast("double").alias("longitude"),
             col("temperature_mean_c").cast("double").alias("temperature_mean_c"),
             col("wind_gust_max_kmh").cast("double").alias("wind_gust_max_kmh"),
             col("precipitation_sum_mm").cast("double").alias("precipitation_sum_mm"),
