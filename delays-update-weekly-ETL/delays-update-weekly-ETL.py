@@ -168,8 +168,8 @@ try:
         INSERT INTO delays_all
         SELECT 
             date,
-            station_name,
             station_id,
+            station_name,
             total_delay_minutes,
             train_count,
             avg_delay_minutes
