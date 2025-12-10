@@ -1,0 +1,13 @@
+CREATE EXTERNAL TABLE delays_all (
+    date DATE,
+    station_id INT,
+    station_name STRING,
+    total_delay_minutes FLOAT,
+    train_count INT,
+    avg_delay_minutes FLOAT
+)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES ('field.delim' = ',')
+STORED AS TEXTFILE
+LOCATION 's3://delays-weather-slucrx/raw-data/delays/initial/'
+TBLPROPERTIES ('has_encrypted_data' = 'false', 'skip.header.line.count' = '1');
