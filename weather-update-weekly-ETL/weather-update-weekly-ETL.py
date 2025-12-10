@@ -189,10 +189,42 @@ try:
         print(f"error writing to temp path: {str(e)}")
         raise
 
-    # ===== INSERT INTO ATHENA TABLE (FORCES METADATA REFRESH) =====
+        # ===== INSERT INTO ATHENA TABLE (DIRECT METHOD) =====
     try:
-        print("inserting weather data into Athena table via direct query")
+        print("inserting weather data into Athena table")
         
+        # Step 1: Create temporary external table pointing to staged data
+        temp_table_name = f"weather_staged_{WEEK_IDENTIFIER.replace('-', '_')}"
+        
+        create_temp_query = f"""
+        CREATE EXTERNAL TABLE IF NOT EXISTS {temp_table_name} (
+            region_id INT,
+            date DATE,
+            temperature_mean_c DOUBLE,
+            wind_gust_max_kmh DOUBLE,
+            precipitation_sum_mm DOUBLE,
+            high_temp INT,
+            high_wind INT,
+            high_precip INT
+        )
+        ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+        WITH SERDEPROPERTIES ('field.delim' = ',')
+        STORED AS TEXTFILE
+        LOCATION 's3://{BUCKET}/temp/weather_staging_{WEEK_IDENTIFIER}/'
+        TBLPROPERTIES ('skip.header.line.count' = '1')
+        """
+        
+        print(f"creating temp table: {temp_table_name}")
+        response = athena_client.start_query_execution(
+            QueryString=create_temp_query,
+            QueryExecutionContext={'Database': 'delays_weather'},
+            ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
+        )
+        query_id = response['QueryExecutionId']
+        status = wait_for_query_completion(athena_client, query_id)
+        print(f"temp table created with status: {status}")
+        
+        # Step 2: Insert from temp table into weather_all
         insert_query = f"""
         INSERT INTO weather_all
         SELECT 
@@ -204,28 +236,10 @@ try:
             high_temp,
             high_wind,
             high_precip
-        FROM weather_all
-        WHERE date >= '{START_DATE}' AND date <= '{END_DATE}'
-        
-        UNION ALL
-        
-        SELECT 
-            CAST(region_id AS INT) as region_id,
-            CAST(date AS DATE) as date,
-            CAST(temperature_mean_c AS DOUBLE) as temperature_mean_c,
-            CAST(wind_gust_max_kmh AS DOUBLE) as wind_gust_max_kmh,
-            CAST(precipitation_sum_mm AS DOUBLE) as precipitation_sum_mm,
-            CAST(high_temp AS INT) as high_temp,
-            CAST(high_wind AS INT) as high_wind,
-            CAST(high_precip AS INT) as high_precip
-        FROM (
-            SELECT * FROM read_csv(
-                's3://{BUCKET}/temp/weather_staging_{WEEK_IDENTIFIER}/*',
-                header=true
-            )
-        ) staged
+        FROM {temp_table_name}
         """
         
+        print(f"inserting from {temp_table_name} into weather_all")
         response = athena_client.start_query_execution(
             QueryString=insert_query,
             QueryExecutionContext={'Database': 'delays_weather'},
@@ -240,6 +254,17 @@ try:
             print(f"INSERT completed successfully - weather data is now in Athena")
         else:
             print(f"warning: INSERT query returned status: {status}")
+        
+        # Step 3: Drop temporary table
+        drop_temp_query = f"DROP TABLE IF EXISTS {temp_table_name}"
+        response = athena_client.start_query_execution(
+            QueryString=drop_temp_query,
+            QueryExecutionContext={'Database': 'delays_weather'},
+            ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
+        )
+        query_id = response['QueryExecutionId']
+        wait_for_query_completion(athena_client, query_id)
+        print(f"temp table dropped")
         
     except Exception as e:
         print(f"error with INSERT into weather_all: {str(e)}")
