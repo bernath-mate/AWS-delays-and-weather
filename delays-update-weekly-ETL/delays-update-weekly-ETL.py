@@ -29,8 +29,7 @@ try:
         print("scanning for latest delays CSV filename in weekly-updates")
         response = s3.list_objects_v2(
             Bucket=BUCKET,
-            Prefix='raw-data/delays/weekly-updates/',
-            Delimiter='/'
+            Prefix='raw-data/delays/weekly-updates/'
         )
         
         if 'Contents' not in response or len(response['Contents']) == 0:
@@ -38,7 +37,7 @@ try:
         
         # Get latest file by modification date
         files = sorted(response['Contents'], key=lambda x: x['LastModified'], reverse=True)
-        latest_file = files['Key']
+        latest_file = files[0]['Key']  # ← FIX: files[0] not files['Key']
         filename = latest_file.split('/')[-1]
         
         print(f"latest delay file: {filename}")
@@ -126,14 +125,8 @@ try:
     except Exception as e:
         print(f"warning: failed to run MSCK repair: {str(e)}")
     
-    # ===== COMMIT JOB =====
-    try:
-        print("committing glue job")
-        job.commit()
-        print("delays-update-weekly-ETL completed successfully")
-    except Exception as e:
-        print(f"failed to commit job: {str(e)}")
-        raise
+    print("delays-update-weekly-ETL completed successfully")
+    job.commit()
 
 except Exception as e:
     print(f"ETL job failed: {str(e)}")
