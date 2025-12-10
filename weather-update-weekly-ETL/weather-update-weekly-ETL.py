@@ -1,4 +1,5 @@
 import sys
+import time
 import boto3
 import json
 import requests
@@ -19,6 +20,24 @@ API_BASE = 'https://archive-api.open-meteo.com/v1/archive'
 
 s3 = boto3.client('s3')
 athena_client = boto3.client('athena', region_name='us-east-1')
+
+def wait_for_query_completion(client, query_id, max_retries=120):
+    """Wait for Athena query to complete"""
+    for attempt in range(max_retries):
+        try:
+            response = client.get_query_execution(QueryExecutionId=query_id)
+            status = response['QueryExecution']['Status']['State']
+            
+            if status in ['SUCCEEDED', 'FAILED', 'CANCELLED']:
+                return status
+            
+            print(f"  waiting for query {query_id}... status: {status}")
+            time.sleep(1)
+        except Exception as e:
+            print(f"  error checking query status: {str(e)}")
+            time.sleep(1)
+    
+    raise Exception(f"query {query_id} did not complete after {max_retries} attempts")
 
 try:
     print("starting weather-update-weekly-ETL")
@@ -66,7 +85,7 @@ try:
             Key='raw-data/weather/region_coordinates.json'
         )
         data = json.loads(response['Body'].read().decode('utf-8'))
-        REGIONS = data['regions']  # ← Extract the regions list
+        REGIONS = data['regions']  # Extract the regions list
         print(f"loaded {len(REGIONS)} regions")
     except Exception as e:
         print(f"error loading regions config: {str(e)}")
@@ -185,7 +204,7 @@ try:
         print(f"error appending weather data: {str(e)}")
         raise
 
-    # ===== REFRESH ATHENA METADATA =====
+    # ===== REFRESH ATHENA METADATA (WITH WAIT) =====
     try:
         print("running MSCK REPAIR TABLE on weather_all")
         repair_query = "MSCK REPAIR TABLE weather_all"
@@ -195,9 +214,14 @@ try:
             ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
         )
         query_id = response['QueryExecutionId']
-        print(f"MSCK repair started: {query_id}")
+        print(f"MSCK repair query started: {query_id}")
+        
+        status = wait_for_query_completion(athena_client, query_id)
+        print(f"MSCK repair completed with status: {status}")
+        
     except Exception as e:
-        print(f"warning: failed to run MSCK repair: {str(e)}")
+        print(f"error running MSCK repair: {str(e)}")
+        raise
 
     print("weather-update-weekly-ETL completed successfully")
 
