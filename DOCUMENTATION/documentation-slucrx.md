@@ -1,7 +1,6 @@
 # TRAIN DELAYS & WEATHER DATA WAREHOUSE
-
 -   Bernáth Máté (SLUCRX)
--   2025/12/11
+-   2025/12/10
 
 ## TECHNICAL DETAILS
 -   GitHub repository: https://github.com/bernath-mate/AWS-delays-and-weather
@@ -12,7 +11,9 @@
 
 ## STAKEHOLDERS & VALUE
 
--   Identify the target audience and the specific business benefits. \### Target Audience:
+-   Identify the target audience and the specific business benefits.
+
+### Target Audience:
 
 MÁV Pályafenntartó Zrt. – Primary stakeholder responsible for train operations and infrastructure management
 
@@ -88,7 +89,7 @@ Output location: s3://delays-weather-slucrx/query-results/
 
 ### Cost Breakdown
 
-![](images/paste-16.png)
+![](media/paste-16.png)
 
 ### Business Goal Support
 
@@ -345,7 +346,7 @@ print("successful transformation, CSV exported")
 ## 2.1 bucket creation
 
 -   name: delays-weather-slucrx
--   otherwise default settings ![](image.png) ![](images/paste-1.png) ![](images/paste-2.png) ![](images/paste-3.png) ![](images/images/image-5.png)
+-   otherwise default settings ![](image.png) ![](media/paste-1.png) ![](media/paste-2.png) ![](media/paste-3.png) ![](media/media/image-5.png)
 
 ## 2.2 delays_data_initial.csv
 
@@ -361,7 +362,7 @@ date,station_id,station_name,total_delay_minutes,train_count,avg_delay_minutes
 [203 321 more rows]
 ```
 
-![](images/paste-5.png)
+![](media/paste-5.png)
 
 ## 2.3 weather_data_initial.csv
 
@@ -380,7 +381,7 @@ location_id latitude;longitude;time;temperature_2m_mean (°C);precipitation_sum 
 [1405 more rows]
 ```
 
-![](images/paste-6.png)
+![](media/paste-6.png)
 
 ## 2.4 stations_regions.csv
 
@@ -398,7 +399,7 @@ location_id latitude;longitude;time;temperature_2m_mean (°C);precipitation_sum 
     [2644 more rows]
 ```
 
-![](images/paste-7.png)
+![](media/paste-7.png)
 
 ## 2.4 region_coordinates.json
 
@@ -418,7 +419,7 @@ REGIONS = {
 }
 ```
 
-![](images/paste-8.png)
+![](media/paste-8.png)
 
 # 3. LAMBDA FUNCTION: query-runner-weekly.py
 
@@ -580,12 +581,12 @@ def lambda_handler(event, context):
         }
 ```
 
-![](images/image-10.png)
+![](media/image-10.png)
 
 # 4. ETL JOBS
 
 -   CloudWatch logs are used as the logging and monitoring, as the script prints out status updatees about the job to there
--   all jobs directly linked to github for version control and use LabRole for execution, automatic worker scaling is enabled with max 10 workers, G1X workers are used ![](images/image-11.png)
+-   all jobs directly linked to github for version control and use LabRole for execution, automatic worker scaling is enabled with max 10 workers, G1X workers are used ![](media/image-11.png)
 
 ## 4.1 delays-update-weekly-ETL.py
 
@@ -730,7 +731,7 @@ except Exception as e:
     sys.exit(1)
 ```
 
-![](images/image-27.png) ![](images/image-31.png)
+![](media/image-27.png) ![](media/image-31.png)
 
 ## 4.2 weather-update-weekly-ETL.py
 
@@ -1024,7 +1025,7 @@ finally:
     job.commit()
 ```
 
-![](images/image-25.png) ![](images/image-32.png)
+![](media/image-25.png) ![](media/image-32.png)
 
 ## 4.3 unified_all-weekly-update-ETL.py
 
@@ -1134,7 +1135,7 @@ except Exception as e:
 
 ## 5.1 specifying output bucket
 
--   s3://delays-weather-slucrx/query-results ![](images/image-12.png)
+-   s3://delays-weather-slucrx/query-results ![](media/image-12.png)
 
 ## 5.2 database creation
 
@@ -1144,7 +1145,7 @@ except Exception as e:
 CREATE DATABASE delays_weather
 ```
 
-![](images/image-13.png)
+![](media/image-13.png)
 
 ## 5.3 delays_all TABLE first creation
 
@@ -1164,7 +1165,7 @@ LOCATION 's3://delays-weather-slucrx/raw-data/delays/initial/'
 TBLPROPERTIES ('has_encrypted_data' = 'false', 'skip.header.line.count' = '1');
 ```
 
-![](images/image-14.png)
+![](media/image-14.png)
 
 ### check the contents of delays_all: succesful initial data import
 
@@ -1172,7 +1173,7 @@ TBLPROPERTIES ('has_encrypted_data' = 'false', 'skip.header.line.count' = '1');
 SELECT * FROM delays_all;
 ```
 
-![](images/image-15.png)
+![](media/image-15.png)
 
 ## 5.4 weather_all TABLE creation
 
@@ -1194,7 +1195,7 @@ LOCATION 's3://delays-weather-slucrx/raw-data/weather/initial/'
 TBLPROPERTIES ('has_encrypted_data' = 'false', 'skip.header.line.count' = '1');
 ```
 
-![](images/image-16.png)
+![](media/image-16.png)
 
 ### check the contents of weather_all: successful initial data import
 
@@ -1202,7 +1203,7 @@ TBLPROPERTIES ('has_encrypted_data' = 'false', 'skip.header.line.count' = '1');
 SELECT * FROM weather_all;
 ```
 
-![](images/image-17.png)
+![](media/image-17.png)
 
 ## 5.5 stations_regions TABLE creation
 
@@ -1222,7 +1223,7 @@ LOCATION 's3://delays-weather-slucrx/raw-data/weather/station-region'
 TBLPROPERTIES ('has_encrypted_data' = 'false', 'skip.header.line.count' = '1');
 ```
 
-![](images/image-18.png)
+![](media/image-18.png)
 
 ### check the contents of delstations_regions: successful initial data import (first 28 ids are for really specific stations with only codes as names)
 
@@ -1230,7 +1231,7 @@ TBLPROPERTIES ('has_encrypted_data' = 'false', 'skip.header.line.count' = '1');
 SELECT * FROM stations_regions WHERE station_id>28;
 ```
 
-![](images/image-19.png)
+![](media/image-19.png)
 
 ## 5.6 unified_all VIEW creation
 
@@ -1259,7 +1260,7 @@ WHERE d.station_id IS NOT NULL
 ORDER BY d.date, d.station_name;
 ```
 
-![](images/image-20.png)
+![](media/image-20.png)
 
 ### check the contents of unified_all: successful merging of the two data streams, data loss due to temporary bus replacements
 
@@ -1267,7 +1268,7 @@ ORDER BY d.date, d.station_name;
 SELECT * FROM unified_all;
 ```
 
-![](images/image-21.png)
+![](media/image-21.png)
 
 # 6. DASHBOARD
 
@@ -1295,7 +1296,7 @@ GROUP BY region
 ORDER BY median_delay DESC;
 ```
 
-![](images/paste-15.png)
+![](media/paste-15.png)
 
 ## 6.2 SECOND KPI:
 
@@ -1314,7 +1315,7 @@ ORDER BY percent_delayed_days DESC
 LIMIT 10;
 ```
 
-![](images/paste-14.png)
+![](media/paste-14.png)
 
 ## 6.3 THIRD KPI:
 
@@ -1355,20 +1356,21 @@ ORDER BY resilience_score_pct ASC
 LIMIT 10;
 ```
 
-![](images/paste-13.png)
+![](media/paste-13.png)
 
 # WEEK1 update ran succesfully
 
-![](images/image-22.png)![](images/image-23.png)
+![](media/image-22.png)![](media/image-23.png)
 
 ### weather-update-weekly-ETL succeeded after tweaks
 
-![](images/image-24.png) --\> ![](images/image-25.png)![](images/image-32.png)
+![](media/image-24.png) --\> ![](media/image-25.png)![](media/image-32.png)
 
 ### delays-update-weekly-ETL succeeded after tweaks
 
-![](images/image-26.png)![](images/image-27.png) --\> log of successful run ![](images/image-31.png) --\> delays_all table has the new data
+![](media/image-26.png)![](media/image-27.png) --\> log of successful run ![](media/image-31.png) --\> delays_all table has the new data
 
-![](images/image-28.png) --\> unified_all-weekly-update-ETL succeeded ![](images/image-29.png) --\> log of successful run ![](images/image-33.png) --\> unified_all view has the new data
+![](media/image-28.png) --\> unified_all-weekly-update-ETL succeeded ![](media/image-29.png) --\> log of successful run ![](media/image-33.png) --\> unified_all view has the new data
+
 
 # WEEK2 UPDATE TAKE VIDEO
