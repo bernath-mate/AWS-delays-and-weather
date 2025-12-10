@@ -152,29 +152,13 @@ try:
         print(f"error fetching weather from API: {str(e)}")
         raise
 
-    # ===== WRITE NEW WEEK'S WEATHER CSV TO RAW DATA =====
-    try:
-        print(f"writing new week's weather CSV: weather_data_{WEEK_IDENTIFIER}.csv")
-
-        df_weekly_weather = spark.createDataFrame(all_weather)
-
-        weekly_output_path = f"s3://{BUCKET}/raw-data/weather/weekly-updates/weather_data_{WEEK_IDENTIFIER}"
-
-        df_weekly_weather.coalesce(1).write \
-            .mode("overwrite") \
-            .option("header", "true") \
-            .csv(weekly_output_path)
-
-        print(f"successfully wrote weekly weather CSV to: {weekly_output_path}")
-
-    except Exception as e:
-        print(f"error writing weekly weather CSV: {str(e)}")
-        raise
-
-    # ===== SCHEMA VALIDATION & CASTING =====
+    # ===== SCHEMA VALIDATION & CASTING (DIRECT TO PROCESSED-DATA) =====
     try:
         print("applying schema and casting columns")
-        df_final = df_weekly_weather.select(
+        
+        df_weather = spark.createDataFrame(all_weather)
+        
+        df_final = df_weather.select(
             col("region_id").cast("int").alias("region_id"),
             col("date").cast("date").alias("date"),
             col("temperature_mean_c").cast("double").alias("temperature_mean_c"),
@@ -184,15 +168,16 @@ try:
             col("high_wind").cast("int").alias("high_wind"),
             col("high_precip").cast("int").alias("high_precip")
         ).repartition(1)
+        
         print("schema casting completed")
     except Exception as e:
         print(f"failed to apply schema: {str(e)}")
         raise
 
-    # ===== APPEND NEW WEEK TO processed-data =====
+    # ===== APPEND DIRECTLY TO processed-data/weather_all =====
     try:
         output_path = f"s3://{BUCKET}/processed-data/weather_all/"
-        print(f"appending new week ({len(all_weather)} rows) to: {output_path}")
+        print(f"appending {len(all_weather)} rows directly to: {output_path}")
 
         df_final.coalesce(1).write \
             .mode("append") \
