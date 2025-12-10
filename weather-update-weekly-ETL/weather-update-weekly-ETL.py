@@ -174,38 +174,75 @@ try:
         print(f"failed to apply schema: {str(e)}")
         raise
 
-    # ===== APPEND DIRECTLY TO processed-data/weather_all =====
+    # ===== WRITE DIRECTLY TO TEMP PATH IN S3 =====
     try:
-        output_path = f"s3://{BUCKET}/processed-data/weather_all/"
-        print(f"appending {len(all_weather)} rows directly to: {output_path}")
+        temp_s3_path = f"s3://{BUCKET}/temp/weather_staging_{WEEK_IDENTIFIER}/"
+        print(f"writing processed weather to temp S3 path: {temp_s3_path}")
 
         df_final.coalesce(1).write \
-            .mode("append") \
+            .mode("overwrite") \
             .option("header", "true") \
-            .csv(output_path)
+            .csv(temp_s3_path)
 
-        print(f"successfully appended {len(all_weather)} new weather rows to weather_all")
+        print(f"successfully wrote {len(all_weather)} rows to temp path")
     except Exception as e:
-        print(f"error appending weather data: {str(e)}")
+        print(f"error writing to temp path: {str(e)}")
         raise
 
-    # ===== REFRESH ATHENA METADATA (WITH WAIT) =====
+    # ===== INSERT INTO ATHENA TABLE (FORCES METADATA REFRESH) =====
     try:
-        print("running MSCK REPAIR TABLE on weather_all")
-        repair_query = "MSCK REPAIR TABLE weather_all"
+        print("inserting weather data into Athena table via direct query")
+        
+        insert_query = f"""
+        INSERT INTO weather_all
+        SELECT 
+            region_id,
+            date,
+            temperature_mean_c,
+            wind_gust_max_kmh,
+            precipitation_sum_mm,
+            high_temp,
+            high_wind,
+            high_precip
+        FROM weather_all
+        WHERE date >= '{START_DATE}' AND date <= '{END_DATE}'
+        
+        UNION ALL
+        
+        SELECT 
+            CAST(region_id AS INT) as region_id,
+            CAST(date AS DATE) as date,
+            CAST(temperature_mean_c AS DOUBLE) as temperature_mean_c,
+            CAST(wind_gust_max_kmh AS DOUBLE) as wind_gust_max_kmh,
+            CAST(precipitation_sum_mm AS DOUBLE) as precipitation_sum_mm,
+            CAST(high_temp AS INT) as high_temp,
+            CAST(high_wind AS INT) as high_wind,
+            CAST(high_precip AS INT) as high_precip
+        FROM (
+            SELECT * FROM read_csv(
+                's3://{BUCKET}/temp/weather_staging_{WEEK_IDENTIFIER}/*',
+                header=true
+            )
+        ) staged
+        """
+        
         response = athena_client.start_query_execution(
-            QueryString=repair_query,
+            QueryString=insert_query,
             QueryExecutionContext={'Database': 'delays_weather'},
             ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
         )
         query_id = response['QueryExecutionId']
-        print(f"MSCK repair query started: {query_id}")
+        print(f"INSERT query started: {query_id}")
         
         status = wait_for_query_completion(athena_client, query_id)
-        print(f"MSCK repair completed with status: {status}")
+        
+        if status == 'SUCCEEDED':
+            print(f"INSERT completed successfully - weather data is now in Athena")
+        else:
+            print(f"warning: INSERT query returned status: {status}")
         
     except Exception as e:
-        print(f"error running MSCK repair: {str(e)}")
+        print(f"error with INSERT into weather_all: {str(e)}")
         raise
 
     print("weather-update-weekly-ETL completed successfully")
