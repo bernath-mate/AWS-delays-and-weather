@@ -84,7 +84,7 @@ try:
     try:
         print("committing glue job")
         job.commit()
-        print("etl job completed successfully")
+        print("ETL job completed successfully")
     except Exception as e:
         print(f"failed to commit job: {str(e)}")
         raise
