@@ -47,7 +47,7 @@ try:
         print("scanning for latest delays CSV filename to extract date range")
         response = s3.list_objects_v2(
             Bucket=BUCKET,
-            Prefix='raw-data/delays/weekly-updates/'
+            Prefix='raw-data/delays/'
         )
 
         if 'Contents' not in response or len(response['Contents']) == 0:
