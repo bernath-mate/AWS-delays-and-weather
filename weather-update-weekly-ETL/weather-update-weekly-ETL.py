@@ -82,7 +82,7 @@ try:
         print("loading region coordinates from config")
         response = s3.get_object(
             Bucket=BUCKET,
-            Key='raw-data/weather/region_coordinates.json'
+            Key='raw-data/config/region_coordinates.json'
         )
         data = json.loads(response['Body'].read().decode('utf-8'))
         REGIONS = data['regions']  # Extract the regions list
