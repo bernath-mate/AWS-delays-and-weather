@@ -1,4 +1,5 @@
 import sys
+import time
 import re
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
@@ -21,6 +22,24 @@ athena_client = boto3.client('athena', region_name='us-east-1')
 
 BUCKET = 'delays-weather-slucrx'
 
+def wait_for_query_completion(client, query_id, max_retries=120):
+    """Wait for Athena query to complete"""
+    for attempt in range(max_retries):
+        try:
+            response = client.get_query_execution(QueryExecutionId=query_id)
+            status = response['QueryExecution']['Status']['State']
+            
+            if status in ['SUCCEEDED', 'FAILED', 'CANCELLED']:
+                return status
+            
+            print(f"  waiting for query {query_id}... status: {status}")
+            time.sleep(1)
+        except Exception as e:
+            print(f"  error checking query status: {str(e)}")
+            time.sleep(1)
+    
+    raise Exception(f"query {query_id} did not complete after {max_retries} attempts")
+
 try:
     print("starting delays-update-weekly-ETL")
     
@@ -37,7 +56,7 @@ try:
         
         # Get latest file by modification date
         files = sorted(response['Contents'], key=lambda x: x['LastModified'], reverse=True)
-        latest_file = files[0]['Key']  # ← FIX: files[0] not files['Key']
+        latest_file = files[0]['Key']
         filename = latest_file.split('/')[-1]
         
         print(f"latest delay file: {filename}")
@@ -111,7 +130,7 @@ try:
         print(f"failed to append delay data: {str(e)}")
         raise
     
-    # ===== REFRESH ATHENA METADATA =====
+    # ===== REFRESH ATHENA METADATA (WITH WAIT) =====
     try:
         print("running MSCK REPAIR TABLE on delays_all")
         repair_query = "MSCK REPAIR TABLE delays_all"
@@ -121,16 +140,22 @@ try:
             ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
         )
         query_id = response['QueryExecutionId']
-        print(f"MSCK repair started: {query_id}")
+        print(f"MSCK repair query started: {query_id}")
+        
+        status = wait_for_query_completion(athena_client, query_id)
+        print(f"MSCK repair completed with status: {status}")
+        
     except Exception as e:
-        print(f"warning: failed to run MSCK repair: {str(e)}")
+        print(f"error running MSCK repair: {str(e)}")
+        raise
     
     print("delays-update-weekly-ETL completed successfully")
-    job.commit()
 
 except Exception as e:
     print(f"ETL job failed: {str(e)}")
     import traceback
     traceback.print_exc()
+    raise
+
+finally:
     job.commit()
-    sys.exit(1)
