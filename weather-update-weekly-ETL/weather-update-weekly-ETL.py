@@ -28,8 +28,7 @@ try:
         print("scanning for latest delays CSV filename to extract date range")
         response = s3.list_objects_v2(
             Bucket=BUCKET,
-            Prefix='raw-data/delays/weekly-updates/',
-            Delimiter='/'
+            Prefix='raw-data/delays/weekly-updates/'
         )
 
         if 'Contents' not in response or len(response['Contents']) == 0:
@@ -64,9 +63,10 @@ try:
         print("loading region coordinates from config")
         response = s3.get_object(
             Bucket=BUCKET,
-            Key='weather/region_coordinates.json'
+            Key='raw-data/weather/region_coordinates.json'
         )
-        REGIONS = json.loads(response['Body'].read().decode('utf-8'))
+        data = json.loads(response['Body'].read().decode('utf-8'))
+        REGIONS = data['regions']  # ← Extract the regions list
         print(f"loaded {len(REGIONS)} regions")
     except Exception as e:
         print(f"error loading regions config: {str(e)}")
@@ -78,8 +78,11 @@ try:
         all_weather = []
 
         # region_id is derived from the order of REGIONS (0,1,2,...)
-        for region_id, (region_name, coords) in enumerate(REGIONS.items()):
+        for region_id, region_data in enumerate(REGIONS):
             try:
+                region_name = region_data['region_name']
+                coords = {'lat': region_data['lat'], 'lon': region_data['lon']}
+                
                 print(f"  fetching: {region_name} (region_id={region_id})")
 
                 params = {
