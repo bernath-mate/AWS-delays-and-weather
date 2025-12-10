@@ -20,7 +20,8 @@
     "--enable-glue-datacatalog" : "true",
     "--job-bookmark-option" : "job-bookmark-disable",
     "--job-language" : "python",
-    "--TempDir" : "s3://aws-glue-assets-767397979962-us-east-1/temporary/"
+    "--TempDir" : "s3://aws-glue-assets-767397979962-us-east-1/temporary/",
+    "--enable-auto-scaling" : "true"
   },
   "maxRetries" : 0,
   "allocatedCapacity" : 10,

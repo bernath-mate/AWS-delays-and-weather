@@ -22,7 +22,7 @@ athena_client = boto3.client('athena', region_name='us-east-1')
 BUCKET = 'delays-weather-slucrx'
 
 try:
-    print("starting delays-update-weekly-ETL (Option C: Only append new data)")
+    print("starting delays-update-weekly-ETL")
     
     # ===== EXTRACT WEEK IDENTIFIER FROM LATEST DELAY CSV =====
     try:
@@ -87,6 +87,7 @@ try:
         df_final = df_new_week.select(
             col("date").cast("date").alias("date"),
             col("station_name").cast("string").alias("station_name"),
+            col("station_id").cast("int").alias("station_id"),
             col("total_delay_minutes").cast("double").alias("total_delay_minutes"),
             col("train_count").cast("int").alias("train_count"),
             col("avg_delay_minutes").cast("double").alias("avg_delay_minutes")
