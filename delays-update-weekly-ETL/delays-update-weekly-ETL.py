@@ -104,8 +104,8 @@ try:
         print("applying schema and casting columns")
         df_final = df_new_week.select(
             col("date").cast("date").alias("date"),
-            col("station_id").cast("int").alias("station_id"),
             col("station_name").cast("string").alias("station_name"),
+            col("station_id").cast("int").alias("station_id"),
             col("total_delay_minutes").cast("double").alias("total_delay_minutes"),
             col("train_count").cast("int").alias("train_count"),
             col("avg_delay_minutes").cast("double").alias("avg_delay_minutes")
@@ -115,38 +115,96 @@ try:
         print(f"failed to apply schema: {str(e)}")
         raise
     
-    # ===== APPEND NEW WEEK TO processed-data =====
+    # ===== WRITE TO TEMP STAGING PATH =====
     try:
-        output_path = f"s3://{BUCKET}/processed-data/delays_all/"
-        print(f"appending new week ({new_week_count} rows) to: {output_path}")
+        temp_s3_path = f"s3://{BUCKET}/temp/delays_staging_{WEEK_IDENTIFIER}/"
+        print(f"writing processed delays to temp S3 path: {temp_s3_path}")
         
         df_final.coalesce(1).write \
-            .mode("append") \
+            .mode("overwrite") \
             .option("header", "true") \
-            .csv(output_path)
+            .csv(temp_s3_path)
         
-        print(f"successfully appended {new_week_count} new delay rows to delays_all")
+        print(f"successfully wrote {new_week_count} rows to temp path")
     except Exception as e:
-        print(f"failed to append delay data: {str(e)}")
+        print(f"error writing to temp path: {str(e)}")
         raise
     
-    # ===== REFRESH ATHENA METADATA (WITH WAIT) =====
+    # ===== INSERT INTO ATHENA TABLE (DIRECT METHOD) =====
     try:
-        print("running MSCK REPAIR TABLE on delays_all")
-        repair_query = "MSCK REPAIR TABLE delays_all"
+        print("inserting delay data into Athena table")
+        
+        # Step 1: Create temporary external table pointing to staged data
+        temp_table_name = f"delays_staged_{WEEK_IDENTIFIER.replace('-', '_')}"
+        
+        create_temp_query = f"""
+        CREATE EXTERNAL TABLE IF NOT EXISTS {temp_table_name} (
+            date DATE,
+            station_name STRING,
+            station_id INT,
+            total_delay_minutes DOUBLE,
+            train_count INT,
+            avg_delay_minutes DOUBLE
+        )
+        ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+        WITH SERDEPROPERTIES ('field.delim' = ',')
+        STORED AS TEXTFILE
+        LOCATION 's3://{BUCKET}/temp/delays_staging_{WEEK_IDENTIFIER}/'
+        TBLPROPERTIES ('skip.header.line.count' = '1')
+        """
+        
+        print(f"creating temp table: {temp_table_name}")
         response = athena_client.start_query_execution(
-            QueryString=repair_query,
+            QueryString=create_temp_query,
             QueryExecutionContext={'Database': 'delays_weather'},
             ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
         )
         query_id = response['QueryExecutionId']
-        print(f"MSCK repair query started: {query_id}")
+        status = wait_for_query_completion(athena_client, query_id)
+        print(f"temp table created with status: {status}")
+        
+        # Step 2: Insert from temp table into delays_all
+        insert_query = f"""
+        INSERT INTO delays_all
+        SELECT 
+            date,
+            station_name,
+            station_id,
+            total_delay_minutes,
+            train_count,
+            avg_delay_minutes
+        FROM {temp_table_name}
+        """
+        
+        print(f"inserting from {temp_table_name} into delays_all")
+        response = athena_client.start_query_execution(
+            QueryString=insert_query,
+            QueryExecutionContext={'Database': 'delays_weather'},
+            ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
+        )
+        query_id = response['QueryExecutionId']
+        print(f"INSERT query started: {query_id}")
         
         status = wait_for_query_completion(athena_client, query_id)
-        print(f"MSCK repair completed with status: {status}")
+        
+        if status == 'SUCCEEDED':
+            print(f"INSERT completed successfully - delay data is now in Athena")
+        else:
+            print(f"warning: INSERT query returned status: {status}")
+        
+        # Step 3: Drop temporary table
+        drop_temp_query = f"DROP TABLE IF EXISTS {temp_table_name}"
+        response = athena_client.start_query_execution(
+            QueryString=drop_temp_query,
+            QueryExecutionContext={'Database': 'delays_weather'},
+            ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
+        )
+        query_id = response['QueryExecutionId']
+        wait_for_query_completion(athena_client, query_id)
+        print(f"temp table dropped")
         
     except Exception as e:
-        print(f"error running MSCK repair: {str(e)}")
+        print(f"error with INSERT into delays_all: {str(e)}")
         raise
     
     print("delays-update-weekly-ETL completed successfully")
