@@ -48,7 +48,7 @@ try:
         print("scanning for latest delays CSV filename in weekly-updates")
         response = s3.list_objects_v2(
             Bucket=BUCKET,
-            Prefix='raw-data/delays/weekly-updates/'
+            Prefix='raw-data/delays/'
         )
         
         if 'Contents' not in response or len(response['Contents']) == 0:
@@ -82,7 +82,7 @@ try:
     try:
         print(f"reading ONLY new week's delay CSV: delay_data_{WEEK_IDENTIFIER}.csv")
         
-        weekly_csv_path = f"s3://{BUCKET}/raw-data/delays/weekly-updates/delay_data_{WEEK_IDENTIFIER}.csv"
+        weekly_csv_path = f"s3://{BUCKET}/raw-data/delays/delay_data_{WEEK_IDENTIFIER}.csv"
         
         df_new_week = spark.read \
             .option("header", "true") \
