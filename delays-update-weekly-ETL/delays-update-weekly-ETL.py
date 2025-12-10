@@ -85,8 +85,8 @@ try:
         print("applying schema and casting columns")
         df_final = df_new_week.select(
             col("date").cast("date").alias("date"),
-            col("station_name").cast("string").alias("station_name"),
             col("station_id").cast("int").alias("station_id"),
+            col("station_name").cast("string").alias("station_name"),
             col("total_delay_minutes").cast("double").alias("total_delay_minutes"),
             col("train_count").cast("int").alias("train_count"),
             col("avg_delay_minutes").cast("double").alias("avg_delay_minutes")
