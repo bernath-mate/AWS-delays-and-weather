@@ -1,0 +1,10590 @@
+[
+  {
+    "station_id": 1,
+    "station_name": "1126+95"
+  },
+  {
+    "station_id": 2,
+    "station_name": "298"
+  },
+  {
+    "station_id": 3,
+    "station_name": "299"
+  },
+  {
+    "station_id": 4,
+    "station_name": "468"
+  },
+  {
+    "station_id": 5,
+    "station_name": "519"
+  },
+  {
+    "station_id": 6,
+    "station_name": "520"
+  },
+  {
+    "station_id": 7,
+    "station_name": "A"
+  },
+  {
+    "station_id": 8,
+    "station_name": "AB Heiligenkreuz"
+  },
+  {
+    "station_id": 9,
+    "station_name": "AS118"
+  },
+  {
+    "station_id": 10,
+    "station_name": "AS126"
+  },
+  {
+    "station_id": 11,
+    "station_name": "AS132"
+  },
+  {
+    "station_id": 12,
+    "station_name": "AS136"
+  },
+  {
+    "station_id": 13,
+    "station_name": "AS141"
+  },
+  {
+    "station_id": 14,
+    "station_name": "AS144"
+  },
+  {
+    "station_id": 15,
+    "station_name": "AS151"
+  },
+  {
+    "station_id": 16,
+    "station_name": "AS173"
+  },
+  {
+    "station_id": 17,
+    "station_name": "AS187"
+  },
+  {
+    "station_id": 18,
+    "station_name": "AS199"
+  },
+  {
+    "station_id": 19,
+    "station_name": "AS210"
+  },
+  {
+    "station_id": 20,
+    "station_name": "AS215"
+  },
+  {
+    "station_id": 21,
+    "station_name": "AS246"
+  },
+  {
+    "station_id": 22,
+    "station_name": "AS259"
+  },
+  {
+    "station_id": 23,
+    "station_name": "AS265"
+  },
+  {
+    "station_id": 24,
+    "station_name": "AS284"
+  },
+  {
+    "station_id": 25,
+    "station_name": "AS29"
+  },
+  {
+    "station_id": 26,
+    "station_name": "AS293"
+  },
+  {
+    "station_id": 27,
+    "station_name": "AS348"
+  },
+  {
+    "station_id": 28,
+    "station_name": "AS922"
+  },
+  {
+    "station_id": 29,
+    "station_name": "Aba-Sárkeresztúr"
+  },
+  {
+    "station_id": 30,
+    "station_name": "Abaliget"
+  },
+  {
+    "station_id": 31,
+    "station_name": "Abaújkér"
+  },
+  {
+    "station_id": 32,
+    "station_name": "Abaújszántó"
+  },
+  {
+    "station_id": 33,
+    "station_name": "Abaújszántói fürdő"
+  },
+  {
+    "station_id": 34,
+    "station_name": "Abda"
+  },
+  {
+    "station_id": 35,
+    "station_name": "Abony"
+  },
+  {
+    "station_id": 36,
+    "station_name": "Abony elágazás"
+  },
+  {
+    "station_id": 37,
+    "station_name": "Abonyi út"
+  },
+  {
+    "station_id": 38,
+    "station_name": "Abádszalók"
+  },
+  {
+    "station_id": 39,
+    "station_name": "Acsa-Erdőkürt"
+  },
+  {
+    "station_id": 40,
+    "station_name": "Acsád"
+  },
+  {
+    "station_id": 41,
+    "station_name": "Adonis utca"
+  },
+  {
+    "station_id": 42,
+    "station_name": "Adony"
+  },
+  {
+    "station_id": 43,
+    "station_name": "Adony-Dunapart"
+  },
+  {
+    "station_id": 44,
+    "station_name": "Adács"
+  },
+  {
+    "station_id": 45,
+    "station_name": "Agárd"
+  },
+  {
+    "station_id": 46,
+    "station_name": "Agárdytelep"
+  },
+  {
+    "station_id": 47,
+    "station_name": "Ajak"
+  },
+  {
+    "station_id": 48,
+    "station_name": "Ajka"
+  },
+  {
+    "station_id": 49,
+    "station_name": "Ajka-Gyártelep"
+  },
+  {
+    "station_id": 50,
+    "station_name": "Ajtósi Dürer sor"
+  },
+  {
+    "station_id": 51,
+    "station_name": "Akadémia"
+  },
+  {
+    "station_id": 52,
+    "station_name": "Akadémiaújtelep"
+  },
+  {
+    "station_id": 53,
+    "station_name": "Akácfa utca"
+  },
+  {
+    "station_id": 54,
+    "station_name": "Alagimajor"
+  },
+  {
+    "station_id": 55,
+    "station_name": "Alap"
+  },
+  {
+    "station_id": 56,
+    "station_name": "Albert Flórián út"
+  },
+  {
+    "station_id": 57,
+    "station_name": "Albertfalva"
+  },
+  {
+    "station_id": 58,
+    "station_name": "Albertfalva kitérő"
+  },
+  {
+    "station_id": 59,
+    "station_name": "Albertfalva utca"
+  },
+  {
+    "station_id": 60,
+    "station_name": "Albertirsa"
+  },
+  {
+    "station_id": 61,
+    "station_name": "Alcsútdoboz Arborétum"
+  },
+  {
+    "station_id": 62,
+    "station_name": "Aldebrő"
+  },
+  {
+    "station_id": 63,
+    "station_name": "Algyő"
+  },
+  {
+    "station_id": 64,
+    "station_name": "Almamellék"
+  },
+  {
+    "station_id": 65,
+    "station_name": "Almár"
+  },
+  {
+    "station_id": 66,
+    "station_name": "Almás"
+  },
+  {
+    "station_id": 67,
+    "station_name": "Almásfüzitő"
+  },
+  {
+    "station_id": 68,
+    "station_name": "Almásfüzitő felső"
+  },
+  {
+    "station_id": 69,
+    "station_name": "Almásfüzitő-KEG kiágazás"
+  },
+  {
+    "station_id": 70,
+    "station_name": "Almásfüzítő forgalmi iroda"
+  },
+  {
+    "station_id": 71,
+    "station_name": "Alsó-Majláth"
+  },
+  {
+    "station_id": 72,
+    "station_name": "Alsóboldva"
+  },
+  {
+    "station_id": 73,
+    "station_name": "Alsóbélatelep"
+  },
+  {
+    "station_id": 74,
+    "station_name": "Alsógalla"
+  },
+  {
+    "station_id": 75,
+    "station_name": "Alsógyenes"
+  },
+  {
+    "station_id": 76,
+    "station_name": "Alsógöd"
+  },
+  {
+    "station_id": 77,
+    "station_name": "Alsóhegy utca"
+  },
+  {
+    "station_id": 78,
+    "station_name": "Alsóméntelek"
+  },
+  {
+    "station_id": 79,
+    "station_name": "Alsónemesapáti"
+  },
+  {
+    "station_id": 80,
+    "station_name": "Alsónyék"
+  },
+  {
+    "station_id": 81,
+    "station_name": "Alsórönök"
+  },
+  {
+    "station_id": 82,
+    "station_name": "Alsóörs"
+  },
+  {
+    "station_id": 83,
+    "station_name": "Alsóúrrét"
+  },
+  {
+    "station_id": 84,
+    "station_name": "Ambrózfalva"
+  },
+  {
+    "station_id": 85,
+    "station_name": "Andaházi utca"
+  },
+  {
+    "station_id": 86,
+    "station_name": "Andocs"
+  },
+  {
+    "station_id": 87,
+    "station_name": "Andor utca"
+  },
+  {
+    "station_id": 88,
+    "station_name": "Andornaktálya"
+  },
+  {
+    "station_id": 89,
+    "station_name": "Andráshida"
+  },
+  {
+    "station_id": 90,
+    "station_name": "Andráshida elágazás"
+  },
+  {
+    "station_id": 91,
+    "station_name": "Andókút"
+  },
+  {
+    "station_id": 92,
+    "station_name": "Angyalföld"
+  },
+  {
+    "station_id": 93,
+    "station_name": "Angyalföld elágazás"
+  },
+  {
+    "station_id": 94,
+    "station_name": "Angyalföld kocsiszín"
+  },
+  {
+    "station_id": 95,
+    "station_name": "Angyalföld vasútállomás"
+  },
+  {
+    "station_id": 96,
+    "station_name": "Angyalisziget"
+  },
+  {
+    "station_id": 97,
+    "station_name": "Anna-kút (Kossuth Lajos sugárút)"
+  },
+  {
+    "station_id": 98,
+    "station_name": "Anna-kút (Tisza Lajos körút)"
+  },
+  {
+    "station_id": 99,
+    "station_name": "Apafa"
+  },
+  {
+    "station_id": 100,
+    "station_name": "Apagy"
+  },
+  {
+    "station_id": 101,
+    "station_name": "Apc-Zagyvaszántó"
+  },
+  {
+    "station_id": 102,
+    "station_name": "Apor Vilmos tér"
+  },
+  {
+    "station_id": 103,
+    "station_name": "Apostag"
+  },
+  {
+    "station_id": 104,
+    "station_name": "Apátfalva"
+  },
+  {
+    "station_id": 105,
+    "station_name": "Aquaticum"
+  },
+  {
+    "station_id": 106,
+    "station_name": "Aquincum"
+  },
+  {
+    "station_id": 107,
+    "station_name": "Aquincum elágazás"
+  },
+  {
+    "station_id": 108,
+    "station_name": "Aradi vértanúk tere"
+  },
+  {
+    "station_id": 109,
+    "station_name": "Aradványpuszta"
+  },
+  {
+    "station_id": 110,
+    "station_name": "Arany János utca"
+  },
+  {
+    "station_id": 111,
+    "station_name": "Aranyosapáti"
+  },
+  {
+    "station_id": 112,
+    "station_name": "Aranyvölgy"
+  },
+  {
+    "station_id": 113,
+    "station_name": "Arborétum"
+  },
+  {
+    "station_id": 114,
+    "station_name": "Asdag kavicsbánya iparvágány"
+  },
+  {
+    "station_id": 115,
+    "station_name": "Asdag kavicsbánya iparvágány kiágazás"
+  },
+  {
+    "station_id": 116,
+    "station_name": "Astoria"
+  },
+  {
+    "station_id": 117,
+    "station_name": "Astoria M"
+  },
+  {
+    "station_id": 118,
+    "station_name": "Aszaló"
+  },
+  {
+    "station_id": 119,
+    "station_name": "Asztalos Sándor út"
+  },
+  {
+    "station_id": 120,
+    "station_name": "Aszód"
+  },
+  {
+    "station_id": 121,
+    "station_name": "Aszófő"
+  },
+  {
+    "station_id": 122,
+    "station_name": "Atlétikai stadion"
+  },
+  {
+    "station_id": 123,
+    "station_name": "Attala"
+  },
+  {
+    "station_id": 124,
+    "station_name": "Autópálya (ideiglenes végállomás)"
+  },
+  {
+    "station_id": 125,
+    "station_name": "BAH-csomópont"
+  },
+  {
+    "station_id": 126,
+    "station_name": "BJ"
+  },
+  {
+    "station_id": 127,
+    "station_name": "Babatpuszta forgalmi kitérő"
+  },
+  {
+    "station_id": 128,
+    "station_name": "Babócsa"
+  },
+  {
+    "station_id": 129,
+    "station_name": "Babócsa forgalmi iroda"
+  },
+  {
+    "station_id": 130,
+    "station_name": "Badacsony"
+  },
+  {
+    "station_id": 131,
+    "station_name": "Badacsonylábdihegy"
+  },
+  {
+    "station_id": 132,
+    "station_name": "Badacsonytomaj"
+  },
+  {
+    "station_id": 133,
+    "station_name": "Badacsonytördemic-Szigliget"
+  },
+  {
+    "station_id": 134,
+    "station_name": "Badacsonyörs"
+  },
+  {
+    "station_id": 135,
+    "station_name": "Bag"
+  },
+  {
+    "station_id": 136,
+    "station_name": "Bagimajor"
+  },
+  {
+    "station_id": 137,
+    "station_name": "Bagod"
+  },
+  {
+    "station_id": 138,
+    "station_name": "Baja"
+  },
+  {
+    "station_id": 139,
+    "station_name": "Baja-Dunafürdő"
+  },
+  {
+    "station_id": 140,
+    "station_name": "Baja-Dunapart"
+  },
+  {
+    "station_id": 141,
+    "station_name": "Baja-Dunaparti elágazás"
+  },
+  {
+    "station_id": 142,
+    "station_name": "Bajcsa forgalmi kitérő"
+  },
+  {
+    "station_id": 143,
+    "station_name": "Bajcsy-Zsilinszky Kórház"
+  },
+  {
+    "station_id": 144,
+    "station_name": "Bajcsy-Zsilinszky út"
+  },
+  {
+    "station_id": 145,
+    "station_name": "Bajza utca"
+  },
+  {
+    "station_id": 146,
+    "station_name": "Bajza utca - M1 metró"
+  },
+  {
+    "station_id": 147,
+    "station_name": "Bajánsenye"
+  },
+  {
+    "station_id": 148,
+    "station_name": "Bak"
+  },
+  {
+    "station_id": 149,
+    "station_name": "Bakonybánk"
+  },
+  {
+    "station_id": 150,
+    "station_name": "Bakonygyirót"
+  },
+  {
+    "station_id": 151,
+    "station_name": "Bakonypéterd"
+  },
+  {
+    "station_id": 152,
+    "station_name": "Bakonyszentlászló"
+  },
+  {
+    "station_id": 153,
+    "station_name": "Bakonyszentlászló-Bauxitbánya"
+  },
+  {
+    "station_id": 154,
+    "station_name": "Bakonyszentlászló-Erdőgazdaság kiágazás"
+  },
+  {
+    "station_id": 155,
+    "station_name": "Bakonyszombathely"
+  },
+  {
+    "station_id": 156,
+    "station_name": "Bakonysárkány"
+  },
+  {
+    "station_id": 157,
+    "station_name": "Bakonytamási"
+  },
+  {
+    "station_id": 158,
+    "station_name": "Baktalórántháza"
+  },
+  {
+    "station_id": 159,
+    "station_name": "Baktó elágazás"
+  },
+  {
+    "station_id": 160,
+    "station_name": "Baktüttös"
+  },
+  {
+    "station_id": 161,
+    "station_name": "Balassagyarmat"
+  },
+  {
+    "station_id": 162,
+    "station_name": "Balassagyarmat forgalmi iroda"
+  },
+  {
+    "station_id": 163,
+    "station_name": "Balatonakali-Dörgicse"
+  },
+  {
+    "station_id": 164,
+    "station_name": "Balatonakarattya"
+  },
+  {
+    "station_id": 165,
+    "station_name": "Balatonaliga"
+  },
+  {
+    "station_id": 166,
+    "station_name": "Balatonalmádi"
+  },
+  {
+    "station_id": 167,
+    "station_name": "Balatonarács"
+  },
+  {
+    "station_id": 168,
+    "station_name": "Balatonberény"
+  },
+  {
+    "station_id": 169,
+    "station_name": "Balatonboglár"
+  },
+  {
+    "station_id": 170,
+    "station_name": "Balatonederics"
+  },
+  {
+    "station_id": 171,
+    "station_name": "Balatonfenyves"
+  },
+  {
+    "station_id": 172,
+    "station_name": "Balatonfenyves GV"
+  },
+  {
+    "station_id": 173,
+    "station_name": "Balatonfenyves alsó"
+  },
+  {
+    "station_id": 174,
+    "station_name": "Balatonföldvár"
+  },
+  {
+    "station_id": 175,
+    "station_name": "Balatonfüred"
+  },
+  {
+    "station_id": 176,
+    "station_name": "Balatonfüred-Hajógyár"
+  },
+  {
+    "station_id": 177,
+    "station_name": "Balatonfőkajár"
+  },
+  {
+    "station_id": 178,
+    "station_name": "Balatonfőkajár felső"
+  },
+  {
+    "station_id": 179,
+    "station_name": "Balatonfűzfő"
+  },
+  {
+    "station_id": 180,
+    "station_name": "Balatongyörök"
+  },
+  {
+    "station_id": 181,
+    "station_name": "Balatoni út"
+  },
+  {
+    "station_id": 182,
+    "station_name": "Balatonkenese"
+  },
+  {
+    "station_id": 183,
+    "station_name": "Balatonkeresztúr"
+  },
+  {
+    "station_id": 184,
+    "station_name": "Balatonlelle"
+  },
+  {
+    "station_id": 185,
+    "station_name": "Balatonlelle felső"
+  },
+  {
+    "station_id": 186,
+    "station_name": "Balatonmáriafürdő"
+  },
+  {
+    "station_id": 187,
+    "station_name": "Balatonmáriafürdő elágazás"
+  },
+  {
+    "station_id": 188,
+    "station_name": "Balatonrendes"
+  },
+  {
+    "station_id": 189,
+    "station_name": "Balatonszemes"
+  },
+  {
+    "station_id": 190,
+    "station_name": "Balatonszemes elágazás"
+  },
+  {
+    "station_id": 191,
+    "station_name": "Balatonszentgyörgy"
+  },
+  {
+    "station_id": 192,
+    "station_name": "Balatonszentgyörgy HM iparvágány kiágazás"
+  },
+  {
+    "station_id": 193,
+    "station_name": "Balatonszentgyörgy elágazás"
+  },
+  {
+    "station_id": 194,
+    "station_name": "Balatonszepezd"
+  },
+  {
+    "station_id": 195,
+    "station_name": "Balatonszárszó"
+  },
+  {
+    "station_id": 196,
+    "station_name": "Balatonszéplak alsó"
+  },
+  {
+    "station_id": 197,
+    "station_name": "Balatonszéplak felső"
+  },
+  {
+    "station_id": 198,
+    "station_name": "Balatonudvari"
+  },
+  {
+    "station_id": 199,
+    "station_name": "Balatonvilágos"
+  },
+  {
+    "station_id": 200,
+    "station_name": "Balatonújlak"
+  },
+  {
+    "station_id": 201,
+    "station_name": "Balffürdő"
+  },
+  {
+    "station_id": 202,
+    "station_name": "Balinka"
+  },
+  {
+    "station_id": 203,
+    "station_name": "Balkán utca"
+  },
+  {
+    "station_id": 204,
+    "station_name": "Balkány"
+  },
+  {
+    "station_id": 205,
+    "station_name": "Ballatanya"
+  },
+  {
+    "station_id": 206,
+    "station_name": "Ballószög"
+  },
+  {
+    "station_id": 207,
+    "station_name": "Balmazújváros"
+  },
+  {
+    "station_id": 208,
+    "station_name": "Balotaszállás"
+  },
+  {
+    "station_id": 209,
+    "station_name": "Balotaszállás forgalmi kitérő"
+  },
+  {
+    "station_id": 210,
+    "station_name": "Balsa"
+  },
+  {
+    "station_id": 211,
+    "station_name": "Balsa-Tiszapart"
+  },
+  {
+    "station_id": 212,
+    "station_name": "Balástya"
+  },
+  {
+    "station_id": 213,
+    "station_name": "Baláta"
+  },
+  {
+    "station_id": 214,
+    "station_name": "Balázs Béla utca"
+  },
+  {
+    "station_id": 215,
+    "station_name": "Balázs Győző tér"
+  },
+  {
+    "station_id": 216,
+    "station_name": "Barackos"
+  },
+  {
+    "station_id": 217,
+    "station_name": "Baracska"
+  },
+  {
+    "station_id": 218,
+    "station_name": "Barcs"
+  },
+  {
+    "station_id": 219,
+    "station_name": "Barcs felső"
+  },
+  {
+    "station_id": 220,
+    "station_name": "Barcs-Kemikál iparvágány kiágazás"
+  },
+  {
+    "station_id": 221,
+    "station_name": "Baross utca"
+  },
+  {
+    "station_id": 222,
+    "station_name": "Barosstelep"
+  },
+  {
+    "station_id": 223,
+    "station_name": "Barátság"
+  },
+  {
+    "station_id": 224,
+    "station_name": "Bashalom"
+  },
+  {
+    "station_id": 225,
+    "station_name": "Batthyány tér"
+  },
+  {
+    "station_id": 226,
+    "station_name": "Batthyány tér M+H"
+  },
+  {
+    "station_id": 227,
+    "station_name": "Battonya"
+  },
+  {
+    "station_id": 228,
+    "station_name": "Baté"
+  },
+  {
+    "station_id": 229,
+    "station_name": "Becehegy"
+  },
+  {
+    "station_id": 230,
+    "station_name": "Becske alsó"
+  },
+  {
+    "station_id": 231,
+    "station_name": "Belecska"
+  },
+  {
+    "station_id": 232,
+    "station_name": "Beled"
+  },
+  {
+    "station_id": 233,
+    "station_name": "Beleg"
+  },
+  {
+    "station_id": 234,
+    "station_name": "Belezna"
+  },
+  {
+    "station_id": 235,
+    "station_name": "Belsőbáránd"
+  },
+  {
+    "station_id": 236,
+    "station_name": "Belsőkamaráspuszta"
+  },
+  {
+    "station_id": 237,
+    "station_name": "Belsőperegpuszta"
+  },
+  {
+    "station_id": 238,
+    "station_name": "Belvárosi temető"
+  },
+  {
+    "station_id": 239,
+    "station_name": "Belvárosi temető II. kapu"
+  },
+  {
+    "station_id": 240,
+    "station_name": "Bem József tér"
+  },
+  {
+    "station_id": 241,
+    "station_name": "Bem tér"
+  },
+  {
+    "station_id": 242,
+    "station_name": "Bem utca"
+  },
+  {
+    "station_id": 243,
+    "station_name": "Bence átjáró"
+  },
+  {
+    "station_id": 244,
+    "station_name": "Berekfürdő"
+  },
+  {
+    "station_id": 245,
+    "station_name": "Berekhát"
+  },
+  {
+    "station_id": 246,
+    "station_name": "Beremend BCM gyártelep"
+  },
+  {
+    "station_id": 247,
+    "station_name": "Beremendi Cementmű"
+  },
+  {
+    "station_id": 248,
+    "station_name": "Beremendi Cementmű 0+27 szelvény pályavasúti határpont"
+  },
+  {
+    "station_id": 249,
+    "station_name": "Berente"
+  },
+  {
+    "station_id": 250,
+    "station_name": "Berente-Rendező"
+  },
+  {
+    "station_id": 251,
+    "station_name": "Berettyóújfalu"
+  },
+  {
+    "station_id": 252,
+    "station_name": "Berhida"
+  },
+  {
+    "station_id": 253,
+    "station_name": "Berkenye"
+  },
+  {
+    "station_id": 254,
+    "station_name": "Berzence"
+  },
+  {
+    "station_id": 255,
+    "station_name": "Betoncső térplasztika"
+  },
+  {
+    "station_id": 256,
+    "station_name": "Bezenye"
+  },
+  {
+    "station_id": 257,
+    "station_name": "Biatorbágy"
+  },
+  {
+    "station_id": 258,
+    "station_name": "Biatorbágy forgalmi iroda"
+  },
+  {
+    "station_id": 259,
+    "station_name": "Bicere"
+  },
+  {
+    "station_id": 260,
+    "station_name": "Bicske"
+  },
+  {
+    "station_id": 261,
+    "station_name": "Bicske alsó"
+  },
+  {
+    "station_id": 262,
+    "station_name": "Bicske forgalmi iroda"
+  },
+  {
+    "station_id": 263,
+    "station_name": "Bicsérd"
+  },
+  {
+    "station_id": 264,
+    "station_name": "Biharkeresztes"
+  },
+  {
+    "station_id": 265,
+    "station_name": "Biharnagybajom"
+  },
+  {
+    "station_id": 266,
+    "station_name": "Biharnagybajom-Cukorgyár iparvágány kiágazás"
+  },
+  {
+    "station_id": 267,
+    "station_name": "Biharnagybajom-Gabona iparvágány kiágazás"
+  },
+  {
+    "station_id": 268,
+    "station_name": "Bikás park"
+  },
+  {
+    "station_id": 269,
+    "station_name": "Bikás park M"
+  },
+  {
+    "station_id": 270,
+    "station_name": "Biri"
+  },
+  {
+    "station_id": 271,
+    "station_name": "Blaha Lujza tér"
+  },
+  {
+    "station_id": 272,
+    "station_name": "Blaha Lujza tér M"
+  },
+  {
+    "station_id": 273,
+    "station_name": "Blaha Lujza tér M (Népszínház utca)"
+  },
+  {
+    "station_id": 274,
+    "station_name": "Boba"
+  },
+  {
+    "station_id": 275,
+    "station_name": "Bocfölde"
+  },
+  {
+    "station_id": 276,
+    "station_name": "Bocskaikert"
+  },
+  {
+    "station_id": 277,
+    "station_name": "Bodajk"
+  },
+  {
+    "station_id": 278,
+    "station_name": "Bodajk felső"
+  },
+  {
+    "station_id": 279,
+    "station_name": "Bodolyabér"
+  },
+  {
+    "station_id": 280,
+    "station_name": "Bodrogkeresztúr"
+  },
+  {
+    "station_id": 281,
+    "station_name": "Bodrogolaszi"
+  },
+  {
+    "station_id": 282,
+    "station_name": "Bogdása"
+  },
+  {
+    "station_id": 283,
+    "station_name": "Bogárzó"
+  },
+  {
+    "station_id": 284,
+    "station_name": "Bojsza"
+  },
+  {
+    "station_id": 285,
+    "station_name": "Bokod"
+  },
+  {
+    "station_id": 286,
+    "station_name": "Bokréta utca"
+  },
+  {
+    "station_id": 287,
+    "station_name": "Boldogkőváralja"
+  },
+  {
+    "station_id": 288,
+    "station_name": "Boldva"
+  },
+  {
+    "station_id": 289,
+    "station_name": "Bolhás"
+  },
+  {
+    "station_id": 290,
+    "station_name": "Bonnya"
+  },
+  {
+    "station_id": 291,
+    "station_name": "Bonyhád"
+  },
+  {
+    "station_id": 292,
+    "station_name": "Boros-Pincehely"
+  },
+  {
+    "station_id": 293,
+    "station_name": "Borsihalom"
+  },
+  {
+    "station_id": 294,
+    "station_name": "Borsodszirák"
+  },
+  {
+    "station_id": 295,
+    "station_name": "Borsosberény"
+  },
+  {
+    "station_id": 296,
+    "station_name": "Boráros tér"
+  },
+  {
+    "station_id": 297,
+    "station_name": "Boráros tér H"
+  },
+  {
+    "station_id": 298,
+    "station_name": "Bosnyák tér"
+  },
+  {
+    "station_id": 299,
+    "station_name": "Brüsszeli körút"
+  },
+  {
+    "station_id": 300,
+    "station_name": "Bucsuta"
+  },
+  {
+    "station_id": 301,
+    "station_name": "Budafa"
+  },
+  {
+    "station_id": 302,
+    "station_name": "Budafok"
+  },
+  {
+    "station_id": 303,
+    "station_name": "Budafok kocsiszín"
+  },
+  {
+    "station_id": 304,
+    "station_name": "Budafok, Városház tér"
+  },
+  {
+    "station_id": 305,
+    "station_name": "Budafoki elágazás"
+  },
+  {
+    "station_id": 306,
+    "station_name": "Budafoki út / Dombóvári út"
+  },
+  {
+    "station_id": 307,
+    "station_name": "Budafoki út / Karinthy Frigyes út"
+  },
+  {
+    "station_id": 308,
+    "station_name": "Budafoki út / Szerémi sor"
+  },
+  {
+    "station_id": 309,
+    "station_name": "Budagyöngye"
+  },
+  {
+    "station_id": 310,
+    "station_name": "Budai út"
+  },
+  {
+    "station_id": 311,
+    "station_name": "Budakalász"
+  },
+  {
+    "station_id": 312,
+    "station_name": "Budakalász, Lenfonó"
+  },
+  {
+    "station_id": 313,
+    "station_name": "Budapest Kikötő"
+  },
+  {
+    "station_id": 314,
+    "station_name": "Budapest KÖFI"
+  },
+  {
+    "station_id": 315,
+    "station_name": "Budapest-Déli"
+  },
+  {
+    "station_id": 316,
+    "station_name": "Budapest-Józsefváros"
+  },
+  {
+    "station_id": 317,
+    "station_name": "Budapest-Kelenföld"
+  },
+  {
+    "station_id": 318,
+    "station_name": "Budapest-Kelenföld forgalmi iroda"
+  },
+  {
+    "station_id": 319,
+    "station_name": "Budapest-Keleti"
+  },
+  {
+    "station_id": 320,
+    "station_name": "Budapest-Nyugati"
+  },
+  {
+    "station_id": 321,
+    "station_name": "Budapesti körút"
+  },
+  {
+    "station_id": 322,
+    "station_name": "Budatétény"
+  },
+  {
+    "station_id": 323,
+    "station_name": "Budaörs"
+  },
+  {
+    "station_id": 324,
+    "station_name": "Budaörs forgalmi iroda"
+  },
+  {
+    "station_id": 325,
+    "station_name": "Budaörs-ISG ipvk."
+  },
+  {
+    "station_id": 326,
+    "station_name": "Budaörsi út / Villányi út"
+  },
+  {
+    "station_id": 327,
+    "station_name": "Bugac"
+  },
+  {
+    "station_id": 328,
+    "station_name": "Bugac felső"
+  },
+  {
+    "station_id": 329,
+    "station_name": "Buj"
+  },
+  {
+    "station_id": 330,
+    "station_name": "Bulgárföld városrész"
+  },
+  {
+    "station_id": 331,
+    "station_name": "Bábonymegyer"
+  },
+  {
+    "station_id": 332,
+    "station_name": "Bácsalmás"
+  },
+  {
+    "station_id": 333,
+    "station_name": "Bácsbokod-Bácsborsód"
+  },
+  {
+    "station_id": 334,
+    "station_name": "Bácsszőlős"
+  },
+  {
+    "station_id": 335,
+    "station_name": "Bálint Sándor utca"
+  },
+  {
+    "station_id": 336,
+    "station_name": "Bánhalma-Halastó"
+  },
+  {
+    "station_id": 337,
+    "station_name": "Bánhida"
+  },
+  {
+    "station_id": 338,
+    "station_name": "Bánhidai Erőmű kiágazás"
+  },
+  {
+    "station_id": 339,
+    "station_name": "Bánk"
+  },
+  {
+    "station_id": 340,
+    "station_name": "Bánkút"
+  },
+  {
+    "station_id": 341,
+    "station_name": "Bánkürtös"
+  },
+  {
+    "station_id": 342,
+    "station_name": "Bánokszentgyörgy"
+  },
+  {
+    "station_id": 343,
+    "station_name": "Bánréve"
+  },
+  {
+    "station_id": 344,
+    "station_name": "Bánrévei Vízmű"
+  },
+  {
+    "station_id": 345,
+    "station_name": "Bártfai utca"
+  },
+  {
+    "station_id": 346,
+    "station_name": "Báránd"
+  },
+  {
+    "station_id": 347,
+    "station_name": "Bátaszék"
+  },
+  {
+    "station_id": 348,
+    "station_name": "Bázakerettye alsó"
+  },
+  {
+    "station_id": 349,
+    "station_name": "Bázakerettye felső"
+  },
+  {
+    "station_id": 350,
+    "station_name": "Bécsi körút"
+  },
+  {
+    "station_id": 351,
+    "station_name": "Bécsi út / Vörösvári út"
+  },
+  {
+    "station_id": 352,
+    "station_name": "Béke tér"
+  },
+  {
+    "station_id": 353,
+    "station_name": "Békásmegyer"
+  },
+  {
+    "station_id": 354,
+    "station_name": "Békásmegyer felső"
+  },
+  {
+    "station_id": 355,
+    "station_name": "Békásmegyer, fordítóvágányok"
+  },
+  {
+    "station_id": 356,
+    "station_name": "Békéscsaba"
+  },
+  {
+    "station_id": 357,
+    "station_name": "Békéscsaba-Vill. aláll. ipvk."
+  },
+  {
+    "station_id": 358,
+    "station_name": "Bélapátfalva"
+  },
+  {
+    "station_id": 359,
+    "station_name": "Bélapátfalvai Cementgyár"
+  },
+  {
+    "station_id": 360,
+    "station_name": "Bélatelep"
+  },
+  {
+    "station_id": 361,
+    "station_name": "Bélavár"
+  },
+  {
+    "station_id": 362,
+    "station_name": "Bódvaszilas"
+  },
+  {
+    "station_id": 363,
+    "station_name": "Bóly"
+  },
+  {
+    "station_id": 364,
+    "station_name": "Bóly forgalmi iroda"
+  },
+  {
+    "station_id": 365,
+    "station_name": "Böhönye"
+  },
+  {
+    "station_id": 366,
+    "station_name": "Bölcs utca"
+  },
+  {
+    "station_id": 367,
+    "station_name": "Bölcske"
+  },
+  {
+    "station_id": 368,
+    "station_name": "Börgönd"
+  },
+  {
+    "station_id": 369,
+    "station_name": "Börzsönyliget"
+  },
+  {
+    "station_id": 370,
+    "station_name": "Bösztör forgalmi kitérő"
+  },
+  {
+    "station_id": 371,
+    "station_name": "Búcsúszentlászló"
+  },
+  {
+    "station_id": 372,
+    "station_name": "Búsvári-tó, Kilátó v.m."
+  },
+  {
+    "station_id": 373,
+    "station_name": "Büdöskútpuszta"
+  },
+  {
+    "station_id": 374,
+    "station_name": "Büdöskútpuszta ÁTI iparvágány kiágazás"
+  },
+  {
+    "station_id": 375,
+    "station_name": "Bük"
+  },
+  {
+    "station_id": 376,
+    "station_name": "Bükkábrány"
+  },
+  {
+    "station_id": 377,
+    "station_name": "Bükkösd"
+  },
+  {
+    "station_id": 378,
+    "station_name": "Bükkösd-Kőbánya iparvágány kiágazás"
+  },
+  {
+    "station_id": 379,
+    "station_name": "Bőrfestő utca"
+  },
+  {
+    "station_id": 380,
+    "station_name": "Bőröndös utca"
+  },
+  {
+    "station_id": 381,
+    "station_name": "Bősárkány"
+  },
+  {
+    "station_id": 382,
+    "station_name": "Cece"
+  },
+  {
+    "station_id": 383,
+    "station_name": "Cegléd"
+  },
+  {
+    "station_id": 384,
+    "station_name": "Ceglédbercel"
+  },
+  {
+    "station_id": 385,
+    "station_name": "Ceglédbercel-Cserő"
+  },
+  {
+    "station_id": 386,
+    "station_name": "Ceglédi szállások"
+  },
+  {
+    "station_id": 387,
+    "station_name": "Celldömölk"
+  },
+  {
+    "station_id": 388,
+    "station_name": "Celldömölk-Rendező"
+  },
+  {
+    "station_id": 389,
+    "station_name": "Center"
+  },
+  {
+    "station_id": 390,
+    "station_name": "Center alsó"
+  },
+  {
+    "station_id": 391,
+    "station_name": "Cikó"
+  },
+  {
+    "station_id": 392,
+    "station_name": "Cinkota"
+  },
+  {
+    "station_id": 393,
+    "station_name": "Cinkota alsó"
+  },
+  {
+    "station_id": 394,
+    "station_name": "Clark Ádám tér"
+  },
+  {
+    "station_id": 395,
+    "station_name": "Corvin körút"
+  },
+  {
+    "station_id": 396,
+    "station_name": "Corvin-negyed"
+  },
+  {
+    "station_id": 397,
+    "station_name": "Corvin-negyed M"
+  },
+  {
+    "station_id": 398,
+    "station_name": "Csabacsűd"
+  },
+  {
+    "station_id": 399,
+    "station_name": "Csabacsűd felső"
+  },
+  {
+    "station_id": 400,
+    "station_name": "Csajág"
+  },
+  {
+    "station_id": 401,
+    "station_name": "Csajág felső"
+  },
+  {
+    "station_id": 402,
+    "station_name": "Csanyik"
+  },
+  {
+    "station_id": 403,
+    "station_name": "Csanádpalota"
+  },
+  {
+    "station_id": 404,
+    "station_name": "Csarnapuszta"
+  },
+  {
+    "station_id": 405,
+    "station_name": "Csemete utca"
+  },
+  {
+    "station_id": 406,
+    "station_name": "Csengele"
+  },
+  {
+    "station_id": 407,
+    "station_name": "Csenger"
+  },
+  {
+    "station_id": 408,
+    "station_name": "Csengettyű utca"
+  },
+  {
+    "station_id": 409,
+    "station_name": "Csengőd"
+  },
+  {
+    "station_id": 410,
+    "station_name": "Csengőd forgalmi kitérő"
+  },
+  {
+    "station_id": 411,
+    "station_name": "Csepel"
+  },
+  {
+    "station_id": 412,
+    "station_name": "Csepel I/3 kitérő pvh."
+  },
+  {
+    "station_id": 413,
+    "station_name": "Csepeli rendezőpályaudvar"
+  },
+  {
+    "station_id": 414,
+    "station_name": "Cserdi-Helesfa"
+  },
+  {
+    "station_id": 415,
+    "station_name": "Csereerdő"
+  },
+  {
+    "station_id": 416,
+    "station_name": "Cserkő"
+  },
+  {
+    "station_id": 417,
+    "station_name": "Csibrák"
+  },
+  {
+    "station_id": 418,
+    "station_name": "Csikéria"
+  },
+  {
+    "station_id": 419,
+    "station_name": "Csikóstőttős"
+  },
+  {
+    "station_id": 420,
+    "station_name": "Csillaghegy"
+  },
+  {
+    "station_id": 421,
+    "station_name": "Csillaghegy forgalmi kitérő"
+  },
+  {
+    "station_id": 422,
+    "station_name": "Csillebérc"
+  },
+  {
+    "station_id": 423,
+    "station_name": "Csincse"
+  },
+  {
+    "station_id": 424,
+    "station_name": "Csiszta elágazás"
+  },
+  {
+    "station_id": 425,
+    "station_name": "Csisztafürdő"
+  },
+  {
+    "station_id": 426,
+    "station_name": "Csittényhegy"
+  },
+  {
+    "station_id": 427,
+    "station_name": "Csobád"
+  },
+  {
+    "station_id": 428,
+    "station_name": "Csokonai Vitéz Mihály Gimnázium"
+  },
+  {
+    "station_id": 429,
+    "station_name": "Csokvaomány"
+  },
+  {
+    "station_id": 430,
+    "station_name": "Csoma-Szabadi"
+  },
+  {
+    "station_id": 431,
+    "station_name": "Csomád"
+  },
+  {
+    "station_id": 432,
+    "station_name": "Csongrád"
+  },
+  {
+    "station_id": 433,
+    "station_name": "Csongrád alsó"
+  },
+  {
+    "station_id": 434,
+    "station_name": "Csongrádi úti tanyák"
+  },
+  {
+    "station_id": 435,
+    "station_name": "Csonka János tér"
+  },
+  {
+    "station_id": 436,
+    "station_name": "Csopak"
+  },
+  {
+    "station_id": 437,
+    "station_name": "Csorna"
+  },
+  {
+    "station_id": 438,
+    "station_name": "Csorna KÖFI"
+  },
+  {
+    "station_id": 439,
+    "station_name": "Csorvás"
+  },
+  {
+    "station_id": 440,
+    "station_name": "Csorvás alsó"
+  },
+  {
+    "station_id": 441,
+    "station_name": "Csugar"
+  },
+  {
+    "station_id": 442,
+    "station_name": "Csurgó"
+  },
+  {
+    "station_id": 443,
+    "station_name": "Csákánydoroszló"
+  },
+  {
+    "station_id": 444,
+    "station_name": "Csánig"
+  },
+  {
+    "station_id": 445,
+    "station_name": "Csányoszró"
+  },
+  {
+    "station_id": 446,
+    "station_name": "Csárdaszállás"
+  },
+  {
+    "station_id": 447,
+    "station_name": "Császár"
+  },
+  {
+    "station_id": 448,
+    "station_name": "Császárszállás"
+  },
+  {
+    "station_id": 449,
+    "station_name": "Csépa"
+  },
+  {
+    "station_id": 450,
+    "station_name": "Csóka utca (Karinthy Színház)"
+  },
+  {
+    "station_id": 451,
+    "station_name": "Csókakő"
+  },
+  {
+    "station_id": 452,
+    "station_name": "Csór-Nádasdladány"
+  },
+  {
+    "station_id": 453,
+    "station_name": "Csömödér ÁEV"
+  },
+  {
+    "station_id": 454,
+    "station_name": "Csömödér-Páka"
+  },
+  {
+    "station_id": 455,
+    "station_name": "Csömödéri-tó"
+  },
+  {
+    "station_id": 456,
+    "station_name": "Csömör"
+  },
+  {
+    "station_id": 457,
+    "station_name": "Csörsz utca"
+  },
+  {
+    "station_id": 458,
+    "station_name": "Csörög"
+  },
+  {
+    "station_id": 459,
+    "station_name": "DAB-székház"
+  },
+  {
+    "station_id": 460,
+    "station_name": "DVTK Stadion"
+  },
+  {
+    "station_id": 461,
+    "station_name": "Dabas"
+  },
+  {
+    "station_id": 462,
+    "station_name": "Dabronc"
+  },
+  {
+    "station_id": 463,
+    "station_name": "Dad"
+  },
+  {
+    "station_id": 464,
+    "station_name": "Dal utca"
+  },
+  {
+    "station_id": 465,
+    "station_name": "Damjanich utca"
+  },
+  {
+    "station_id": 466,
+    "station_name": "Darány"
+  },
+  {
+    "station_id": 467,
+    "station_name": "Darány forgalmi iroda"
+  },
+  {
+    "station_id": 468,
+    "station_name": "Daránypuszta"
+  },
+  {
+    "station_id": 469,
+    "station_name": "Debrecen"
+  },
+  {
+    "station_id": 470,
+    "station_name": "Debrecen 21/22. szelvény iparvágány kiágazás"
+  },
+  {
+    "station_id": 471,
+    "station_name": "Debrecen KÖFI"
+  },
+  {
+    "station_id": 472,
+    "station_name": "Debrecen-Csapókert"
+  },
+  {
+    "station_id": 473,
+    "station_name": "Debrecen-Fatelep"
+  },
+  {
+    "station_id": 474,
+    "station_name": "Debrecen-Szabadságtelep"
+  },
+  {
+    "station_id": 475,
+    "station_name": "Debrecen-Tégláskert"
+  },
+  {
+    "station_id": 476,
+    "station_name": "Decs"
+  },
+  {
+    "station_id": 477,
+    "station_name": "Dejtár"
+  },
+  {
+    "station_id": 478,
+    "station_name": "Demecser"
+  },
+  {
+    "station_id": 479,
+    "station_name": "Derecske"
+  },
+  {
+    "station_id": 480,
+    "station_name": "Derecske-Vásártér"
+  },
+  {
+    "station_id": 481,
+    "station_name": "Deszk"
+  },
+  {
+    "station_id": 482,
+    "station_name": "Devecser"
+  },
+  {
+    "station_id": 483,
+    "station_name": "Deák Ferenc Gimnázium"
+  },
+  {
+    "station_id": 484,
+    "station_name": "Deák Ferenc tér"
+  },
+  {
+    "station_id": 485,
+    "station_name": "Deák Ferenc tér M"
+  },
+  {
+    "station_id": 486,
+    "station_name": "Deák tér - M1 M2 M3 metró"
+  },
+  {
+    "station_id": 487,
+    "station_name": "Deák tér - M1 metró"
+  },
+  {
+    "station_id": 488,
+    "station_name": "Dinnyés"
+  },
+  {
+    "station_id": 489,
+    "station_name": "Diósgyőr"
+  },
+  {
+    "station_id": 490,
+    "station_name": "Diósgyőr városközpont"
+  },
+  {
+    "station_id": 491,
+    "station_name": "Diósgyőr-Vasgyár"
+  },
+  {
+    "station_id": 492,
+    "station_name": "Diósgyőri Gimnázium"
+  },
+  {
+    "station_id": 493,
+    "station_name": "Diósjenő"
+  },
+  {
+    "station_id": 494,
+    "station_name": "Dobaipuszta"
+  },
+  {
+    "station_id": 495,
+    "station_name": "Doberdó utca"
+  },
+  {
+    "station_id": 496,
+    "station_name": "Doboskerti elágazás"
+  },
+  {
+    "station_id": 497,
+    "station_name": "Dologház utca"
+  },
+  {
+    "station_id": 498,
+    "station_name": "Dombaytó"
+  },
+  {
+    "station_id": 499,
+    "station_name": "Dombostanya"
+  },
+  {
+    "station_id": 500,
+    "station_name": "Dombrád"
+  },
+  {
+    "station_id": 501,
+    "station_name": "Dombóvár"
+  },
+  {
+    "station_id": 502,
+    "station_name": "Dombóvár alsó"
+  },
+  {
+    "station_id": 503,
+    "station_name": "Dombóvár elágazás"
+  },
+  {
+    "station_id": 504,
+    "station_name": "Dorog"
+  },
+  {
+    "station_id": 505,
+    "station_name": "Drávacsepely"
+  },
+  {
+    "station_id": 506,
+    "station_name": "Drávafok"
+  },
+  {
+    "station_id": 507,
+    "station_name": "Drávatamási"
+  },
+  {
+    "station_id": 508,
+    "station_name": "Drégely"
+  },
+  {
+    "station_id": 509,
+    "station_name": "Drégelypalánk"
+  },
+  {
+    "station_id": 510,
+    "station_name": "Drégelypalánk forgalmi iroda"
+  },
+  {
+    "station_id": 511,
+    "station_name": "Drégelyvár"
+  },
+  {
+    "station_id": 512,
+    "station_name": "Dubicsány"
+  },
+  {
+    "station_id": 513,
+    "station_name": "Dudar"
+  },
+  {
+    "station_id": 514,
+    "station_name": "Dugonics tér (Kálvária sugárút)"
+  },
+  {
+    "station_id": 515,
+    "station_name": "Dugonics tér (Petőfi Sándor sugárút)"
+  },
+  {
+    "station_id": 516,
+    "station_name": "Dugonics tér (Tisza Lajos körút)"
+  },
+  {
+    "station_id": 517,
+    "station_name": "Dunaalmás"
+  },
+  {
+    "station_id": 518,
+    "station_name": "Dunaegyháza"
+  },
+  {
+    "station_id": 519,
+    "station_name": "Dunaföldvár"
+  },
+  {
+    "station_id": 520,
+    "station_name": "Dunaharaszti"
+  },
+  {
+    "station_id": 521,
+    "station_name": "Dunaharaszti alsó"
+  },
+  {
+    "station_id": 522,
+    "station_name": "Dunaharaszti elágazás"
+  },
+  {
+    "station_id": 523,
+    "station_name": "Dunaharaszti felső"
+  },
+  {
+    "station_id": 524,
+    "station_name": "Dunaharaszti külső"
+  },
+  {
+    "station_id": 525,
+    "station_name": "Dunahíd forgalmi kitérő"
+  },
+  {
+    "station_id": 526,
+    "station_name": "Dunai Finomító"
+  },
+  {
+    "station_id": 527,
+    "station_name": "Dunakeszi"
+  },
+  {
+    "station_id": 528,
+    "station_name": "Dunakeszi alsó"
+  },
+  {
+    "station_id": 529,
+    "station_name": "Dunakeszi-Gyártelep"
+  },
+  {
+    "station_id": 530,
+    "station_name": "Dunakömlőd"
+  },
+  {
+    "station_id": 531,
+    "station_name": "Dunapataj"
+  },
+  {
+    "station_id": 532,
+    "station_name": "Dunavarsány"
+  },
+  {
+    "station_id": 533,
+    "station_name": "Dunavecse"
+  },
+  {
+    "station_id": 534,
+    "station_name": "Dunaújváros"
+  },
+  {
+    "station_id": 535,
+    "station_name": "Dunaújváros kikötő"
+  },
+  {
+    "station_id": 536,
+    "station_name": "Dunaújváros külső"
+  },
+  {
+    "station_id": 537,
+    "station_name": "Dunaújváros-Kikötő"
+  },
+  {
+    "station_id": 538,
+    "station_name": "Dunaújváros-Oszlopgyártó ipvk."
+  },
+  {
+    "station_id": 539,
+    "station_name": "Délegyháza"
+  },
+  {
+    "station_id": 540,
+    "station_name": "Délegyháza-Újbánya"
+  },
+  {
+    "station_id": 541,
+    "station_name": "Déli pályaudvar"
+  },
+  {
+    "station_id": 542,
+    "station_name": "Déli pályaudvar M"
+  },
+  {
+    "station_id": 543,
+    "station_name": "Déli pályaudvar, kihúzóvágányok"
+  },
+  {
+    "station_id": 544,
+    "station_name": "Dénesfa"
+  },
+  {
+    "station_id": 545,
+    "station_name": "Dértanya"
+  },
+  {
+    "station_id": 546,
+    "station_name": "Dévai utca"
+  },
+  {
+    "station_id": 547,
+    "station_name": "Dévaványa"
+  },
+  {
+    "station_id": 548,
+    "station_name": "Dónát"
+  },
+  {
+    "station_id": 549,
+    "station_name": "Dózsa György tér"
+  },
+  {
+    "station_id": 550,
+    "station_name": "Dózsa György utca"
+  },
+  {
+    "station_id": 551,
+    "station_name": "Dózsa György út"
+  },
+  {
+    "station_id": 552,
+    "station_name": "Döbrentei tér"
+  },
+  {
+    "station_id": 553,
+    "station_name": "Döbrököz"
+  },
+  {
+    "station_id": 554,
+    "station_name": "Dömefölde"
+  },
+  {
+    "station_id": 555,
+    "station_name": "Dömsöd"
+  },
+  {
+    "station_id": 556,
+    "station_name": "Dömörkapu"
+  },
+  {
+    "station_id": 557,
+    "station_name": "Dömösi átkelés"
+  },
+  {
+    "station_id": 558,
+    "station_name": "Dör"
+  },
+  {
+    "station_id": 559,
+    "station_name": "Dúzs"
+  },
+  {
+    "station_id": 560,
+    "station_name": "Ebes"
+  },
+  {
+    "station_id": 561,
+    "station_name": "Ecser"
+  },
+  {
+    "station_id": 562,
+    "station_name": "Ecseri út"
+  },
+  {
+    "station_id": 563,
+    "station_name": "Ecseri út M"
+  },
+  {
+    "station_id": 564,
+    "station_name": "Edelény"
+  },
+  {
+    "station_id": 565,
+    "station_name": "Edelény alsó"
+  },
+  {
+    "station_id": 566,
+    "station_name": "Eger"
+  },
+  {
+    "station_id": 567,
+    "station_name": "Eger Téglagyár"
+  },
+  {
+    "station_id": 568,
+    "station_name": "Eger elágazás"
+  },
+  {
+    "station_id": 569,
+    "station_name": "Eger-Felnémet"
+  },
+  {
+    "station_id": 570,
+    "station_name": "Eger-Rendező"
+  },
+  {
+    "station_id": 571,
+    "station_name": "Eger-Rendező elágazás"
+  },
+  {
+    "station_id": 572,
+    "station_name": "Eger-völgy"
+  },
+  {
+    "station_id": 573,
+    "station_name": "Egeresvölgy-Varróház"
+  },
+  {
+    "station_id": 574,
+    "station_name": "Egerfarmos"
+  },
+  {
+    "station_id": 575,
+    "station_name": "Egervár"
+  },
+  {
+    "station_id": 576,
+    "station_name": "Egervár-Vasboldogasszony"
+  },
+  {
+    "station_id": 577,
+    "station_name": "Egervölgyi repvágány"
+  },
+  {
+    "station_id": 578,
+    "station_name": "Egressy tér"
+  },
+  {
+    "station_id": 579,
+    "station_name": "Egressy út / Hungária körút"
+  },
+  {
+    "station_id": 580,
+    "station_name": "Egyed-Rábacsanak"
+  },
+  {
+    "station_id": 581,
+    "station_name": "Egyed-Rábacsanak külsőtéri kulcsszekrény"
+  },
+  {
+    "station_id": 582,
+    "station_name": "Egyek"
+  },
+  {
+    "station_id": 583,
+    "station_name": "Egyek 605/606 szelvény iparvágány kiágazás"
+  },
+  {
+    "station_id": 584,
+    "station_name": "Egyetem"
+  },
+  {
+    "station_id": 585,
+    "station_name": "Egyetemi Tangazdaság"
+  },
+  {
+    "station_id": 586,
+    "station_name": "Egyházasrádóc"
+  },
+  {
+    "station_id": 587,
+    "station_name": "Egyházerdő"
+  },
+  {
+    "station_id": 588,
+    "station_name": "Egykori Fertőszentmiklós alsó mh."
+  },
+  {
+    "station_id": 589,
+    "station_name": "Egykori sorompóőrház"
+  },
+  {
+    "station_id": 590,
+    "station_name": "Egészségház"
+  },
+  {
+    "station_id": 591,
+    "station_name": "Eiffel Műhelyház"
+  },
+  {
+    "station_id": 592,
+    "station_name": "Elnök utca"
+  },
+  {
+    "station_id": 593,
+    "station_name": "Előhát"
+  },
+  {
+    "station_id": 594,
+    "station_name": "Előszállás"
+  },
+  {
+    "station_id": 595,
+    "station_name": "Előszállási I. iparvágány kiágazás"
+  },
+  {
+    "station_id": 596,
+    "station_name": "Emőd"
+  },
+  {
+    "station_id": 597,
+    "station_name": "Enese"
+  },
+  {
+    "station_id": 598,
+    "station_name": "Enying"
+  },
+  {
+    "station_id": 599,
+    "station_name": "Enying-Műtrágya Üzem"
+  },
+  {
+    "station_id": 600,
+    "station_name": "Enying-Műtrágya Üzem iparvágány kiágazás"
+  },
+  {
+    "station_id": 601,
+    "station_name": "Eperjeske alsó"
+  },
+  {
+    "station_id": 602,
+    "station_name": "Eperjeske elágazás"
+  },
+  {
+    "station_id": 603,
+    "station_name": "Eperjeske határ vágányfonódás-elágazás"
+  },
+  {
+    "station_id": 604,
+    "station_name": "Eperjeske vágányfonódás-elágazás"
+  },
+  {
+    "station_id": 605,
+    "station_name": "Eperjeske-Rendező (normál)"
+  },
+  {
+    "station_id": 606,
+    "station_name": "Eperjeske-Rendező (széles)"
+  },
+  {
+    "station_id": 607,
+    "station_name": "Eperjeske-Rendezői vágányfonódás-elágazás"
+  },
+  {
+    "station_id": 608,
+    "station_name": "Eperjeske-Átrakó"
+  },
+  {
+    "station_id": 609,
+    "station_name": "Eplény"
+  },
+  {
+    "station_id": 610,
+    "station_name": "Epreserdő utca"
+  },
+  {
+    "station_id": 611,
+    "station_name": "Ercsi"
+  },
+  {
+    "station_id": 612,
+    "station_name": "Ercsi elágazás"
+  },
+  {
+    "station_id": 613,
+    "station_name": "Erdei iskola"
+  },
+  {
+    "station_id": 614,
+    "station_name": "Erdei kisvasút"
+  },
+  {
+    "station_id": 615,
+    "station_name": "Erdészlak"
+  },
+  {
+    "station_id": 616,
+    "station_name": "Erdőbénye"
+  },
+  {
+    "station_id": 617,
+    "station_name": "Erdőkertes"
+  },
+  {
+    "station_id": 618,
+    "station_name": "Erdőszél"
+  },
+  {
+    "station_id": 619,
+    "station_name": "Erdőtelek"
+  },
+  {
+    "station_id": 620,
+    "station_name": "Erdőtelek iparvágány kiágazás"
+  },
+  {
+    "station_id": 621,
+    "station_name": "Erzsébet királyné útja, aluljáró"
+  },
+  {
+    "station_id": 622,
+    "station_name": "Esze Tamás iskola"
+  },
+  {
+    "station_id": 623,
+    "station_name": "Esztergom"
+  },
+  {
+    "station_id": 624,
+    "station_name": "Esztergom-Kertváros"
+  },
+  {
+    "station_id": 625,
+    "station_name": "Ete"
+  },
+  {
+    "station_id": 626,
+    "station_name": "Etele út / Fehérvári út"
+  },
+  {
+    "station_id": 627,
+    "station_name": "Eternitgyár"
+  },
+  {
+    "station_id": 628,
+    "station_name": "Európa liget"
+  },
+  {
+    "station_id": 629,
+    "station_name": "Eötvös tér"
+  },
+  {
+    "station_id": 630,
+    "station_name": "Eötvös utca"
+  },
+  {
+    "station_id": 631,
+    "station_name": "Fancsika"
+  },
+  {
+    "station_id": 632,
+    "station_name": "Farkasmály"
+  },
+  {
+    "station_id": 633,
+    "station_name": "Farkasréti temető"
+  },
+  {
+    "station_id": 634,
+    "station_name": "Farmos"
+  },
+  {
+    "station_id": 635,
+    "station_name": "Farád"
+  },
+  {
+    "station_id": 636,
+    "station_name": "Fazola-kohó"
+  },
+  {
+    "station_id": 637,
+    "station_name": "Fegyvergyár utca"
+  },
+  {
+    "station_id": 638,
+    "station_name": "Fegyvernek-Örményes"
+  },
+  {
+    "station_id": 639,
+    "station_name": "Fehér úti ipari park"
+  },
+  {
+    "station_id": 640,
+    "station_name": "Fehérgyarmat"
+  },
+  {
+    "station_id": 641,
+    "station_name": "Fehértó felső"
+  },
+  {
+    "station_id": 642,
+    "station_name": "Fehérvárcsurgó"
+  },
+  {
+    "station_id": 643,
+    "station_name": "Feketeberek"
+  },
+  {
+    "station_id": 644,
+    "station_name": "Feketehalomtanya"
+  },
+  {
+    "station_id": 645,
+    "station_name": "Feketevölgy kitérő"
+  },
+  {
+    "station_id": 646,
+    "station_name": "Felcsút"
+  },
+  {
+    "station_id": 647,
+    "station_name": "Feldebrő"
+  },
+  {
+    "station_id": 648,
+    "station_name": "Felnémet-Ásványbánya iparvágány kiágazás"
+  },
+  {
+    "station_id": 649,
+    "station_name": "Felnémet-Új OMYA iparvágány kiágazás"
+  },
+  {
+    "station_id": 650,
+    "station_name": "Felső-Majláth"
+  },
+  {
+    "station_id": 651,
+    "station_name": "Felsőbogátpuszta"
+  },
+  {
+    "station_id": 652,
+    "station_name": "Felsőcebe"
+  },
+  {
+    "station_id": 653,
+    "station_name": "Felsőcsinger"
+  },
+  {
+    "station_id": 654,
+    "station_name": "Felsőgalla"
+  },
+  {
+    "station_id": 655,
+    "station_name": "Felsőgöd"
+  },
+  {
+    "station_id": 656,
+    "station_name": "Felsőjánosfa"
+  },
+  {
+    "station_id": 657,
+    "station_name": "Felsőkak"
+  },
+  {
+    "station_id": 658,
+    "station_name": "Felsőlajos"
+  },
+  {
+    "station_id": 659,
+    "station_name": "Felsőmocsolád"
+  },
+  {
+    "station_id": 660,
+    "station_name": "Felsőméntelek"
+  },
+  {
+    "station_id": 661,
+    "station_name": "Felsőpakony"
+  },
+  {
+    "station_id": 662,
+    "station_name": "Felsőrajk"
+  },
+  {
+    "station_id": 663,
+    "station_name": "Felsőtárkány-Fűtőház"
+  },
+  {
+    "station_id": 664,
+    "station_name": "Felsőzsolca"
+  },
+  {
+    "station_id": 665,
+    "station_name": "Felsőzsolca-Kötek iparvágány kiágazás"
+  },
+  {
+    "station_id": 666,
+    "station_name": "Felsőújváros"
+  },
+  {
+    "station_id": 667,
+    "station_name": "Fenyveshegy"
+  },
+  {
+    "station_id": 668,
+    "station_name": "Fenékpuszta"
+  },
+  {
+    "station_id": 669,
+    "station_name": "Ferenciek tere"
+  },
+  {
+    "station_id": 670,
+    "station_name": "Ferencváros"
+  },
+  {
+    "station_id": 671,
+    "station_name": "Ferencváros Keleti rendező"
+  },
+  {
+    "station_id": 672,
+    "station_name": "Ferencváros Nyugati rendező"
+  },
+  {
+    "station_id": 673,
+    "station_name": "Ferencváros forgalmi iroda"
+  },
+  {
+    "station_id": 674,
+    "station_name": "Ferencváros kocsiszín"
+  },
+  {
+    "station_id": 675,
+    "station_name": "Ferencváros kocsiszín (kapu)"
+  },
+  {
+    "station_id": 676,
+    "station_name": "Ferencváros vasútállomás - Málenkij Robot emlékhely"
+  },
+  {
+    "station_id": 677,
+    "station_name": "Ferencvárosi rendelőintézet"
+  },
+  {
+    "station_id": 678,
+    "station_name": "Ferihegy"
+  },
+  {
+    "station_id": 679,
+    "station_name": "Fertő utca / Bihari utca"
+  },
+  {
+    "station_id": 680,
+    "station_name": "Fertőboz"
+  },
+  {
+    "station_id": 681,
+    "station_name": "Fertőboz-Fűtőház"
+  },
+  {
+    "station_id": 682,
+    "station_name": "Fertődendréd"
+  },
+  {
+    "station_id": 683,
+    "station_name": "Fertőszentmiklós"
+  },
+  {
+    "station_id": 684,
+    "station_name": "Fertőszéplak-Fertőd"
+  },
+  {
+    "station_id": 685,
+    "station_name": "Festetics Antal"
+  },
+  {
+    "station_id": 686,
+    "station_name": "Fiastyúk utca"
+  },
+  {
+    "station_id": 687,
+    "station_name": "Filatorigát"
+  },
+  {
+    "station_id": 688,
+    "station_name": "Fityeház"
+  },
+  {
+    "station_id": 689,
+    "station_name": "Flórián tér"
+  },
+  {
+    "station_id": 690,
+    "station_name": "Folyás"
+  },
+  {
+    "station_id": 691,
+    "station_name": "Fony"
+  },
+  {
+    "station_id": 692,
+    "station_name": "Fonyód"
+  },
+  {
+    "station_id": 693,
+    "station_name": "Fonyód KÖFI"
+  },
+  {
+    "station_id": 694,
+    "station_name": "Fonyód utca"
+  },
+  {
+    "station_id": 695,
+    "station_name": "Fonyódliget"
+  },
+  {
+    "station_id": 696,
+    "station_name": "Fonógyári út"
+  },
+  {
+    "station_id": 697,
+    "station_name": "Forgách utca"
+  },
+  {
+    "station_id": 698,
+    "station_name": "Forró-Encs"
+  },
+  {
+    "station_id": 699,
+    "station_name": "Franciavágás"
+  },
+  {
+    "station_id": 700,
+    "station_name": "Frangepán utca"
+  },
+  {
+    "station_id": 701,
+    "station_name": "Fábiánsebestyén"
+  },
+  {
+    "station_id": 702,
+    "station_name": "Fácánkert"
+  },
+  {
+    "station_id": 703,
+    "station_name": "Fényes"
+  },
+  {
+    "station_id": 704,
+    "station_name": "Fényesi szőlők"
+  },
+  {
+    "station_id": 705,
+    "station_name": "Fényeslitke"
+  },
+  {
+    "station_id": 706,
+    "station_name": "Fényeslitke-Déli rendező"
+  },
+  {
+    "station_id": 707,
+    "station_name": "Fót"
+  },
+  {
+    "station_id": 708,
+    "station_name": "Fótfürdő"
+  },
+  {
+    "station_id": 709,
+    "station_name": "Fótújfalu"
+  },
+  {
+    "station_id": 710,
+    "station_name": "Földeák"
+  },
+  {
+    "station_id": 711,
+    "station_name": "Fövenyes"
+  },
+  {
+    "station_id": 712,
+    "station_name": "Füle"
+  },
+  {
+    "station_id": 713,
+    "station_name": "Fülöpszállás"
+  },
+  {
+    "station_id": 714,
+    "station_name": "Fülőke utca"
+  },
+  {
+    "station_id": 715,
+    "station_name": "Fürjes"
+  },
+  {
+    "station_id": 716,
+    "station_name": "Füstös-forrás"
+  },
+  {
+    "station_id": 717,
+    "station_name": "Füzesabony"
+  },
+  {
+    "station_id": 718,
+    "station_name": "Füzesbokor"
+  },
+  {
+    "station_id": 719,
+    "station_name": "Füzesgyarmat"
+  },
+  {
+    "station_id": 720,
+    "station_name": "Füzesgyarmat-MOL iparvágány-kiágazás"
+  },
+  {
+    "station_id": 721,
+    "station_name": "Füzesgyarmatfürdő"
+  },
+  {
+    "station_id": 722,
+    "station_name": "Fő tér"
+  },
+  {
+    "station_id": 723,
+    "station_name": "Fő utca"
+  },
+  {
+    "station_id": 724,
+    "station_name": "Fő út"
+  },
+  {
+    "station_id": 725,
+    "station_name": "Főbejárat"
+  },
+  {
+    "station_id": 726,
+    "station_name": "Fővám tér"
+  },
+  {
+    "station_id": 727,
+    "station_name": "Fővám tér M"
+  },
+  {
+    "station_id": 728,
+    "station_name": "Fűrész utca"
+  },
+  {
+    "station_id": 729,
+    "station_name": "GV 308 delta"
+  },
+  {
+    "station_id": 730,
+    "station_name": "Gacsály"
+  },
+  {
+    "station_id": 731,
+    "station_name": "Galamb utca"
+  },
+  {
+    "station_id": 732,
+    "station_name": "Galambos"
+  },
+  {
+    "station_id": 733,
+    "station_name": "Galgaguta"
+  },
+  {
+    "station_id": 734,
+    "station_name": "Galgagyörk"
+  },
+  {
+    "station_id": 735,
+    "station_name": "Galgahévíz"
+  },
+  {
+    "station_id": 736,
+    "station_name": "Galgamácsa"
+  },
+  {
+    "station_id": 737,
+    "station_name": "Galgamácsa forgalmi iroda"
+  },
+  {
+    "station_id": 738,
+    "station_name": "Galya térköz"
+  },
+  {
+    "station_id": 739,
+    "station_name": "Ganz forgalmi kitérő"
+  },
+  {
+    "station_id": 740,
+    "station_name": "Garadna"
+  },
+  {
+    "station_id": 741,
+    "station_name": "Gecse-Gyarmat"
+  },
+  {
+    "station_id": 742,
+    "station_name": "Gelse"
+  },
+  {
+    "station_id": 743,
+    "station_name": "Gemenc-Dunapart"
+  },
+  {
+    "station_id": 744,
+    "station_name": "Gemenci delta"
+  },
+  {
+    "station_id": 745,
+    "station_name": "Gencsapáti alsó"
+  },
+  {
+    "station_id": 746,
+    "station_name": "Gencsapáti felső"
+  },
+  {
+    "station_id": 747,
+    "station_name": "Gic-Hathalom"
+  },
+  {
+    "station_id": 748,
+    "station_name": "Gilányi"
+  },
+  {
+    "station_id": 749,
+    "station_name": "Gitár utca"
+  },
+  {
+    "station_id": 750,
+    "station_name": "Glattfelder Gyula tér"
+  },
+  {
+    "station_id": 751,
+    "station_name": "Godisa"
+  },
+  {
+    "station_id": 752,
+    "station_name": "Godóvár"
+  },
+  {
+    "station_id": 753,
+    "station_name": "Golgota tér"
+  },
+  {
+    "station_id": 754,
+    "station_name": "Golop"
+  },
+  {
+    "station_id": 755,
+    "station_name": "Gubacsi út / Határ út"
+  },
+  {
+    "station_id": 756,
+    "station_name": "Gutorfölde"
+  },
+  {
+    "station_id": 757,
+    "station_name": "Gyenesdiás"
+  },
+  {
+    "station_id": 758,
+    "station_name": "Gyoma"
+  },
+  {
+    "station_id": 759,
+    "station_name": "Gyopárosfürdő"
+  },
+  {
+    "station_id": 760,
+    "station_name": "Gyula"
+  },
+  {
+    "station_id": 761,
+    "station_name": "Gyula utca"
+  },
+  {
+    "station_id": 762,
+    "station_name": "Gyulai városerdő"
+  },
+  {
+    "station_id": 763,
+    "station_name": "Gyál"
+  },
+  {
+    "station_id": 764,
+    "station_name": "Gyál felső"
+  },
+  {
+    "station_id": 765,
+    "station_name": "Gyékényes"
+  },
+  {
+    "station_id": 766,
+    "station_name": "Gyékényes-Kavicsbánya"
+  },
+  {
+    "station_id": 767,
+    "station_name": "Gyón"
+  },
+  {
+    "station_id": 768,
+    "station_name": "Gyóta-Busvár"
+  },
+  {
+    "station_id": 769,
+    "station_name": "Gyömrő"
+  },
+  {
+    "station_id": 770,
+    "station_name": "Gyömöre"
+  },
+  {
+    "station_id": 771,
+    "station_name": "Gyömöre-Tét"
+  },
+  {
+    "station_id": 772,
+    "station_name": "Gyöngyfa-Magyarmecske"
+  },
+  {
+    "station_id": 773,
+    "station_name": "Gyöngyös"
+  },
+  {
+    "station_id": 774,
+    "station_name": "Gyöngyösfalu"
+  },
+  {
+    "station_id": 775,
+    "station_name": "Gyöngyöshalász"
+  },
+  {
+    "station_id": 776,
+    "station_name": "Gyöngyöshermán"
+  },
+  {
+    "station_id": 777,
+    "station_name": "Gyöngyösi utca"
+  },
+  {
+    "station_id": 778,
+    "station_name": "Gyöngyösoldal"
+  },
+  {
+    "station_id": 779,
+    "station_name": "Gyöngyössolymos"
+  },
+  {
+    "station_id": 780,
+    "station_name": "Gyüre"
+  },
+  {
+    "station_id": 781,
+    "station_name": "Győr"
+  },
+  {
+    "station_id": 782,
+    "station_name": "Győr forgalmi iroda"
+  },
+  {
+    "station_id": 783,
+    "station_name": "Győr-GYSEV"
+  },
+  {
+    "station_id": 784,
+    "station_name": "Győr-GYSEV nyugati elágazás"
+  },
+  {
+    "station_id": 785,
+    "station_name": "Győr-Gyárváros"
+  },
+  {
+    "station_id": 786,
+    "station_name": "Győr-Rendező"
+  },
+  {
+    "station_id": 787,
+    "station_name": "Győr-Rendező forgalmi iroda"
+  },
+  {
+    "station_id": 788,
+    "station_name": "Győrasszonyfa"
+  },
+  {
+    "station_id": 789,
+    "station_name": "Győrszabadhegy"
+  },
+  {
+    "station_id": 790,
+    "station_name": "Győrszabadhegy elágazás"
+  },
+  {
+    "station_id": 791,
+    "station_name": "Győrszemere"
+  },
+  {
+    "station_id": 792,
+    "station_name": "Győrszentiván"
+  },
+  {
+    "station_id": 793,
+    "station_name": "Győrszentiván elágazás"
+  },
+  {
+    "station_id": 794,
+    "station_name": "Győrszentiván forgalmi iroda"
+  },
+  {
+    "station_id": 795,
+    "station_name": "Győrtelek"
+  },
+  {
+    "station_id": 796,
+    "station_name": "Győrtelek alsó"
+  },
+  {
+    "station_id": 797,
+    "station_name": "Győrvár"
+  },
+  {
+    "station_id": 798,
+    "station_name": "Gádoros"
+  },
+  {
+    "station_id": 799,
+    "station_name": "Gárdony"
+  },
+  {
+    "station_id": 800,
+    "station_name": "Gárdonyi tér"
+  },
+  {
+    "station_id": 801,
+    "station_name": "Gátér"
+  },
+  {
+    "station_id": 802,
+    "station_name": "Gávavencsellő"
+  },
+  {
+    "station_id": 803,
+    "station_name": "Gávavencsellő alsó"
+  },
+  {
+    "station_id": 804,
+    "station_name": "Gázgyári delta"
+  },
+  {
+    "station_id": 805,
+    "station_name": "Gázolajkút"
+  },
+  {
+    "station_id": 806,
+    "station_name": "Gégény"
+  },
+  {
+    "station_id": 807,
+    "station_name": "Géza fejedelem tér"
+  },
+  {
+    "station_id": 808,
+    "station_name": "Gógánfa"
+  },
+  {
+    "station_id": 809,
+    "station_name": "Göd"
+  },
+  {
+    "station_id": 810,
+    "station_name": "Gödöllő"
+  },
+  {
+    "station_id": 811,
+    "station_name": "Gödöllő, Erzsébet park"
+  },
+  {
+    "station_id": 812,
+    "station_name": "Gödöllő, Palotakert"
+  },
+  {
+    "station_id": 813,
+    "station_name": "Gödöllő, Szabadság tér"
+  },
+  {
+    "station_id": 814,
+    "station_name": "Gödöllő-Állami telepek"
+  },
+  {
+    "station_id": 815,
+    "station_name": "Gönc"
+  },
+  {
+    "station_id": 816,
+    "station_name": "Göncruszka"
+  },
+  {
+    "station_id": 817,
+    "station_name": "Göncz Árpád városközpont"
+  },
+  {
+    "station_id": 818,
+    "station_name": "Göncz Árpád városközpont M"
+  },
+  {
+    "station_id": 819,
+    "station_name": "Gönyű"
+  },
+  {
+    "station_id": 820,
+    "station_name": "Görbemajor"
+  },
+  {
+    "station_id": 821,
+    "station_name": "Görgey utca"
+  },
+  {
+    "station_id": 822,
+    "station_name": "Görögszállás"
+  },
+  {
+    "station_id": 823,
+    "station_name": "Hajdúbagos"
+  },
+  {
+    "station_id": 824,
+    "station_name": "Hajdúböszörmény"
+  },
+  {
+    "station_id": 825,
+    "station_name": "Hajdúdorog"
+  },
+  {
+    "station_id": 826,
+    "station_name": "Hajdúhadház"
+  },
+  {
+    "station_id": 827,
+    "station_name": "Hajdúnánás"
+  },
+  {
+    "station_id": 828,
+    "station_name": "Hajdúnánás 462/463. sz. ipvk."
+  },
+  {
+    "station_id": 829,
+    "station_name": "Hajdúnánás-Vásártér"
+  },
+  {
+    "station_id": 830,
+    "station_name": "Hajdúszentgyörgy"
+  },
+  {
+    "station_id": 831,
+    "station_name": "Hajdúszoboszló"
+  },
+  {
+    "station_id": 832,
+    "station_name": "Hajdúsámson"
+  },
+  {
+    "station_id": 833,
+    "station_name": "Hajdúvid"
+  },
+  {
+    "station_id": 834,
+    "station_name": "Hajmáskér"
+  },
+  {
+    "station_id": 835,
+    "station_name": "Hajmáskér-Újtelep"
+  },
+  {
+    "station_id": 836,
+    "station_name": "Hajnalos"
+  },
+  {
+    "station_id": 837,
+    "station_name": "Halipuszta"
+  },
+  {
+    "station_id": 838,
+    "station_name": "Haller utca / Mester utca"
+  },
+  {
+    "station_id": 839,
+    "station_name": "Haller utca / Soroksári út"
+  },
+  {
+    "station_id": 840,
+    "station_name": "Halmaj"
+  },
+  {
+    "station_id": 841,
+    "station_name": "Halom utca"
+  },
+  {
+    "station_id": 842,
+    "station_name": "Haláp"
+  },
+  {
+    "station_id": 843,
+    "station_name": "Haláperdő"
+  },
+  {
+    "station_id": 844,
+    "station_name": "Halász utca"
+  },
+  {
+    "station_id": 845,
+    "station_name": "Halászlak"
+  },
+  {
+    "station_id": 846,
+    "station_name": "Hanság-Nagyerdő"
+  },
+  {
+    "station_id": 847,
+    "station_name": "Hanságliget"
+  },
+  {
+    "station_id": 848,
+    "station_name": "Harangláb"
+  },
+  {
+    "station_id": 849,
+    "station_name": "Haraszti elágazás"
+  },
+  {
+    "station_id": 850,
+    "station_name": "Haris"
+  },
+  {
+    "station_id": 851,
+    "station_name": "Harka"
+  },
+  {
+    "station_id": 852,
+    "station_name": "Harkakötöny"
+  },
+  {
+    "station_id": 853,
+    "station_name": "Harkakötöny elágazás"
+  },
+  {
+    "station_id": 854,
+    "station_name": "Harkány"
+  },
+  {
+    "station_id": 855,
+    "station_name": "Harminckettesek tere"
+  },
+  {
+    "station_id": 856,
+    "station_name": "Harta"
+  },
+  {
+    "station_id": 857,
+    "station_name": "Hatmajor forgalmi kitérő"
+  },
+  {
+    "station_id": 858,
+    "station_name": "Hatvan"
+  },
+  {
+    "station_id": 859,
+    "station_name": "Hatvan A elágazás"
+  },
+  {
+    "station_id": 860,
+    "station_name": "Hatvan B elágazás"
+  },
+  {
+    "station_id": 861,
+    "station_name": "Hatvan C elágazás"
+  },
+  {
+    "station_id": 862,
+    "station_name": "Hatvan D elágazás"
+  },
+  {
+    "station_id": 863,
+    "station_name": "Hatvan-Rendező"
+  },
+  {
+    "station_id": 864,
+    "station_name": "Határ út"
+  },
+  {
+    "station_id": 865,
+    "station_name": "Határ út M"
+  },
+  {
+    "station_id": 866,
+    "station_name": "Határ út, fordítóvágány"
+  },
+  {
+    "station_id": 867,
+    "station_name": "Határcsárda"
+  },
+  {
+    "station_id": 868,
+    "station_name": "Hauszmann Alajos utca"
+  },
+  {
+    "station_id": 869,
+    "station_name": "Hauszmann Alajos utca / Szerémi út"
+  },
+  {
+    "station_id": 870,
+    "station_name": "Hegyeshalom"
+  },
+  {
+    "station_id": 871,
+    "station_name": "Hegyeshalom forgalmi iroda"
+  },
+  {
+    "station_id": 872,
+    "station_name": "Hegyfalu"
+  },
+  {
+    "station_id": 873,
+    "station_name": "Heinrich István utca"
+  },
+  {
+    "station_id": 874,
+    "station_name": "Hejce-Vilmány"
+  },
+  {
+    "station_id": 875,
+    "station_name": "Hejőcsabai Cementművek"
+  },
+  {
+    "station_id": 876,
+    "station_name": "Hejőkeresztúr"
+  },
+  {
+    "station_id": 877,
+    "station_name": "Helvécia"
+  },
+  {
+    "station_id": 878,
+    "station_name": "Hengermalom út / Szerémi út"
+  },
+  {
+    "station_id": 879,
+    "station_name": "Hentes utca"
+  },
+  {
+    "station_id": 880,
+    "station_name": "Herceghalom"
+  },
+  {
+    "station_id": 881,
+    "station_name": "Herceghalom forgalmi iroda"
+  },
+  {
+    "station_id": 882,
+    "station_name": "Herend"
+  },
+  {
+    "station_id": 883,
+    "station_name": "Herminatanya"
+  },
+  {
+    "station_id": 884,
+    "station_name": "Hernád"
+  },
+  {
+    "station_id": 885,
+    "station_name": "Hernádnémeti-Bőcs"
+  },
+  {
+    "station_id": 886,
+    "station_name": "Hernádszurdok"
+  },
+  {
+    "station_id": 887,
+    "station_name": "Hetvehely"
+  },
+  {
+    "station_id": 888,
+    "station_name": "Hetényegyháza"
+  },
+  {
+    "station_id": 889,
+    "station_name": "Heves"
+  },
+  {
+    "station_id": 890,
+    "station_name": "Hevesvezekény"
+  },
+  {
+    "station_id": 891,
+    "station_name": "Hidas-Bonyhád"
+  },
+  {
+    "station_id": 892,
+    "station_name": "Hidasnémeti"
+  },
+  {
+    "station_id": 893,
+    "station_name": "Hidegkuti Nándor Stadion"
+  },
+  {
+    "station_id": 894,
+    "station_name": "Hodász"
+  },
+  {
+    "station_id": 895,
+    "station_name": "Homok"
+  },
+  {
+    "station_id": 896,
+    "station_name": "Homokterenye"
+  },
+  {
+    "station_id": 897,
+    "station_name": "Honvéd utca"
+  },
+  {
+    "station_id": 898,
+    "station_name": "Honvédkórház"
+  },
+  {
+    "station_id": 899,
+    "station_name": "Horgásztanyák"
+  },
+  {
+    "station_id": 900,
+    "station_name": "Hort-Csány"
+  },
+  {
+    "station_id": 901,
+    "station_name": "Hortobágy"
+  },
+  {
+    "station_id": 902,
+    "station_name": "Hortobágy-Halastó"
+  },
+  {
+    "station_id": 903,
+    "station_name": "Hortobágyi Halastó"
+  },
+  {
+    "station_id": 904,
+    "station_name": "Horvátnádalja"
+  },
+  {
+    "station_id": 905,
+    "station_name": "Hosszúberek-Péteri"
+  },
+  {
+    "station_id": 906,
+    "station_name": "Hosszúhetény"
+  },
+  {
+    "station_id": 907,
+    "station_name": "Hosszúhát"
+  },
+  {
+    "station_id": 908,
+    "station_name": "Hosszúpályi"
+  },
+  {
+    "station_id": 909,
+    "station_name": "Hosszúrét"
+  },
+  {
+    "station_id": 910,
+    "station_name": "Hugyag"
+  },
+  {
+    "station_id": 911,
+    "station_name": "Hun utca"
+  },
+  {
+    "station_id": 912,
+    "station_name": "Hungária kocsiszín (kapu)"
+  },
+  {
+    "station_id": 913,
+    "station_name": "Hungária út (Rendőrség)"
+  },
+  {
+    "station_id": 914,
+    "station_name": "Hármashegyalja"
+  },
+  {
+    "station_id": 915,
+    "station_name": "Hármashegyi-tó"
+  },
+  {
+    "station_id": 916,
+    "station_name": "Háros"
+  },
+  {
+    "station_id": 917,
+    "station_name": "Hárshegy"
+  },
+  {
+    "station_id": 918,
+    "station_name": "Hártókút"
+  },
+  {
+    "station_id": 919,
+    "station_name": "Hékéd"
+  },
+  {
+    "station_id": 920,
+    "station_name": "Hétvezér utca"
+  },
+  {
+    "station_id": 921,
+    "station_name": "Hévízgyörk"
+  },
+  {
+    "station_id": 922,
+    "station_name": "Hídvégardó"
+  },
+  {
+    "station_id": 923,
+    "station_name": "Hódmezővásárhely"
+  },
+  {
+    "station_id": 924,
+    "station_name": "Hódmezővásárhely vasútállomás"
+  },
+  {
+    "station_id": 925,
+    "station_name": "Hódmezővásárhely-CSOMIÉP iparvágány kiágazás"
+  },
+  {
+    "station_id": 926,
+    "station_name": "Hódmezővásárhely-SZANIT iparvágány kiágazás"
+  },
+  {
+    "station_id": 927,
+    "station_name": "Hódmezővásárhelyi Népkert"
+  },
+  {
+    "station_id": 928,
+    "station_name": "Hódmezővásárhelyi Népkert vasútállomás"
+  },
+  {
+    "station_id": 929,
+    "station_name": "Hős utca"
+  },
+  {
+    "station_id": 930,
+    "station_name": "Hősök tere"
+  },
+  {
+    "station_id": 931,
+    "station_name": "Hűvösvölgy"
+  },
+  {
+    "station_id": 932,
+    "station_name": "II. János Pál pápa tér"
+  },
+  {
+    "station_id": 933,
+    "station_name": "II. János Pál pápa tér M"
+  },
+  {
+    "station_id": 934,
+    "station_name": "II. Kórház"
+  },
+  {
+    "station_id": 935,
+    "station_name": "Ibrány"
+  },
+  {
+    "station_id": 936,
+    "station_name": "Ifjúsági tábor"
+  },
+  {
+    "station_id": 937,
+    "station_name": "Iklad-Domony"
+  },
+  {
+    "station_id": 938,
+    "station_name": "Iklad-Domony felső"
+  },
+  {
+    "station_id": 939,
+    "station_name": "Iklódbördőce"
+  },
+  {
+    "station_id": 940,
+    "station_name": "Iklódbördőcei temető"
+  },
+  {
+    "station_id": 941,
+    "station_name": "Ikrény"
+  },
+  {
+    "station_id": 942,
+    "station_name": "Illatos út"
+  },
+  {
+    "station_id": 943,
+    "station_name": "Ilonatelep"
+  },
+  {
+    "station_id": 944,
+    "station_name": "Imremajor"
+  },
+  {
+    "station_id": 945,
+    "station_name": "Infopark"
+  },
+  {
+    "station_id": 946,
+    "station_name": "Inota"
+  },
+  {
+    "station_id": 947,
+    "station_name": "Inota-Gyártelep"
+  },
+  {
+    "station_id": 948,
+    "station_name": "Ináncs"
+  },
+  {
+    "station_id": 949,
+    "station_name": "Inárcs-Kakucs"
+  },
+  {
+    "station_id": 950,
+    "station_name": "Iparvasút"
+  },
+  {
+    "station_id": 951,
+    "station_name": "Ipolyszög"
+  },
+  {
+    "station_id": 952,
+    "station_name": "Ipolytarnóc"
+  },
+  {
+    "station_id": 953,
+    "station_name": "Ipolytarnóc forgalmi iroda"
+  },
+  {
+    "station_id": 954,
+    "station_name": "Ipolyvece"
+  },
+  {
+    "station_id": 955,
+    "station_name": "Isaszeg"
+  },
+  {
+    "station_id": 956,
+    "station_name": "Istvántelek"
+  },
+  {
+    "station_id": 957,
+    "station_name": "Istvántelki Főműhely"
+  },
+  {
+    "station_id": 958,
+    "station_name": "Istvántelki Óműhely"
+  },
+  {
+    "station_id": 959,
+    "station_name": "Ivacs"
+  },
+  {
+    "station_id": 960,
+    "station_name": "Iváncsa"
+  },
+  {
+    "station_id": 961,
+    "station_name": "Iváncsa forgalmi kitérő"
+  },
+  {
+    "station_id": 962,
+    "station_name": "Izraelita temető"
+  },
+  {
+    "station_id": 963,
+    "station_name": "Izsák"
+  },
+  {
+    "station_id": 964,
+    "station_name": "Izsófalva"
+  },
+  {
+    "station_id": 965,
+    "station_name": "Jakabszállás"
+  },
+  {
+    "station_id": 966,
+    "station_name": "Jeszenák János utca"
+  },
+  {
+    "station_id": 967,
+    "station_name": "Jobbágyi"
+  },
+  {
+    "station_id": 968,
+    "station_name": "Justhmajor"
+  },
+  {
+    "station_id": 969,
+    "station_name": "Ják-Balogunyom"
+  },
+  {
+    "station_id": 970,
+    "station_name": "Jákó-Nagybajom"
+  },
+  {
+    "station_id": 971,
+    "station_name": "Jámborka"
+  },
+  {
+    "station_id": 972,
+    "station_name": "Jánkmajtis"
+  },
+  {
+    "station_id": 973,
+    "station_name": "János tér"
+  },
+  {
+    "station_id": 974,
+    "station_name": "Jánoshalma"
+  },
+  {
+    "station_id": 975,
+    "station_name": "Jánoshalma-KEFAG iparvágány kiágazás"
+  },
+  {
+    "station_id": 976,
+    "station_name": "Jánoshegy"
+  },
+  {
+    "station_id": 977,
+    "station_name": "Jánosháza"
+  },
+  {
+    "station_id": 978,
+    "station_name": "Jánosháza elágazás"
+  },
+  {
+    "station_id": 979,
+    "station_name": "Jánoska"
+  },
+  {
+    "station_id": 980,
+    "station_name": "Jánossomorja"
+  },
+  {
+    "station_id": 981,
+    "station_name": "Jánosszállás"
+  },
+  {
+    "station_id": 982,
+    "station_name": "Járműtelep utca"
+  },
+  {
+    "station_id": 983,
+    "station_name": "Jászai Mari tér"
+  },
+  {
+    "station_id": 984,
+    "station_name": "Jászapáti"
+  },
+  {
+    "station_id": 985,
+    "station_name": "Jászapáti TIG iparvágány kiágazás"
+  },
+  {
+    "station_id": 986,
+    "station_name": "Jászberény"
+  },
+  {
+    "station_id": 987,
+    "station_name": "Jászberényi út / Maglódi út"
+  },
+  {
+    "station_id": 988,
+    "station_name": "Jászboldogháza-Jánoshida"
+  },
+  {
+    "station_id": 989,
+    "station_name": "Jászdózsa"
+  },
+  {
+    "station_id": 990,
+    "station_name": "Jászfényszaru"
+  },
+  {
+    "station_id": 991,
+    "station_name": "Jászkisér"
+  },
+  {
+    "station_id": 992,
+    "station_name": "Jászkisér felső"
+  },
+  {
+    "station_id": 993,
+    "station_name": "Jászladány"
+  },
+  {
+    "station_id": 994,
+    "station_name": "Jászszentlászló"
+  },
+  {
+    "station_id": 995,
+    "station_name": "Jászárokszállás"
+  },
+  {
+    "station_id": 996,
+    "station_name": "Játszótér"
+  },
+  {
+    "station_id": 997,
+    "station_name": "Jókai Mór utca / Határ út"
+  },
+  {
+    "station_id": 998,
+    "station_name": "Jósvafő-Aggtelek"
+  },
+  {
+    "station_id": 999,
+    "station_name": "Józsa"
+  },
+  {
+    "station_id": 1000,
+    "station_name": "József Attila-telep"
+  },
+  {
+    "station_id": 1001,
+    "station_name": "József Szanatórium"
+  },
+  {
+    "station_id": 1002,
+    "station_name": "K20"
+  },
+  {
+    "station_id": 1003,
+    "station_name": "K21"
+  },
+  {
+    "station_id": 1004,
+    "station_name": "K22"
+  },
+  {
+    "station_id": 1005,
+    "station_name": "K23"
+  },
+  {
+    "station_id": 1006,
+    "station_name": "K24"
+  },
+  {
+    "station_id": 1007,
+    "station_name": "Kaba"
+  },
+  {
+    "station_id": 1008,
+    "station_name": "Kacsóh Pongrác út"
+  },
+  {
+    "station_id": 1009,
+    "station_name": "Kada utca / Maglódi út"
+  },
+  {
+    "station_id": 1010,
+    "station_name": "Kajdacs"
+  },
+  {
+    "station_id": 1011,
+    "station_name": "Kakasszék"
+  },
+  {
+    "station_id": 1012,
+    "station_name": "Kalocsa"
+  },
+  {
+    "station_id": 1013,
+    "station_name": "Kalocsa Baráka-Foktő (III/1) pályavasúti határpont"
+  },
+  {
+    "station_id": 1014,
+    "station_name": "Kalotaszeg utca"
+  },
+  {
+    "station_id": 1015,
+    "station_name": "Kamaraerdei Ifjúsági Park"
+  },
+  {
+    "station_id": 1016,
+    "station_name": "Kapitányság"
+  },
+  {
+    "station_id": 1017,
+    "station_name": "Kapoly"
+  },
+  {
+    "station_id": 1018,
+    "station_name": "Kaposfüred"
+  },
+  {
+    "station_id": 1019,
+    "station_name": "Kaposfő"
+  },
+  {
+    "station_id": 1020,
+    "station_name": "Kaposhomok"
+  },
+  {
+    "station_id": 1021,
+    "station_name": "Kaposmérő"
+  },
+  {
+    "station_id": 1022,
+    "station_name": "Kapospula"
+  },
+  {
+    "station_id": 1023,
+    "station_name": "Kaposszekcső"
+  },
+  {
+    "station_id": 1024,
+    "station_name": "Kaposszentjakab"
+  },
+  {
+    "station_id": 1025,
+    "station_name": "Kapostüskevár"
+  },
+  {
+    "station_id": 1026,
+    "station_name": "Kaposvár"
+  },
+  {
+    "station_id": 1027,
+    "station_name": "Kaposvár elágazás"
+  },
+  {
+    "station_id": 1028,
+    "station_name": "Kaposvár-Fonóipari iparvágány kiágazás"
+  },
+  {
+    "station_id": 1029,
+    "station_name": "Kaposújlak"
+  },
+  {
+    "station_id": 1030,
+    "station_name": "Kapuvár"
+  },
+  {
+    "station_id": 1031,
+    "station_name": "Karakószörcsök"
+  },
+  {
+    "station_id": 1032,
+    "station_name": "Karcag"
+  },
+  {
+    "station_id": 1033,
+    "station_name": "Karcag-HAGE iparvágány kiágazás"
+  },
+  {
+    "station_id": 1034,
+    "station_name": "Karcag-Ipartelep"
+  },
+  {
+    "station_id": 1035,
+    "station_name": "Karcag-Vásártér"
+  },
+  {
+    "station_id": 1036,
+    "station_name": "Karcag-Örlőmalom iparvágány-kiágazás"
+  },
+  {
+    "station_id": 1037,
+    "station_name": "Kardoskút"
+  },
+  {
+    "station_id": 1038,
+    "station_name": "Karolina út"
+  },
+  {
+    "station_id": 1039,
+    "station_name": "Kartács utca"
+  },
+  {
+    "station_id": 1040,
+    "station_name": "Karucás-kitérő"
+  },
+  {
+    "station_id": 1041,
+    "station_name": "Karácsond"
+  },
+  {
+    "station_id": 1042,
+    "station_name": "Karácsony Sándor utca"
+  },
+  {
+    "station_id": 1043,
+    "station_name": "Karád"
+  },
+  {
+    "station_id": 1044,
+    "station_name": "Kaskantyú"
+  },
+  {
+    "station_id": 1045,
+    "station_name": "Kaskantyúi tanyák"
+  },
+  {
+    "station_id": 1046,
+    "station_name": "Kastély (Nagycenk)"
+  },
+  {
+    "station_id": 1047,
+    "station_name": "Kastélyosdombó"
+  },
+  {
+    "station_id": 1048,
+    "station_name": "Kastélypark"
+  },
+  {
+    "station_id": 1049,
+    "station_name": "Kaszásdűlő"
+  },
+  {
+    "station_id": 1050,
+    "station_name": "Kaszó"
+  },
+  {
+    "station_id": 1051,
+    "station_name": "Katinyi mártírok parkja"
+  },
+  {
+    "station_id": 1052,
+    "station_name": "Katonatelep"
+  },
+  {
+    "station_id": 1053,
+    "station_name": "Kavicsbánya elágazás"
+  },
+  {
+    "station_id": 1054,
+    "station_name": "Kavicsváltó kitérő"
+  },
+  {
+    "station_id": 1055,
+    "station_name": "Kazincbarcika"
+  },
+  {
+    "station_id": 1056,
+    "station_name": "Kazincbarcika alsó"
+  },
+  {
+    "station_id": 1057,
+    "station_name": "Kecel"
+  },
+  {
+    "station_id": 1058,
+    "station_name": "Kecel-Szilos"
+  },
+  {
+    "station_id": 1059,
+    "station_name": "Kecskemét"
+  },
+  {
+    "station_id": 1060,
+    "station_name": "Kecskemét KK"
+  },
+  {
+    "station_id": 1061,
+    "station_name": "Kecskemét Kohári iparvágány kiágazás"
+  },
+  {
+    "station_id": 1062,
+    "station_name": "Kecskemét alsó"
+  },
+  {
+    "station_id": 1063,
+    "station_name": "Kecskemét alsó ipartelepek ipvk. pvh."
+  },
+  {
+    "station_id": 1064,
+    "station_name": "Kecskemét-Mercedes iparvágány"
+  },
+  {
+    "station_id": 1065,
+    "station_name": "Kecskemét-Mercedes iparvágány kiágazás"
+  },
+  {
+    "station_id": 1066,
+    "station_name": "Kecskemét-Mercedes pályavasúti határpont"
+  },
+  {
+    "station_id": 1067,
+    "station_name": "Kecskemét-Máriaváros"
+  },
+  {
+    "station_id": 1068,
+    "station_name": "Kecskemét-Toldi ipvk. pvh."
+  },
+  {
+    "station_id": 1069,
+    "station_name": "Kecskeméti utca"
+  },
+  {
+    "station_id": 1070,
+    "station_name": "Kecskéd"
+  },
+  {
+    "station_id": 1071,
+    "station_name": "Kecskéd alsó"
+  },
+  {
+    "station_id": 1072,
+    "station_name": "Kecskés"
+  },
+  {
+    "station_id": 1073,
+    "station_name": "Kelebia"
+  },
+  {
+    "station_id": 1074,
+    "station_name": "Kelemen László utca"
+  },
+  {
+    "station_id": 1075,
+    "station_name": "Kelenföld vasútállomás"
+  },
+  {
+    "station_id": 1076,
+    "station_name": "Kelenföld vasútállomás M"
+  },
+  {
+    "station_id": 1077,
+    "station_name": "Kelenvölgy-Péterhegy"
+  },
+  {
+    "station_id": 1078,
+    "station_name": "Keleti pályaudvar"
+  },
+  {
+    "station_id": 1079,
+    "station_name": "Keleti pályaudvar M"
+  },
+  {
+    "station_id": 1080,
+    "station_name": "Kemecse"
+  },
+  {
+    "station_id": 1081,
+    "station_name": "Kemence"
+  },
+  {
+    "station_id": 1082,
+    "station_name": "Kemencepatak"
+  },
+  {
+    "station_id": 1083,
+    "station_name": "Kemendollár"
+  },
+  {
+    "station_id": 1084,
+    "station_name": "Kemenesmihályfa"
+  },
+  {
+    "station_id": 1085,
+    "station_name": "Kemenespálfa"
+  },
+  {
+    "station_id": 1086,
+    "station_name": "Kemény Zsigmond utca"
+  },
+  {
+    "station_id": 1087,
+    "station_name": "Kenderes"
+  },
+  {
+    "station_id": 1088,
+    "station_name": "Kengyel"
+  },
+  {
+    "station_id": 1089,
+    "station_name": "Kerekdomb"
+  },
+  {
+    "station_id": 1090,
+    "station_name": "Kerekegyháza"
+  },
+  {
+    "station_id": 1091,
+    "station_name": "Kerepes"
+  },
+  {
+    "station_id": 1092,
+    "station_name": "Kereskedő köz"
+  },
+  {
+    "station_id": 1093,
+    "station_name": "Kerta"
+  },
+  {
+    "station_id": 1094,
+    "station_name": "Kerta elágazás"
+  },
+  {
+    "station_id": 1095,
+    "station_name": "Kerékgyártó utca"
+  },
+  {
+    "station_id": 1096,
+    "station_name": "Keselyűs"
+  },
+  {
+    "station_id": 1097,
+    "station_name": "Keszthely"
+  },
+  {
+    "station_id": 1098,
+    "station_name": "Keszthely forgalmi iroda"
+  },
+  {
+    "station_id": 1099,
+    "station_name": "Keszőhidegkút-Gyönk"
+  },
+  {
+    "station_id": 1100,
+    "station_name": "Kettőshalom"
+  },
+  {
+    "station_id": 1101,
+    "station_name": "Kikerics"
+  },
+  {
+    "station_id": 1102,
+    "station_name": "Kilimán"
+  },
+  {
+    "station_id": 1103,
+    "station_name": "Kilátó"
+  },
+  {
+    "station_id": 1104,
+    "station_name": "Kimle-Károlyháza"
+  },
+  {
+    "station_id": 1105,
+    "station_name": "Kimle-Károlyháza forgalmi iroda"
+  },
+  {
+    "station_id": 1106,
+    "station_name": "Királd"
+  },
+  {
+    "station_id": 1107,
+    "station_name": "Király utca / Erzsébet körút"
+  },
+  {
+    "station_id": 1108,
+    "station_name": "Királyegyháza Cementgyár iparvágány kiágazás"
+  },
+  {
+    "station_id": 1109,
+    "station_name": "Királyegyháza-Rigópuszta"
+  },
+  {
+    "station_id": 1110,
+    "station_name": "Királyhágó tér"
+  },
+  {
+    "station_id": 1111,
+    "station_name": "Királyhágó utca"
+  },
+  {
+    "station_id": 1112,
+    "station_name": "Királyrét"
+  },
+  {
+    "station_id": 1113,
+    "station_name": "Kis-Hárs-hegy"
+  },
+  {
+    "station_id": 1114,
+    "station_name": "Kisbárapáti"
+  },
+  {
+    "station_id": 1115,
+    "station_name": "Kisbárapáti-Erdőgazdaság iparvágány kiágazás"
+  },
+  {
+    "station_id": 1116,
+    "station_name": "Kisbér"
+  },
+  {
+    "station_id": 1117,
+    "station_name": "Kisbócsa"
+  },
+  {
+    "station_id": 1118,
+    "station_name": "Kiscsákó"
+  },
+  {
+    "station_id": 1119,
+    "station_name": "Kiscséripuszta"
+  },
+  {
+    "station_id": 1120,
+    "station_name": "Kisdobsza"
+  },
+  {
+    "station_id": 1121,
+    "station_name": "Kisfái"
+  },
+  {
+    "station_id": 1122,
+    "station_name": "Kisfástanya"
+  },
+  {
+    "station_id": 1123,
+    "station_name": "Kishuta"
+  },
+  {
+    "station_id": 1124,
+    "station_name": "Kisirtás"
+  },
+  {
+    "station_id": 1125,
+    "station_name": "Kiskapud"
+  },
+  {
+    "station_id": 1126,
+    "station_name": "Kiskorpád"
+  },
+  {
+    "station_id": 1127,
+    "station_name": "Kiskundorozsma"
+  },
+  {
+    "station_id": 1128,
+    "station_name": "Kiskundorozsma elágazás"
+  },
+  {
+    "station_id": 1129,
+    "station_name": "Kiskunfélegyháza"
+  },
+  {
+    "station_id": 1130,
+    "station_name": "Kiskunfélegyháza-Kunkert iparvágány kiágazás"
+  },
+  {
+    "station_id": 1131,
+    "station_name": "Kiskunfélegyháza-MVM OVIT iparvágány kiágazás"
+  },
+  {
+    "station_id": 1132,
+    "station_name": "Kiskunhalas"
+  },
+  {
+    "station_id": 1133,
+    "station_name": "Kiskunlacháza"
+  },
+  {
+    "station_id": 1134,
+    "station_name": "Kiskunmajsa"
+  },
+  {
+    "station_id": 1135,
+    "station_name": "Kiskunmajsa KK"
+  },
+  {
+    "station_id": 1136,
+    "station_name": "Kisköre"
+  },
+  {
+    "station_id": 1137,
+    "station_name": "Kisköre-Tiszahíd"
+  },
+  {
+    "station_id": 1138,
+    "station_name": "Kiskőrös"
+  },
+  {
+    "station_id": 1139,
+    "station_name": "Kiskőrös KK"
+  },
+  {
+    "station_id": 1140,
+    "station_name": "Kiskőrös KÖFI"
+  },
+  {
+    "station_id": 1141,
+    "station_name": "Kiskőrösi út"
+  },
+  {
+    "station_id": 1142,
+    "station_name": "Kismacs"
+  },
+  {
+    "station_id": 1143,
+    "station_name": "Kismargita"
+  },
+  {
+    "station_id": 1144,
+    "station_name": "Kismarja"
+  },
+  {
+    "station_id": 1145,
+    "station_name": "Kismaros"
+  },
+  {
+    "station_id": 1146,
+    "station_name": "Kismindszenti út"
+  },
+  {
+    "station_id": 1147,
+    "station_name": "Kismuki egykori váltója"
+  },
+  {
+    "station_id": 1148,
+    "station_name": "Kisnémedi"
+  },
+  {
+    "station_id": 1149,
+    "station_name": "Kispest"
+  },
+  {
+    "station_id": 1150,
+    "station_name": "Kispest elágazás"
+  },
+  {
+    "station_id": 1151,
+    "station_name": "Kispest forgalmi iroda"
+  },
+  {
+    "station_id": 1152,
+    "station_name": "Kispest, Tulipán utca"
+  },
+  {
+    "station_id": 1153,
+    "station_name": "Kispest-Gránit ipvk."
+  },
+  {
+    "station_id": 1154,
+    "station_name": "Kispáhi"
+  },
+  {
+    "station_id": 1155,
+    "station_name": "Kisrárós"
+  },
+  {
+    "station_id": 1156,
+    "station_name": "Kiss Ernő utca"
+  },
+  {
+    "station_id": 1157,
+    "station_name": "Kiss János altábornagy utca"
+  },
+  {
+    "station_id": 1158,
+    "station_name": "Kisszekeres"
+  },
+  {
+    "station_id": 1159,
+    "station_name": "Kisszállás"
+  },
+  {
+    "station_id": 1160,
+    "station_name": "Kisszénás"
+  },
+  {
+    "station_id": 1161,
+    "station_name": "Kisszénás forgalmi iroda"
+  },
+  {
+    "station_id": 1162,
+    "station_name": "Kistarcsa"
+  },
+  {
+    "station_id": 1163,
+    "station_name": "Kistarcsa, kórház"
+  },
+  {
+    "station_id": 1164,
+    "station_name": "Kistelek"
+  },
+  {
+    "station_id": 1165,
+    "station_name": "Kisteleki szőlők"
+  },
+  {
+    "station_id": 1166,
+    "station_name": "Kisterenye"
+  },
+  {
+    "station_id": 1167,
+    "station_name": "Kisterenye-Bányatelep"
+  },
+  {
+    "station_id": 1168,
+    "station_name": "Kisterenye-Vasötvözetgyár iparvágány kiágazás"
+  },
+  {
+    "station_id": 1169,
+    "station_name": "Kistolmácsi Erdei Lak"
+  },
+  {
+    "station_id": 1170,
+    "station_name": "Kistolmácsi-tó"
+  },
+  {
+    "station_id": 1171,
+    "station_name": "Kistótfalu"
+  },
+  {
+    "station_id": 1172,
+    "station_name": "Kistőke"
+  },
+  {
+    "station_id": 1173,
+    "station_name": "Kisvarsány"
+  },
+  {
+    "station_id": 1174,
+    "station_name": "Kisvác"
+  },
+  {
+    "station_id": 1175,
+    "station_name": "Kisvárda"
+  },
+  {
+    "station_id": 1176,
+    "station_name": "Kisvárda 450/451 szelvény ipvk."
+  },
+  {
+    "station_id": 1177,
+    "station_name": "Kisvárda-Hármasút"
+  },
+  {
+    "station_id": 1178,
+    "station_name": "Kiszombor"
+  },
+  {
+    "station_id": 1179,
+    "station_name": "Kiszombor megálló"
+  },
+  {
+    "station_id": 1180,
+    "station_name": "Kisújszállás"
+  },
+  {
+    "station_id": 1181,
+    "station_name": "Kitérőgyár"
+  },
+  {
+    "station_id": 1182,
+    "station_name": "Klapka utca"
+  },
+  {
+    "station_id": 1183,
+    "station_name": "Klinikai Központ Nagyerdei Campus"
+  },
+  {
+    "station_id": 1184,
+    "station_name": "Klotildliget"
+  },
+  {
+    "station_id": 1185,
+    "station_name": "Klábertelep"
+  },
+  {
+    "station_id": 1186,
+    "station_name": "Kocka utca"
+  },
+  {
+    "station_id": 1187,
+    "station_name": "Kocsis Sándor Sportközpont"
+  },
+  {
+    "station_id": 1188,
+    "station_name": "Kocsord"
+  },
+  {
+    "station_id": 1189,
+    "station_name": "Kocsord alsó"
+  },
+  {
+    "station_id": 1190,
+    "station_name": "Kodály körönd"
+  },
+  {
+    "station_id": 1191,
+    "station_name": "Kolontár"
+  },
+  {
+    "station_id": 1192,
+    "station_name": "Kolosy tér"
+  },
+  {
+    "station_id": 1193,
+    "station_name": "Komjádi Béla utca"
+  },
+  {
+    "station_id": 1194,
+    "station_name": "Komjádi elágazás"
+  },
+  {
+    "station_id": 1195,
+    "station_name": "Komjáti"
+  },
+  {
+    "station_id": 1196,
+    "station_name": "Komló"
+  },
+  {
+    "station_id": 1197,
+    "station_name": "Komlósi-völgy"
+  },
+  {
+    "station_id": 1198,
+    "station_name": "Komoró"
+  },
+  {
+    "station_id": 1199,
+    "station_name": "Komoró (széles)"
+  },
+  {
+    "station_id": 1200,
+    "station_name": "Komoró-Fatároló ipvk."
+  },
+  {
+    "station_id": 1201,
+    "station_name": "Komádi"
+  },
+  {
+    "station_id": 1202,
+    "station_name": "Komárom"
+  },
+  {
+    "station_id": 1203,
+    "station_name": "Komárom forgalmi iroda"
+  },
+  {
+    "station_id": 1204,
+    "station_name": "Komárom-Rendező"
+  },
+  {
+    "station_id": 1205,
+    "station_name": "Komárom-Rendező forgalmi iroda"
+  },
+  {
+    "station_id": 1206,
+    "station_name": "Kondoros"
+  },
+  {
+    "station_id": 1207,
+    "station_name": "Kondoroskert"
+  },
+  {
+    "station_id": 1208,
+    "station_name": "Konrad Lorenz"
+  },
+  {
+    "station_id": 1209,
+    "station_name": "Konyár"
+  },
+  {
+    "station_id": 1210,
+    "station_name": "Konyári Sóstófürdő"
+  },
+  {
+    "station_id": 1211,
+    "station_name": "Koppány utca"
+  },
+  {
+    "station_id": 1212,
+    "station_name": "Kopáncs"
+  },
+  {
+    "station_id": 1213,
+    "station_name": "Korlát-Vizsoly"
+  },
+  {
+    "station_id": 1214,
+    "station_name": "Kossuth Lajos tér"
+  },
+  {
+    "station_id": 1215,
+    "station_name": "Kossuth Lajos tér (Széchenyi rakpart)"
+  },
+  {
+    "station_id": 1216,
+    "station_name": "Kossuth Lajos tér M"
+  },
+  {
+    "station_id": 1217,
+    "station_name": "Kossuth Lajos utca"
+  },
+  {
+    "station_id": 1218,
+    "station_name": "Kossuth Lajos utca / Ady Endre út"
+  },
+  {
+    "station_id": 1219,
+    "station_name": "Kossuth tér"
+  },
+  {
+    "station_id": 1220,
+    "station_name": "Kosztolányi Dezső tér"
+  },
+  {
+    "station_id": 1221,
+    "station_name": "Kovácshida"
+  },
+  {
+    "station_id": 1222,
+    "station_name": "Kovácsműhely"
+  },
+  {
+    "station_id": 1223,
+    "station_name": "Krisztina tér"
+  },
+  {
+    "station_id": 1224,
+    "station_name": "Kulcs"
+  },
+  {
+    "station_id": 1225,
+    "station_name": "Kunfehértó"
+  },
+  {
+    "station_id": 1226,
+    "station_name": "Kungyalu"
+  },
+  {
+    "station_id": 1227,
+    "station_name": "Kungyalu alsó"
+  },
+  {
+    "station_id": 1228,
+    "station_name": "Kunhegyes"
+  },
+  {
+    "station_id": 1229,
+    "station_name": "Kunmadaras"
+  },
+  {
+    "station_id": 1230,
+    "station_name": "Kunmadaras-Nagymező iprvágány kiágazás"
+  },
+  {
+    "station_id": 1231,
+    "station_name": "Kunszentmiklós-Tass"
+  },
+  {
+    "station_id": 1232,
+    "station_name": "Kunszentmárton"
+  },
+  {
+    "station_id": 1233,
+    "station_name": "Kunszállás"
+  },
+  {
+    "station_id": 1234,
+    "station_name": "Kurd"
+  },
+  {
+    "station_id": 1235,
+    "station_name": "Kutas"
+  },
+  {
+    "station_id": 1236,
+    "station_name": "Kutitanya"
+  },
+  {
+    "station_id": 1237,
+    "station_name": "Kutyás delta"
+  },
+  {
+    "station_id": 1238,
+    "station_name": "Kvassay híd"
+  },
+  {
+    "station_id": 1239,
+    "station_name": "Kádárta"
+  },
+  {
+    "station_id": 1240,
+    "station_name": "Kákics"
+  },
+  {
+    "station_id": 1241,
+    "station_name": "Kákás forgalmi kitérő"
+  },
+  {
+    "station_id": 1242,
+    "station_name": "Kál-Kápolna"
+  },
+  {
+    "station_id": 1243,
+    "station_name": "Kál-Kápolnai Gabonaforgalmi Váll. iparvágány kiágazás"
+  },
+  {
+    "station_id": 1244,
+    "station_name": "Kállósemjén"
+  },
+  {
+    "station_id": 1245,
+    "station_name": "Kálvin János tér"
+  },
+  {
+    "station_id": 1246,
+    "station_name": "Kálvin tér"
+  },
+  {
+    "station_id": 1247,
+    "station_name": "Kálvin tér M"
+  },
+  {
+    "station_id": 1248,
+    "station_name": "Kálvária tér"
+  },
+  {
+    "station_id": 1249,
+    "station_name": "Kámaházi erdészlak"
+  },
+  {
+    "station_id": 1250,
+    "station_name": "Kámon"
+  },
+  {
+    "station_id": 1251,
+    "station_name": "Kányavár"
+  },
+  {
+    "station_id": 1252,
+    "station_name": "Kápolna"
+  },
+  {
+    "station_id": 1253,
+    "station_name": "Kápolna utca"
+  },
+  {
+    "station_id": 1254,
+    "station_name": "Kápolnadűlő"
+  },
+  {
+    "station_id": 1255,
+    "station_name": "Kápolnásnyék"
+  },
+  {
+    "station_id": 1256,
+    "station_name": "Káposztásmegyer, Megyeri út"
+  },
+  {
+    "station_id": 1257,
+    "station_name": "Káptalanfüred"
+  },
+  {
+    "station_id": 1258,
+    "station_name": "Károly utca"
+  },
+  {
+    "station_id": 1259,
+    "station_name": "Károlyi Mihály utca"
+  },
+  {
+    "station_id": 1260,
+    "station_name": "Kék"
+  },
+  {
+    "station_id": 1261,
+    "station_name": "Kék Golyó utca"
+  },
+  {
+    "station_id": 1262,
+    "station_name": "Kémes"
+  },
+  {
+    "station_id": 1263,
+    "station_name": "Kén utca"
+  },
+  {
+    "station_id": 1264,
+    "station_name": "Kétegyháza"
+  },
+  {
+    "station_id": 1265,
+    "station_name": "Kéthely"
+  },
+  {
+    "station_id": 1266,
+    "station_name": "Kétpó"
+  },
+  {
+    "station_id": 1267,
+    "station_name": "Kétpó forgalmi kitérő"
+  },
+  {
+    "station_id": 1268,
+    "station_name": "Kétérköz"
+  },
+  {
+    "station_id": 1269,
+    "station_name": "Kétújfalu"
+  },
+  {
+    "station_id": 1270,
+    "station_name": "Kétútköz"
+  },
+  {
+    "station_id": 1271,
+    "station_name": "Kóny"
+  },
+  {
+    "station_id": 1272,
+    "station_name": "Kónya"
+  },
+  {
+    "station_id": 1273,
+    "station_name": "Kónyaszék"
+  },
+  {
+    "station_id": 1274,
+    "station_name": "Kópháza"
+  },
+  {
+    "station_id": 1275,
+    "station_name": "Kórógyszentgyörgy"
+  },
+  {
+    "station_id": 1276,
+    "station_name": "Kótaj"
+  },
+  {
+    "station_id": 1277,
+    "station_name": "Kótaj-szeszfőzde"
+  },
+  {
+    "station_id": 1278,
+    "station_name": "Kótpuszta"
+  },
+  {
+    "station_id": 1279,
+    "station_name": "Kótpuszta-TIG ipvk."
+  },
+  {
+    "station_id": 1280,
+    "station_name": "Kölcsey Központ (Hunyadi János utca)"
+  },
+  {
+    "station_id": 1281,
+    "station_name": "Kölesd-Alsótengelic"
+  },
+  {
+    "station_id": 1282,
+    "station_name": "Köncsögpuszta"
+  },
+  {
+    "station_id": 1283,
+    "station_name": "Körmend"
+  },
+  {
+    "station_id": 1284,
+    "station_name": "Környe"
+  },
+  {
+    "station_id": 1285,
+    "station_name": "Körösladány"
+  },
+  {
+    "station_id": 1286,
+    "station_name": "Körösnagyharsány"
+  },
+  {
+    "station_id": 1287,
+    "station_name": "Körösszakál"
+  },
+  {
+    "station_id": 1288,
+    "station_name": "Körösújfalu"
+  },
+  {
+    "station_id": 1289,
+    "station_name": "Kötegyán"
+  },
+  {
+    "station_id": 1290,
+    "station_name": "Kövecses"
+  },
+  {
+    "station_id": 1291,
+    "station_name": "Kövecsesi elágazás"
+  },
+  {
+    "station_id": 1292,
+    "station_name": "Közterületfenntartó Zrt."
+  },
+  {
+    "station_id": 1293,
+    "station_name": "Közvágóhíd"
+  },
+  {
+    "station_id": 1294,
+    "station_name": "Közvágóhíd H"
+  },
+  {
+    "station_id": 1295,
+    "station_name": "Közép-Garadna"
+  },
+  {
+    "station_id": 1296,
+    "station_name": "Középmező"
+  },
+  {
+    "station_id": 1297,
+    "station_name": "Középrigóc"
+  },
+  {
+    "station_id": 1298,
+    "station_name": "Kútvölgy"
+  },
+  {
+    "station_id": 1299,
+    "station_name": "Külsőhalas elágazás"
+  },
+  {
+    "station_id": 1300,
+    "station_name": "Külsővat"
+  },
+  {
+    "station_id": 1301,
+    "station_name": "Küngös"
+  },
+  {
+    "station_id": 1302,
+    "station_name": "Küngös-Gazdasági iparvágány kiágazás"
+  },
+  {
+    "station_id": 1303,
+    "station_name": "Kőbánya alsó"
+  },
+  {
+    "station_id": 1304,
+    "station_name": "Kőbánya alsó vasútállomás"
+  },
+  {
+    "station_id": 1305,
+    "station_name": "Kőbánya alsó vasútállomás (Kápolna utca)"
+  },
+  {
+    "station_id": 1306,
+    "station_name": "Kőbánya alsó vasútállomás (Mázsa tér)"
+  },
+  {
+    "station_id": 1307,
+    "station_name": "Kőbánya felső"
+  },
+  {
+    "station_id": 1308,
+    "station_name": "Kőbánya felső elágazás"
+  },
+  {
+    "station_id": 1309,
+    "station_name": "Kőbánya felső vasútállomás"
+  },
+  {
+    "station_id": 1310,
+    "station_name": "Kőbánya kiágazás"
+  },
+  {
+    "station_id": 1311,
+    "station_name": "Kőbánya-Hizlaló"
+  },
+  {
+    "station_id": 1312,
+    "station_name": "Kőbánya-Kispest"
+  },
+  {
+    "station_id": 1313,
+    "station_name": "Kőbánya-Kispest, kihúzóvágányok"
+  },
+  {
+    "station_id": 1314,
+    "station_name": "Kőbánya-Teher"
+  },
+  {
+    "station_id": 1315,
+    "station_name": "Kőbányai garázs"
+  },
+  {
+    "station_id": 1316,
+    "station_name": "Kőbányai út / Könyves Kálmán körút"
+  },
+  {
+    "station_id": 1317,
+    "station_name": "Kőbányai út 21."
+  },
+  {
+    "station_id": 1318,
+    "station_name": "Kőbányai út 31."
+  },
+  {
+    "station_id": 1319,
+    "station_name": "Kőkapu"
+  },
+  {
+    "station_id": 1320,
+    "station_name": "Kőrózsa"
+  },
+  {
+    "station_id": 1321,
+    "station_name": "Kőszeg"
+  },
+  {
+    "station_id": 1322,
+    "station_name": "Kőszegfalva"
+  },
+  {
+    "station_id": 1323,
+    "station_name": "Kőérberek"
+  },
+  {
+    "station_id": 1324,
+    "station_name": "Lajosháza"
+  },
+  {
+    "station_id": 1325,
+    "station_name": "Lajosmizse"
+  },
+  {
+    "station_id": 1326,
+    "station_name": "Lajosmizse alsó"
+  },
+  {
+    "station_id": 1327,
+    "station_name": "Lajosmizsei sorompó"
+  },
+  {
+    "station_id": 1328,
+    "station_name": "Lakitelek"
+  },
+  {
+    "station_id": 1329,
+    "station_name": "Lakitelek kiágazás"
+  },
+  {
+    "station_id": 1330,
+    "station_name": "Lakitelek-Flaga Gáz iparvágány kiágazás"
+  },
+  {
+    "station_id": 1331,
+    "station_name": "Laky Adolf utca"
+  },
+  {
+    "station_id": 1332,
+    "station_name": "Lassi"
+  },
+  {
+    "station_id": 1333,
+    "station_name": "Lehel tér"
+  },
+  {
+    "station_id": 1334,
+    "station_name": "Lehel tér M"
+  },
+  {
+    "station_id": 1335,
+    "station_name": "Lehel utca"
+  },
+  {
+    "station_id": 1336,
+    "station_name": "Lehel utca / Dózsa György út"
+  },
+  {
+    "station_id": 1337,
+    "station_name": "Lehel utca / Róbert Károly körút"
+  },
+  {
+    "station_id": 1338,
+    "station_name": "Lengyeltóti"
+  },
+  {
+    "station_id": 1339,
+    "station_name": "Lengyeltóti forgalmi iroda"
+  },
+  {
+    "station_id": 1340,
+    "station_name": "Lenti"
+  },
+  {
+    "station_id": 1341,
+    "station_name": "Lenti ÁEV"
+  },
+  {
+    "station_id": 1342,
+    "station_name": "Lenti-Gyöngyvirág utca"
+  },
+  {
+    "station_id": 1343,
+    "station_name": "Lentiszombathely"
+  },
+  {
+    "station_id": 1344,
+    "station_name": "Lentiszombathely-Mumor"
+  },
+  {
+    "station_id": 1345,
+    "station_name": "Lepsény"
+  },
+  {
+    "station_id": 1346,
+    "station_name": "Lepsény-Gabonaforgalmi iparvágány kiágazás"
+  },
+  {
+    "station_id": 1347,
+    "station_name": "Lesencetomaj"
+  },
+  {
+    "station_id": 1348,
+    "station_name": "Levelek-Magy"
+  },
+  {
+    "station_id": 1349,
+    "station_name": "Levél"
+  },
+  {
+    "station_id": 1350,
+    "station_name": "Leányka utcai lakótelep"
+  },
+  {
+    "station_id": 1351,
+    "station_name": "Leányvár"
+  },
+  {
+    "station_id": 1352,
+    "station_name": "Ligettanya"
+  },
+  {
+    "station_id": 1353,
+    "station_name": "Lillafüred"
+  },
+  {
+    "station_id": 1354,
+    "station_name": "Liptó utca"
+  },
+  {
+    "station_id": 1355,
+    "station_name": "Litke"
+  },
+  {
+    "station_id": 1356,
+    "station_name": "Londoni körút"
+  },
+  {
+    "station_id": 1357,
+    "station_name": "Lovasberény"
+  },
+  {
+    "station_id": 1358,
+    "station_name": "Lovász váltó"
+  },
+  {
+    "station_id": 1359,
+    "station_name": "Ludas"
+  },
+  {
+    "station_id": 1360,
+    "station_name": "Ludastó"
+  },
+  {
+    "station_id": 1361,
+    "station_name": "Ludányhalászi"
+  },
+  {
+    "station_id": 1362,
+    "station_name": "Lukafa"
+  },
+  {
+    "station_id": 1363,
+    "station_name": "Lukafai elágazás"
+  },
+  {
+    "station_id": 1364,
+    "station_name": "Lukas Hoffmann"
+  },
+  {
+    "station_id": 1365,
+    "station_name": "Lukácsháza"
+  },
+  {
+    "station_id": 1366,
+    "station_name": "Lukácsháza alsó"
+  },
+  {
+    "station_id": 1367,
+    "station_name": "LÁEV"
+  },
+  {
+    "station_id": 1368,
+    "station_name": "Lábatlan"
+  },
+  {
+    "station_id": 1369,
+    "station_name": "Ládi rakodó"
+  },
+  {
+    "station_id": 1370,
+    "station_name": "Látókép"
+  },
+  {
+    "station_id": 1371,
+    "station_name": "Lázi"
+  },
+  {
+    "station_id": 1372,
+    "station_name": "Lébény-Mosonszentmiklós"
+  },
+  {
+    "station_id": 1373,
+    "station_name": "Lébény-Mosonszentmiklós forgalmi iroda"
+  },
+  {
+    "station_id": 1374,
+    "station_name": "Létavértes"
+  },
+  {
+    "station_id": 1375,
+    "station_name": "Lövő"
+  },
+  {
+    "station_id": 1376,
+    "station_name": "Lőkösháza"
+  },
+  {
+    "station_id": 1377,
+    "station_name": "Lőrinci"
+  },
+  {
+    "station_id": 1378,
+    "station_name": "M3 metró, Forgách utca"
+  },
+  {
+    "station_id": 1379,
+    "station_name": "M3-as metró (Arany János utca)"
+  },
+  {
+    "station_id": 1380,
+    "station_name": "M4 Rákóczi tér Lift bejárat/Elevator access"
+  },
+  {
+    "station_id": 1381,
+    "station_name": "Macs"
+  },
+  {
+    "station_id": 1382,
+    "station_name": "Madarász utca"
+  },
+  {
+    "station_id": 1383,
+    "station_name": "Magas-rakodó"
+  },
+  {
+    "station_id": 1384,
+    "station_name": "Magdolna utca"
+  },
+  {
+    "station_id": 1385,
+    "station_name": "Magdolnavölgy"
+  },
+  {
+    "station_id": 1386,
+    "station_name": "Maglód"
+  },
+  {
+    "station_id": 1387,
+    "station_name": "Maglódi nyaraló"
+  },
+  {
+    "station_id": 1388,
+    "station_name": "Magyar Aszfalt"
+  },
+  {
+    "station_id": 1389,
+    "station_name": "Magyarbánhegyes"
+  },
+  {
+    "station_id": 1390,
+    "station_name": "Magyarbóly"
+  },
+  {
+    "station_id": 1391,
+    "station_name": "Magyarcsanád"
+  },
+  {
+    "station_id": 1392,
+    "station_name": "Magyarhertelend"
+  },
+  {
+    "station_id": 1393,
+    "station_name": "Magyarkeresztúr-Zsebeháza"
+  },
+  {
+    "station_id": 1394,
+    "station_name": "Magyarkút"
+  },
+  {
+    "station_id": 1395,
+    "station_name": "Magyarkút-Verőce"
+  },
+  {
+    "station_id": 1396,
+    "station_name": "Magyarnándor"
+  },
+  {
+    "station_id": 1397,
+    "station_name": "Magyarsor"
+  },
+  {
+    "station_id": 1398,
+    "station_name": "Magyarszerdahely"
+  },
+  {
+    "station_id": 1399,
+    "station_name": "Magyarszék"
+  },
+  {
+    "station_id": 1400,
+    "station_name": "Mahóca"
+  },
+  {
+    "station_id": 1401,
+    "station_name": "Majláth"
+  },
+  {
+    "station_id": 1402,
+    "station_name": "Maklár"
+  },
+  {
+    "station_id": 1403,
+    "station_name": "Makó"
+  },
+  {
+    "station_id": 1404,
+    "station_name": "Makó elágazás"
+  },
+  {
+    "station_id": 1405,
+    "station_name": "Makó-Újváros"
+  },
+  {
+    "station_id": 1406,
+    "station_name": "Makó-Újvásártér"
+  },
+  {
+    "station_id": 1407,
+    "station_name": "Malomkert"
+  },
+  {
+    "station_id": 1408,
+    "station_name": "Malomszög utca"
+  },
+  {
+    "station_id": 1409,
+    "station_name": "Malomtelelő"
+  },
+  {
+    "station_id": 1410,
+    "station_name": "Malomvölgy"
+  },
+  {
+    "station_id": 1411,
+    "station_name": "Marcali"
+  },
+  {
+    "station_id": 1412,
+    "station_name": "Marcaltő"
+  },
+  {
+    "station_id": 1413,
+    "station_name": "Margit híd felszín"
+  },
+  {
+    "station_id": 1414,
+    "station_name": "Margit híd forgalmi kitérő"
+  },
+  {
+    "station_id": 1415,
+    "station_name": "Margit híd, budai hídfő"
+  },
+  {
+    "station_id": 1416,
+    "station_name": "Margit híd, budai hídfő H"
+  },
+  {
+    "station_id": 1417,
+    "station_name": "Margitsziget / Margit híd"
+  },
+  {
+    "station_id": 1418,
+    "station_name": "Margó Tivadar utca"
+  },
+  {
+    "station_id": 1419,
+    "station_name": "Maroshegy"
+  },
+  {
+    "station_id": 1420,
+    "station_name": "Martfű"
+  },
+  {
+    "station_id": 1421,
+    "station_name": "Martinka"
+  },
+  {
+    "station_id": 1422,
+    "station_name": "Martonvásár"
+  },
+  {
+    "station_id": 1423,
+    "station_name": "Mechwart liget"
+  },
+  {
+    "station_id": 1424,
+    "station_name": "Mecsekalja-Cserkút"
+  },
+  {
+    "station_id": 1425,
+    "station_name": "Mecsekjánosi"
+  },
+  {
+    "station_id": 1426,
+    "station_name": "Mecsekpölöske"
+  },
+  {
+    "station_id": 1427,
+    "station_name": "Medgyesegyháza"
+  },
+  {
+    "station_id": 1428,
+    "station_name": "Medgyessy sétány"
+  },
+  {
+    "station_id": 1429,
+    "station_name": "Meggyespele"
+  },
+  {
+    "station_id": 1430,
+    "station_name": "Mende"
+  },
+  {
+    "station_id": 1431,
+    "station_name": "Mereta"
+  },
+  {
+    "station_id": 1432,
+    "station_name": "Mereta rakodó"
+  },
+  {
+    "station_id": 1433,
+    "station_name": "Mernye"
+  },
+  {
+    "station_id": 1434,
+    "station_name": "Mester utca / Ferenc körút"
+  },
+  {
+    "station_id": 1435,
+    "station_name": "Mester utca / Könyves Kálmán körút"
+  },
+  {
+    "station_id": 1436,
+    "station_name": "Mesztegnyő"
+  },
+  {
+    "station_id": 1437,
+    "station_name": "Mesztegnyő EV"
+  },
+  {
+    "station_id": 1438,
+    "station_name": "Metrólejáró - M1 metró"
+  },
+  {
+    "station_id": 1439,
+    "station_name": "Metrólejáró - M1 metró kijárat"
+  },
+  {
+    "station_id": 1440,
+    "station_name": "Metrólejáró - M2 metró"
+  },
+  {
+    "station_id": 1441,
+    "station_name": "Metrólejáró - M3 metró"
+  },
+  {
+    "station_id": 1442,
+    "station_name": "Mexikói út"
+  },
+  {
+    "station_id": 1443,
+    "station_name": "Mexikói út M"
+  },
+  {
+    "station_id": 1444,
+    "station_name": "Mexikói út, kihúzóvágányok"
+  },
+  {
+    "station_id": 1445,
+    "station_name": "Mezőberény"
+  },
+  {
+    "station_id": 1446,
+    "station_name": "Mezőcsát"
+  },
+  {
+    "station_id": 1447,
+    "station_name": "Mezőfalva"
+  },
+  {
+    "station_id": 1448,
+    "station_name": "Mezőfalva elágazás"
+  },
+  {
+    "station_id": 1449,
+    "station_name": "Mezőhegyes"
+  },
+  {
+    "station_id": 1450,
+    "station_name": "Mezőkeresztes-Mezőnyárád"
+  },
+  {
+    "station_id": 1451,
+    "station_name": "Mezőkovácsháza"
+  },
+  {
+    "station_id": 1452,
+    "station_name": "Mezőkovácsháza felső"
+  },
+  {
+    "station_id": 1453,
+    "station_name": "Mezőkövesd"
+  },
+  {
+    "station_id": 1454,
+    "station_name": "Mezőkövesd felső"
+  },
+  {
+    "station_id": 1455,
+    "station_name": "Mezőlak"
+  },
+  {
+    "station_id": 1456,
+    "station_name": "Mezőpeterd"
+  },
+  {
+    "station_id": 1457,
+    "station_name": "Mezőtárkány"
+  },
+  {
+    "station_id": 1458,
+    "station_name": "Mezőtúr"
+  },
+  {
+    "station_id": 1459,
+    "station_name": "Mezőzombor"
+  },
+  {
+    "station_id": 1460,
+    "station_name": "Mihályháza"
+  },
+  {
+    "station_id": 1461,
+    "station_name": "Mikepércs"
+  },
+  {
+    "station_id": 1462,
+    "station_name": "Miklóstelep"
+  },
+  {
+    "station_id": 1463,
+    "station_name": "Mikó utca"
+  },
+  {
+    "station_id": 1464,
+    "station_name": "Millenniumtelep"
+  },
+  {
+    "station_id": 1465,
+    "station_name": "Millér"
+  },
+  {
+    "station_id": 1466,
+    "station_name": "Mindszent"
+  },
+  {
+    "station_id": 1467,
+    "station_name": "Miskolc, Dorottya utca"
+  },
+  {
+    "station_id": 1468,
+    "station_name": "Miskolc-Egyetemváros ipvk."
+  },
+  {
+    "station_id": 1469,
+    "station_name": "Miskolc-Gömöri"
+  },
+  {
+    "station_id": 1470,
+    "station_name": "Miskolc-Rendező"
+  },
+  {
+    "station_id": 1471,
+    "station_name": "Miskolc-Repülőtér"
+  },
+  {
+    "station_id": 1472,
+    "station_name": "Miskolc-Tiszai"
+  },
+  {
+    "station_id": 1473,
+    "station_name": "Miskolci utca"
+  },
+  {
+    "station_id": 1474,
+    "station_name": "Mogyoród"
+  },
+  {
+    "station_id": 1475,
+    "station_name": "Moha"
+  },
+  {
+    "station_id": 1476,
+    "station_name": "Moha-Rakodó"
+  },
+  {
+    "station_id": 1477,
+    "station_name": "Mohora"
+  },
+  {
+    "station_id": 1478,
+    "station_name": "Mohács"
+  },
+  {
+    "station_id": 1479,
+    "station_name": "Molvány"
+  },
+  {
+    "station_id": 1480,
+    "station_name": "Monor"
+  },
+  {
+    "station_id": 1481,
+    "station_name": "Monorierdő"
+  },
+  {
+    "station_id": 1482,
+    "station_name": "Monostorpályi"
+  },
+  {
+    "station_id": 1483,
+    "station_name": "Morgó"
+  },
+  {
+    "station_id": 1484,
+    "station_name": "Mosonmagyaróvár"
+  },
+  {
+    "station_id": 1485,
+    "station_name": "Mosonmagyaróvár forgalmi iroda"
+  },
+  {
+    "station_id": 1486,
+    "station_name": "Mosonszolnok"
+  },
+  {
+    "station_id": 1487,
+    "station_name": "Murakeresztúr"
+  },
+  {
+    "station_id": 1488,
+    "station_name": "Murony"
+  },
+  {
+    "station_id": 1489,
+    "station_name": "MÁV kiágazás"
+  },
+  {
+    "station_id": 1490,
+    "station_name": "Mád"
+  },
+  {
+    "station_id": 1491,
+    "station_name": "Mágocs-Alsómocsolád"
+  },
+  {
+    "station_id": 1492,
+    "station_name": "Mándok"
+  },
+  {
+    "station_id": 1493,
+    "station_name": "Mándok-Átrakó"
+  },
+  {
+    "station_id": 1494,
+    "station_name": "Március 15. tér"
+  },
+  {
+    "station_id": 1495,
+    "station_name": "Máriabesnyő"
+  },
+  {
+    "station_id": 1496,
+    "station_name": "Máriagyűd"
+  },
+  {
+    "station_id": 1497,
+    "station_name": "Máriahullámtelep"
+  },
+  {
+    "station_id": 1498,
+    "station_name": "Máriakút"
+  },
+  {
+    "station_id": 1499,
+    "station_name": "Márianosztra"
+  },
+  {
+    "station_id": 1500,
+    "station_name": "Máriapócs"
+  },
+  {
+    "station_id": 1501,
+    "station_name": "Máriaszőlőtelep"
+  },
+  {
+    "station_id": 1502,
+    "station_name": "Máriaudvar"
+  },
+  {
+    "station_id": 1503,
+    "station_name": "Márki-rét"
+  },
+  {
+    "station_id": 1504,
+    "station_name": "Márkó"
+  },
+  {
+    "station_id": 1505,
+    "station_name": "Márok"
+  },
+  {
+    "station_id": 1506,
+    "station_name": "Mártabánya"
+  },
+  {
+    "station_id": 1507,
+    "station_name": "Márton Áron tér"
+  },
+  {
+    "station_id": 1508,
+    "station_name": "Mártély"
+  },
+  {
+    "station_id": 1509,
+    "station_name": "Mártírok útja / Határ út"
+  },
+  {
+    "station_id": 1510,
+    "station_name": "Mátraballa"
+  },
+  {
+    "station_id": 1511,
+    "station_name": "Mátraderecske"
+  },
+  {
+    "station_id": 1512,
+    "station_name": "Mátrafüred"
+  },
+  {
+    "station_id": 1513,
+    "station_name": "Mátrafüred alsó"
+  },
+  {
+    "station_id": 1514,
+    "station_name": "Mátramindszent"
+  },
+  {
+    "station_id": 1515,
+    "station_name": "Mátranovák-Homokterenye"
+  },
+  {
+    "station_id": 1516,
+    "station_name": "Mátraszőlős-Hasznos"
+  },
+  {
+    "station_id": 1517,
+    "station_name": "Mátraverebély"
+  },
+  {
+    "station_id": 1518,
+    "station_name": "Mátravidéki Erőmű"
+  },
+  {
+    "station_id": 1519,
+    "station_name": "Mátyásföld alsó"
+  },
+  {
+    "station_id": 1520,
+    "station_name": "Mátyásföld, Imre utca"
+  },
+  {
+    "station_id": 1521,
+    "station_name": "Mátyásföld, repülőtér"
+  },
+  {
+    "station_id": 1522,
+    "station_name": "Mátéházapuszta"
+  },
+  {
+    "station_id": 1523,
+    "station_name": "Mátészalka"
+  },
+  {
+    "station_id": 1524,
+    "station_name": "Mátészalka 561/562 szelvény iparvágány kiágazás"
+  },
+  {
+    "station_id": 1525,
+    "station_name": "Máza-Szászvár"
+  },
+  {
+    "station_id": 1526,
+    "station_name": "Mázsa utca"
+  },
+  {
+    "station_id": 1527,
+    "station_name": "Méhkerék"
+  },
+  {
+    "station_id": 1528,
+    "station_name": "Mélykút"
+  },
+  {
+    "station_id": 1529,
+    "station_name": "Mélyéger"
+  },
+  {
+    "station_id": 1530,
+    "station_name": "Ménfőcsanak"
+  },
+  {
+    "station_id": 1531,
+    "station_name": "Ménfőcsanak felső"
+  },
+  {
+    "station_id": 1532,
+    "station_name": "Méntelek"
+  },
+  {
+    "station_id": 1533,
+    "station_name": "Méra"
+  },
+  {
+    "station_id": 1534,
+    "station_name": "Mészáros Lőrinc utca"
+  },
+  {
+    "station_id": 1535,
+    "station_name": "Mónosbél"
+  },
+  {
+    "station_id": 1536,
+    "station_name": "Mór"
+  },
+  {
+    "station_id": 1537,
+    "station_name": "Mór-Sztahanov ipvk."
+  },
+  {
+    "station_id": 1538,
+    "station_name": "Móricz Zsigmond körtér"
+  },
+  {
+    "station_id": 1539,
+    "station_name": "Móricz Zsigmond körtér M"
+  },
+  {
+    "station_id": 1540,
+    "station_name": "Mórágy"
+  },
+  {
+    "station_id": 1541,
+    "station_name": "Mórágy-Alsónána"
+  },
+  {
+    "station_id": 1542,
+    "station_name": "Müpa - Nemzeti Színház"
+  },
+  {
+    "station_id": 1543,
+    "station_name": "Müpa - Nemzeti Színház H"
+  },
+  {
+    "station_id": 1544,
+    "station_name": "Mőcsény"
+  },
+  {
+    "station_id": 1545,
+    "station_name": "Művész út"
+  },
+  {
+    "station_id": 1546,
+    "station_name": "Nagy Lajos király útja / Czobor utca"
+  },
+  {
+    "station_id": 1547,
+    "station_name": "Nagyajtai utca"
+  },
+  {
+    "station_id": 1548,
+    "station_name": "Nagyatád"
+  },
+  {
+    "station_id": 1549,
+    "station_name": "Nagyberki"
+  },
+  {
+    "station_id": 1550,
+    "station_name": "Nagybátony"
+  },
+  {
+    "station_id": 1551,
+    "station_name": "Nagybörzsöny"
+  },
+  {
+    "station_id": 1552,
+    "station_name": "Nagycenk"
+  },
+  {
+    "station_id": 1553,
+    "station_name": "Nagycsere"
+  },
+  {
+    "station_id": 1554,
+    "station_name": "Nagycsány"
+  },
+  {
+    "station_id": 1555,
+    "station_name": "Nagycsécs"
+  },
+  {
+    "station_id": 1556,
+    "station_name": "Nagydobos"
+  },
+  {
+    "station_id": 1557,
+    "station_name": "Nagydorog"
+  },
+  {
+    "station_id": 1558,
+    "station_name": "Nagyecsed"
+  },
+  {
+    "station_id": 1559,
+    "station_name": "Nagyecsed-Rákóczi MGTSZ iparvágány kiágazás"
+  },
+  {
+    "station_id": 1560,
+    "station_name": "Nagyenyed utca"
+  },
+  {
+    "station_id": 1561,
+    "station_name": "Nagyerdei körút"
+  },
+  {
+    "station_id": 1562,
+    "station_name": "Nagygyimót"
+  },
+  {
+    "station_id": 1563,
+    "station_name": "Nagyhalász"
+  },
+  {
+    "station_id": 1564,
+    "station_name": "Nagyhalász-Kendergyár"
+  },
+  {
+    "station_id": 1565,
+    "station_name": "Nagyharsány"
+  },
+  {
+    "station_id": 1566,
+    "station_name": "Nagyhát"
+  },
+  {
+    "station_id": 1567,
+    "station_name": "Nagyhíd"
+  },
+  {
+    "station_id": 1568,
+    "station_name": "Nagyicce"
+  },
+  {
+    "station_id": 1569,
+    "station_name": "Nagyigmánd-Bábolna"
+  },
+  {
+    "station_id": 1570,
+    "station_name": "Nagyirtáspuszta"
+  },
+  {
+    "station_id": 1571,
+    "station_name": "Nagyirtáspuszta Kisállomás"
+  },
+  {
+    "station_id": 1572,
+    "station_name": "Nagykanizsa"
+  },
+  {
+    "station_id": 1573,
+    "station_name": "Nagykanizsa-Izzó iparvágány kiágazás"
+  },
+  {
+    "station_id": 1574,
+    "station_name": "Nagykanizsa-Szeszgyár iparvágány kiágazás"
+  },
+  {
+    "station_id": 1575,
+    "station_name": "Nagykanizsai-Terményraktár iparvágány kiágazás"
+  },
+  {
+    "station_id": 1576,
+    "station_name": "Nagykapornak"
+  },
+  {
+    "station_id": 1577,
+    "station_name": "Nagykarácsony"
+  },
+  {
+    "station_id": 1578,
+    "station_name": "Nagykarácsony felső"
+  },
+  {
+    "station_id": 1579,
+    "station_name": "Nagykereki"
+  },
+  {
+    "station_id": 1580,
+    "station_name": "Nagykálló"
+  },
+  {
+    "station_id": 1581,
+    "station_name": "Nagykálló elágazás"
+  },
+  {
+    "station_id": 1582,
+    "station_name": "Nagykáta"
+  },
+  {
+    "station_id": 1583,
+    "station_name": "Nagykőrös"
+  },
+  {
+    "station_id": 1584,
+    "station_name": "Nagykőrösi út / Határ út"
+  },
+  {
+    "station_id": 1585,
+    "station_name": "Nagylak"
+  },
+  {
+    "station_id": 1586,
+    "station_name": "Nagylaki Kendergyár"
+  },
+  {
+    "station_id": 1587,
+    "station_name": "Nagylapos"
+  },
+  {
+    "station_id": 1588,
+    "station_name": "Nagylapos forgalmi kitérő"
+  },
+  {
+    "station_id": 1589,
+    "station_name": "Nagylók"
+  },
+  {
+    "station_id": 1590,
+    "station_name": "Nagymacs"
+  },
+  {
+    "station_id": 1591,
+    "station_name": "Nagymajor"
+  },
+  {
+    "station_id": 1592,
+    "station_name": "Nagymaros"
+  },
+  {
+    "station_id": 1593,
+    "station_name": "Nagymaros-Visegrád"
+  },
+  {
+    "station_id": 1594,
+    "station_name": "Nagymányok"
+  },
+  {
+    "station_id": 1595,
+    "station_name": "Nagynyárád"
+  },
+  {
+    "station_id": 1596,
+    "station_name": "Nagynyír"
+  },
+  {
+    "station_id": 1597,
+    "station_name": "Nagyoroszi"
+  },
+  {
+    "station_id": 1598,
+    "station_name": "Nagypeterd"
+  },
+  {
+    "station_id": 1599,
+    "station_name": "Nagyrezét"
+  },
+  {
+    "station_id": 1600,
+    "station_name": "Nagyrákos"
+  },
+  {
+    "station_id": 1601,
+    "station_name": "Nagyrécse"
+  },
+  {
+    "station_id": 1602,
+    "station_name": "Nagysimonyi"
+  },
+  {
+    "station_id": 1603,
+    "station_name": "Nagyszekeres"
+  },
+  {
+    "station_id": 1604,
+    "station_name": "Nagyszentjános"
+  },
+  {
+    "station_id": 1605,
+    "station_name": "Nagyszentjános forgalmi iroda"
+  },
+  {
+    "station_id": 1606,
+    "station_name": "Nagyszénás"
+  },
+  {
+    "station_id": 1607,
+    "station_name": "Nagysándor József utca"
+  },
+  {
+    "station_id": 1608,
+    "station_name": "Nagytanya"
+  },
+  {
+    "station_id": 1609,
+    "station_name": "Nagytétény"
+  },
+  {
+    "station_id": 1610,
+    "station_name": "Nagytétény-Diósd"
+  },
+  {
+    "station_id": 1611,
+    "station_name": "Nagytőke"
+  },
+  {
+    "station_id": 1612,
+    "station_name": "Nagyvisnyó-Dédes"
+  },
+  {
+    "station_id": 1613,
+    "station_name": "Nagyvárad tér"
+  },
+  {
+    "station_id": 1614,
+    "station_name": "Nagyvárad tér M"
+  },
+  {
+    "station_id": 1615,
+    "station_name": "Nagyvárad tér, fordítóvágány"
+  },
+  {
+    "station_id": 1616,
+    "station_name": "Nagyállomás"
+  },
+  {
+    "station_id": 1617,
+    "station_name": "Nagyér"
+  },
+  {
+    "station_id": 1618,
+    "station_name": "Nagyút"
+  },
+  {
+    "station_id": 1619,
+    "station_name": "Napkor"
+  },
+  {
+    "station_id": 1620,
+    "station_name": "Nekézseny"
+  },
+  {
+    "station_id": 1621,
+    "station_name": "Nemesgulács-Kisapáti"
+  },
+  {
+    "station_id": 1622,
+    "station_name": "Nemesgörzsöny"
+  },
+  {
+    "station_id": 1623,
+    "station_name": "Nemeske"
+  },
+  {
+    "station_id": 1624,
+    "station_name": "Nemeskeresztúr"
+  },
+  {
+    "station_id": 1625,
+    "station_name": "Nemeskocs"
+  },
+  {
+    "station_id": 1626,
+    "station_name": "Nemti"
+  },
+  {
+    "station_id": 1627,
+    "station_name": "Neszehíd"
+  },
+  {
+    "station_id": 1628,
+    "station_name": "Neszmély"
+  },
+  {
+    "station_id": 1629,
+    "station_name": "Normafa"
+  },
+  {
+    "station_id": 1630,
+    "station_name": "Novajidrány"
+  },
+  {
+    "station_id": 1631,
+    "station_name": "Nyergesújfalu"
+  },
+  {
+    "station_id": 1632,
+    "station_name": "Nyergesújfalu felső"
+  },
+  {
+    "station_id": 1633,
+    "station_name": "Nyugati pályaudvar"
+  },
+  {
+    "station_id": 1634,
+    "station_name": "Nyugati pályaudvar M"
+  },
+  {
+    "station_id": 1635,
+    "station_name": "Nyulas ipvk."
+  },
+  {
+    "station_id": 1636,
+    "station_name": "Nyárilegelő"
+  },
+  {
+    "station_id": 1637,
+    "station_name": "Nyárjas"
+  },
+  {
+    "station_id": 1638,
+    "station_name": "Nyárlőrinc"
+  },
+  {
+    "station_id": 1639,
+    "station_name": "Nyárlőrinc alsó"
+  },
+  {
+    "station_id": 1640,
+    "station_name": "Nyárlőrinci szőlők"
+  },
+  {
+    "station_id": 1641,
+    "station_name": "Nyársapát"
+  },
+  {
+    "station_id": 1642,
+    "station_name": "Nyársapát elágazás"
+  },
+  {
+    "station_id": 1643,
+    "station_name": "Nyékládháza"
+  },
+  {
+    "station_id": 1644,
+    "station_name": "Nyíradony"
+  },
+  {
+    "station_id": 1645,
+    "station_name": "Nyírbogdány"
+  },
+  {
+    "station_id": 1646,
+    "station_name": "Nyírbogát"
+  },
+  {
+    "station_id": 1647,
+    "station_name": "Nyírbátor"
+  },
+  {
+    "station_id": 1648,
+    "station_name": "Nyírbátor 451/452 szelvény iparvágány kiágazás"
+  },
+  {
+    "station_id": 1649,
+    "station_name": "Nyírcsaholy"
+  },
+  {
+    "station_id": 1650,
+    "station_name": "Nyírcsászári"
+  },
+  {
+    "station_id": 1651,
+    "station_name": "Nyíregyháza"
+  },
+  {
+    "station_id": 1652,
+    "station_name": "Nyíregyháza külső"
+  },
+  {
+    "station_id": 1653,
+    "station_name": "Nyíregyháza-DUNAPACK iparvágány kiágazás"
+  },
+  {
+    "station_id": 1654,
+    "station_name": "Nyíregyháza-ELECTROLUX iparvágány kiágazás"
+  },
+  {
+    "station_id": 1655,
+    "station_name": "Nyíregyháza-EUROFRUKT iparvágány kiágazás"
+  },
+  {
+    "station_id": 1656,
+    "station_name": "Nyíregyháza-Olajütő iparvágány kiágazás"
+  },
+  {
+    "station_id": 1657,
+    "station_name": "Nyíregyháza-Vásártér"
+  },
+  {
+    "station_id": 1658,
+    "station_name": "Nyíregyháza-Átrakó"
+  },
+  {
+    "station_id": 1659,
+    "station_name": "Nyíregyháza-Északi kitérő"
+  },
+  {
+    "station_id": 1660,
+    "station_name": "Nyírgelse"
+  },
+  {
+    "station_id": 1661,
+    "station_name": "Nyírlak"
+  },
+  {
+    "station_id": 1662,
+    "station_name": "Nyírmada"
+  },
+  {
+    "station_id": 1663,
+    "station_name": "Nyírmeggyes"
+  },
+  {
+    "station_id": 1664,
+    "station_name": "Nyírmihálydi"
+  },
+  {
+    "station_id": 1665,
+    "station_name": "Nyírszőlős"
+  },
+  {
+    "station_id": 1666,
+    "station_name": "Nyírszőlős-Fakapu"
+  },
+  {
+    "station_id": 1667,
+    "station_name": "Nyírtelek"
+  },
+  {
+    "station_id": 1668,
+    "station_name": "Nyírábrány"
+  },
+  {
+    "station_id": 1669,
+    "station_name": "Nyírábrány oh./Valea lui Mihai Fr."
+  },
+  {
+    "station_id": 1670,
+    "station_name": "Nyúl"
+  },
+  {
+    "station_id": 1671,
+    "station_name": "Nyúl utca"
+  },
+  {
+    "station_id": 1672,
+    "station_name": "Nyúldomb"
+  },
+  {
+    "station_id": 1673,
+    "station_name": "Nyúlmály"
+  },
+  {
+    "station_id": 1674,
+    "station_name": "Nádasd"
+  },
+  {
+    "station_id": 1675,
+    "station_name": "Nádor utca"
+  },
+  {
+    "station_id": 1676,
+    "station_name": "Nádtelep"
+  },
+  {
+    "station_id": 1677,
+    "station_name": "Népfürdő utca / Árpád híd"
+  },
+  {
+    "station_id": 1678,
+    "station_name": "Népliget"
+  },
+  {
+    "station_id": 1679,
+    "station_name": "Népliget M"
+  },
+  {
+    "station_id": 1680,
+    "station_name": "Néprajzi látványtár"
+  },
+  {
+    "station_id": 1681,
+    "station_name": "Nógrád"
+  },
+  {
+    "station_id": 1682,
+    "station_name": "Nógrádkövesd"
+  },
+  {
+    "station_id": 1683,
+    "station_name": "Nógrádkövesd forgalmi iroda"
+  },
+  {
+    "station_id": 1684,
+    "station_name": "Nógrádszakál"
+  },
+  {
+    "station_id": 1685,
+    "station_name": "Nógrádszakál forgalmi iroda"
+  },
+  {
+    "station_id": 1686,
+    "station_name": "Ohat-Pusztakócs"
+  },
+  {
+    "station_id": 1687,
+    "station_name": "Okorág-Kárászpuszta"
+  },
+  {
+    "station_id": 1688,
+    "station_name": "Oktogon"
+  },
+  {
+    "station_id": 1689,
+    "station_name": "Oktogon M"
+  },
+  {
+    "station_id": 1690,
+    "station_name": "Okány"
+  },
+  {
+    "station_id": 1691,
+    "station_name": "Olaszliszka-Tolcsva"
+  },
+  {
+    "station_id": 1692,
+    "station_name": "Oltárc"
+  },
+  {
+    "station_id": 1693,
+    "station_name": "Onga"
+  },
+  {
+    "station_id": 1694,
+    "station_name": "Ongaújfalu"
+  },
+  {
+    "station_id": 1695,
+    "station_name": "Opera"
+  },
+  {
+    "station_id": 1696,
+    "station_name": "Orczy tér"
+  },
+  {
+    "station_id": 1697,
+    "station_name": "Orczy tér (Baross kocsiszín)"
+  },
+  {
+    "station_id": 1698,
+    "station_name": "Orgonás"
+  },
+  {
+    "station_id": 1699,
+    "station_name": "Orgovány"
+  },
+  {
+    "station_id": 1700,
+    "station_name": "Orgoványi út"
+  },
+  {
+    "station_id": 1701,
+    "station_name": "Ormosbánya"
+  },
+  {
+    "station_id": 1702,
+    "station_name": "Oros"
+  },
+  {
+    "station_id": 1703,
+    "station_name": "Orosháza"
+  },
+  {
+    "station_id": 1704,
+    "station_name": "Orosháza felső"
+  },
+  {
+    "station_id": 1705,
+    "station_name": "Orosháza-Üveggyár"
+  },
+  {
+    "station_id": 1706,
+    "station_name": "Orosházi tanyák"
+  },
+  {
+    "station_id": 1707,
+    "station_name": "Oroszlány"
+  },
+  {
+    "station_id": 1708,
+    "station_name": "Oroszlányi Erőmű kiágazás"
+  },
+  {
+    "station_id": 1709,
+    "station_name": "Országház, látogatóközpont"
+  },
+  {
+    "station_id": 1710,
+    "station_name": "Ortaháza"
+  },
+  {
+    "station_id": 1711,
+    "station_name": "Ortástető"
+  },
+  {
+    "station_id": 1712,
+    "station_name": "Ostffyasszonyfa"
+  },
+  {
+    "station_id": 1713,
+    "station_name": "Osztopán"
+  },
+  {
+    "station_id": 1714,
+    "station_name": "Pakod"
+  },
+  {
+    "station_id": 1715,
+    "station_name": "Paks"
+  },
+  {
+    "station_id": 1716,
+    "station_name": "Paks-Dunapart"
+  },
+  {
+    "station_id": 1717,
+    "station_name": "Palkonya"
+  },
+  {
+    "station_id": 1718,
+    "station_name": "Palotabozsok"
+  },
+  {
+    "station_id": 1719,
+    "station_name": "Paládicspuszta elágazás"
+  },
+  {
+    "station_id": 1720,
+    "station_name": "Pamuk"
+  },
+  {
+    "station_id": 1721,
+    "station_name": "Pankasz"
+  },
+  {
+    "station_id": 1722,
+    "station_name": "Pannonhalma"
+  },
+  {
+    "station_id": 1723,
+    "station_name": "Pannonhalma-Téglagyár kiágazás"
+  },
+  {
+    "station_id": 1724,
+    "station_name": "Pannóniatelep"
+  },
+  {
+    "station_id": 1725,
+    "station_name": "Paphegy"
+  },
+  {
+    "station_id": 1726,
+    "station_name": "Papkeszi"
+  },
+  {
+    "station_id": 1727,
+    "station_name": "Papírgyár"
+  },
+  {
+    "station_id": 1728,
+    "station_name": "Paszab"
+  },
+  {
+    "station_id": 1729,
+    "station_name": "Penyige"
+  },
+  {
+    "station_id": 1730,
+    "station_name": "Perkupa"
+  },
+  {
+    "station_id": 1731,
+    "station_name": "Pesterzsébet felső"
+  },
+  {
+    "station_id": 1732,
+    "station_name": "Pesterzsébet mh. elágazás"
+  },
+  {
+    "station_id": 1733,
+    "station_name": "Pesterzsébet, Pacsirtatelep"
+  },
+  {
+    "station_id": 1734,
+    "station_name": "Pestszentimre"
+  },
+  {
+    "station_id": 1735,
+    "station_name": "Pestszentimre felső"
+  },
+  {
+    "station_id": 1736,
+    "station_name": "Pestszentimre felső elágazás"
+  },
+  {
+    "station_id": 1737,
+    "station_name": "Pestszentimrei keresztezés"
+  },
+  {
+    "station_id": 1738,
+    "station_name": "Pestszentlőrinc"
+  },
+  {
+    "station_id": 1739,
+    "station_name": "Pestszentlőrinc 3. sz. kitérő"
+  },
+  {
+    "station_id": 1740,
+    "station_name": "Pestszentlőrinc, Béke tér"
+  },
+  {
+    "station_id": 1741,
+    "station_name": "Pestszentlőrinc-Kavicsbánya"
+  },
+  {
+    "station_id": 1742,
+    "station_name": "Petneháza"
+  },
+  {
+    "station_id": 1743,
+    "station_name": "Pettend"
+  },
+  {
+    "station_id": 1744,
+    "station_name": "Petyerák tanya"
+  },
+  {
+    "station_id": 1745,
+    "station_name": "Pető Intézet (Villányi út)"
+  },
+  {
+    "station_id": 1746,
+    "station_name": "Petőfi híd, budai hídfő"
+  },
+  {
+    "station_id": 1747,
+    "station_name": "Petőfiszállás"
+  },
+  {
+    "station_id": 1748,
+    "station_name": "Petőfiszállási tanyák"
+  },
+  {
+    "station_id": 1749,
+    "station_name": "Petőfiváros"
+  },
+  {
+    "station_id": 1750,
+    "station_name": "Petőháza"
+  },
+  {
+    "station_id": 1751,
+    "station_name": "Pilis"
+  },
+  {
+    "station_id": 1752,
+    "station_name": "Piliscsaba"
+  },
+  {
+    "station_id": 1753,
+    "station_name": "Piliscsév"
+  },
+  {
+    "station_id": 1754,
+    "station_name": "Pilisjászfalu"
+  },
+  {
+    "station_id": 1755,
+    "station_name": "Pilisvörösvár"
+  },
+  {
+    "station_id": 1756,
+    "station_name": "Pillangó utca"
+  },
+  {
+    "station_id": 1757,
+    "station_name": "Pincehely"
+  },
+  {
+    "station_id": 1758,
+    "station_name": "Pinnye"
+  },
+  {
+    "station_id": 1759,
+    "station_name": "Pipishegy"
+  },
+  {
+    "station_id": 1760,
+    "station_name": "Piroska"
+  },
+  {
+    "station_id": 1761,
+    "station_name": "Piroska-Gyártelep"
+  },
+  {
+    "station_id": 1762,
+    "station_name": "Pirtó forgalmi kitérő"
+  },
+  {
+    "station_id": 1763,
+    "station_name": "Pirtói szőlők"
+  },
+  {
+    "station_id": 1764,
+    "station_name": "Piszke"
+  },
+  {
+    "station_id": 1765,
+    "station_name": "Pitvaros"
+  },
+  {
+    "station_id": 1766,
+    "station_name": "Pocsaj-Esztár"
+  },
+  {
+    "station_id": 1767,
+    "station_name": "Pocsaj-Esztár forgalmi iroda"
+  },
+  {
+    "station_id": 1768,
+    "station_name": "Pogonyipuszta"
+  },
+  {
+    "station_id": 1769,
+    "station_name": "Polgár"
+  },
+  {
+    "station_id": 1770,
+    "station_name": "Polgár 328/329 szelvény ipvk."
+  },
+  {
+    "station_id": 1771,
+    "station_name": "Polgárdi"
+  },
+  {
+    "station_id": 1772,
+    "station_name": "Polgárdi-Ipartelepek"
+  },
+  {
+    "station_id": 1773,
+    "station_name": "Polgárdi-Tekerespuszta"
+  },
+  {
+    "station_id": 1774,
+    "station_name": "Pomáz"
+  },
+  {
+    "station_id": 1775,
+    "station_name": "Pongrácz úti lakótelep"
+  },
+  {
+    "station_id": 1776,
+    "station_name": "Pongrátz Gergely tér"
+  },
+  {
+    "station_id": 1777,
+    "station_name": "Porcsalma-Tyukod"
+  },
+  {
+    "station_id": 1778,
+    "station_name": "Poroszló"
+  },
+  {
+    "station_id": 1779,
+    "station_name": "Porpác"
+  },
+  {
+    "station_id": 1780,
+    "station_name": "Porrogszentkirály"
+  },
+  {
+    "station_id": 1781,
+    "station_name": "Portelek"
+  },
+  {
+    "station_id": 1782,
+    "station_name": "Porva-Csesznek"
+  },
+  {
+    "station_id": 1783,
+    "station_name": "Pulz utca"
+  },
+  {
+    "station_id": 1784,
+    "station_name": "Puskaporos"
+  },
+  {
+    "station_id": 1785,
+    "station_name": "Puskás Akadémia"
+  },
+  {
+    "station_id": 1786,
+    "station_name": "Puskás Ferenc Stadion"
+  },
+  {
+    "station_id": 1787,
+    "station_name": "Puskás Ferenc Stadion M"
+  },
+  {
+    "station_id": 1788,
+    "station_name": "Pusztaberény"
+  },
+  {
+    "station_id": 1789,
+    "station_name": "Pusztabánréve"
+  },
+  {
+    "station_id": 1790,
+    "station_name": "Pusztakettős"
+  },
+  {
+    "station_id": 1791,
+    "station_name": "Pusztamonostor"
+  },
+  {
+    "station_id": 1792,
+    "station_name": "Pusztapó"
+  },
+  {
+    "station_id": 1793,
+    "station_name": "Pusztaszabolcs"
+  },
+  {
+    "station_id": 1794,
+    "station_name": "Pusztaszentistván"
+  },
+  {
+    "station_id": 1795,
+    "station_name": "Pusztatemplom"
+  },
+  {
+    "station_id": 1796,
+    "station_name": "Pusztavám"
+  },
+  {
+    "station_id": 1797,
+    "station_name": "Putnok"
+  },
+  {
+    "station_id": 1798,
+    "station_name": "Pácsony"
+  },
+  {
+    "station_id": 1799,
+    "station_name": "Páhi"
+  },
+  {
+    "station_id": 1800,
+    "station_name": "Páka"
+  },
+  {
+    "station_id": 1801,
+    "station_name": "Pákozd"
+  },
+  {
+    "station_id": 1802,
+    "station_name": "Pálháza"
+  },
+  {
+    "station_id": 1803,
+    "station_name": "Pálháza-Ipartelep"
+  },
+  {
+    "station_id": 1804,
+    "station_name": "Páli-Vadosfa"
+  },
+  {
+    "station_id": 1805,
+    "station_name": "Pálmajor"
+  },
+  {
+    "station_id": 1806,
+    "station_name": "Pápa"
+  },
+  {
+    "station_id": 1807,
+    "station_name": "Pápa B/1 kitérő iparvágány-kiágazás"
+  },
+  {
+    "station_id": 1808,
+    "station_name": "Pápa-Repülőtér I. iparvágány-kiágazás"
+  },
+  {
+    "station_id": 1809,
+    "station_name": "Pápateszér"
+  },
+  {
+    "station_id": 1810,
+    "station_name": "Pásztó"
+  },
+  {
+    "station_id": 1811,
+    "station_name": "Pásztó-Áruraktár iparvágány kiágazás"
+  },
+  {
+    "station_id": 1812,
+    "station_name": "Pátka"
+  },
+  {
+    "station_id": 1813,
+    "station_name": "Pátroha"
+  },
+  {
+    "station_id": 1814,
+    "station_name": "Pécel"
+  },
+  {
+    "station_id": 1815,
+    "station_name": "Pécs"
+  },
+  {
+    "station_id": 1816,
+    "station_name": "Pécs KÖFI"
+  },
+  {
+    "station_id": 1817,
+    "station_name": "Pécs Szürke Kohász ipvk."
+  },
+  {
+    "station_id": 1818,
+    "station_name": "Pécs felső"
+  },
+  {
+    "station_id": 1819,
+    "station_name": "Pécs-Gyárváros"
+  },
+  {
+    "station_id": 1820,
+    "station_name": "Pécs-Külváros"
+  },
+  {
+    "station_id": 1821,
+    "station_name": "Pécs-Vasas"
+  },
+  {
+    "station_id": 1822,
+    "station_name": "Pécsbánya-Rendező"
+  },
+  {
+    "station_id": 1823,
+    "station_name": "Pécsudvard"
+  },
+  {
+    "station_id": 1824,
+    "station_name": "Pécsvárad"
+  },
+  {
+    "station_id": 1825,
+    "station_name": "Pécsújhegy"
+  },
+  {
+    "station_id": 1826,
+    "station_name": "Pék utca"
+  },
+  {
+    "station_id": 1827,
+    "station_name": "Péterhida-Komlósd"
+  },
+  {
+    "station_id": 1828,
+    "station_name": "Pétfürdő"
+  },
+  {
+    "station_id": 1829,
+    "station_name": "Péti Gyártelep"
+  },
+  {
+    "station_id": 1830,
+    "station_name": "Péti Műtrágyagyár"
+  },
+  {
+    "station_id": 1831,
+    "station_name": "Pókaszepetk"
+  },
+  {
+    "station_id": 1832,
+    "station_name": "Pósfa"
+  },
+  {
+    "station_id": 1833,
+    "station_name": "Pöltenberg utca"
+  },
+  {
+    "station_id": 1834,
+    "station_name": "Pörböly"
+  },
+  {
+    "station_id": 1835,
+    "station_name": "Pördefölde"
+  },
+  {
+    "station_id": 1836,
+    "station_name": "Pörkölt"
+  },
+  {
+    "station_id": 1837,
+    "station_name": "Pötréte"
+  },
+  {
+    "station_id": 1838,
+    "station_name": "Pöttyös utca"
+  },
+  {
+    "station_id": 1839,
+    "station_name": "Püspökhatvan"
+  },
+  {
+    "station_id": 1840,
+    "station_name": "Püspökladány"
+  },
+  {
+    "station_id": 1841,
+    "station_name": "Püspökladány KÖFI"
+  },
+  {
+    "station_id": 1842,
+    "station_name": "Püspökladány-Vásártér"
+  },
+  {
+    "station_id": 1843,
+    "station_name": "Püspökmolnári"
+  },
+  {
+    "station_id": 1844,
+    "station_name": "Rajka"
+  },
+  {
+    "station_id": 1845,
+    "station_name": "Rajka forgalmi iroda"
+  },
+  {
+    "station_id": 1846,
+    "station_name": "Rakamaz"
+  },
+  {
+    "station_id": 1847,
+    "station_name": "Raktárak"
+  },
+  {
+    "station_id": 1848,
+    "station_name": "Raposka"
+  },
+  {
+    "station_id": 1849,
+    "station_name": "Recsk-Kőrakodó"
+  },
+  {
+    "station_id": 1850,
+    "station_name": "Recsk-Parádfürdő"
+  },
+  {
+    "station_id": 1851,
+    "station_name": "Regöly"
+  },
+  {
+    "station_id": 1852,
+    "station_name": "Reje"
+  },
+  {
+    "station_id": 1853,
+    "station_name": "Repülőtér"
+  },
+  {
+    "station_id": 1854,
+    "station_name": "Rigács"
+  },
+  {
+    "station_id": 1855,
+    "station_name": "Rokolya utca"
+  },
+  {
+    "station_id": 1856,
+    "station_name": "Romhány"
+  },
+  {
+    "station_id": 1857,
+    "station_name": "Románd"
+  },
+  {
+    "station_id": 1858,
+    "station_name": "Rostalló"
+  },
+  {
+    "station_id": 1859,
+    "station_name": "Rozsály"
+  },
+  {
+    "station_id": 1860,
+    "station_name": "Rudabánya"
+  },
+  {
+    "station_id": 1861,
+    "station_name": "Rudabánya-Teher"
+  },
+  {
+    "station_id": 1862,
+    "station_name": "Rudas Gyógyfürdő"
+  },
+  {
+    "station_id": 1863,
+    "station_name": "Rudnaykert"
+  },
+  {
+    "station_id": 1864,
+    "station_name": "Rábahíd"
+  },
+  {
+    "station_id": 1865,
+    "station_name": "Rábapatona"
+  },
+  {
+    "station_id": 1866,
+    "station_name": "Rábapordány"
+  },
+  {
+    "station_id": 1867,
+    "station_name": "Rábatamási"
+  },
+  {
+    "station_id": 1868,
+    "station_name": "Rácalmás"
+  },
+  {
+    "station_id": 1869,
+    "station_name": "Ráckeve"
+  },
+  {
+    "station_id": 1870,
+    "station_name": "Rádiháza"
+  },
+  {
+    "station_id": 1871,
+    "station_name": "Rákos"
+  },
+  {
+    "station_id": 1872,
+    "station_name": "Rákos elágazás"
+  },
+  {
+    "station_id": 1873,
+    "station_name": "Rákoscsaba"
+  },
+  {
+    "station_id": 1874,
+    "station_name": "Rákoscsaba-Újtelep"
+  },
+  {
+    "station_id": 1875,
+    "station_name": "Rákosfalva"
+  },
+  {
+    "station_id": 1876,
+    "station_name": "Rákoshegy"
+  },
+  {
+    "station_id": 1877,
+    "station_name": "Rákoskert"
+  },
+  {
+    "station_id": 1878,
+    "station_name": "Rákosliget"
+  },
+  {
+    "station_id": 1879,
+    "station_name": "Rákosliget forgalmi kitérő"
+  },
+  {
+    "station_id": 1880,
+    "station_name": "Rákospalota, Kossuth utca"
+  },
+  {
+    "station_id": 1881,
+    "station_name": "Rákospalota, MÁV-telep"
+  },
+  {
+    "station_id": 1882,
+    "station_name": "Rákospalota-Gyógyszergyár iparvágány"
+  },
+  {
+    "station_id": 1883,
+    "station_name": "Rákospalota-Kertváros"
+  },
+  {
+    "station_id": 1884,
+    "station_name": "Rákospalota-iparvágány kiágazás"
+  },
+  {
+    "station_id": 1885,
+    "station_name": "Rákospalota-Újpest"
+  },
+  {
+    "station_id": 1886,
+    "station_name": "Rákospalota-Újpest forgalmi iroda"
+  },
+  {
+    "station_id": 1887,
+    "station_name": "Rákospalota-Újpest vasútállomás"
+  },
+  {
+    "station_id": 1888,
+    "station_name": "Rákospatak utca"
+  },
+  {
+    "station_id": 1889,
+    "station_name": "Rákosrendező"
+  },
+  {
+    "station_id": 1890,
+    "station_name": "Rákosrendező elágazás"
+  },
+  {
+    "station_id": 1891,
+    "station_name": "Rákosszentmihály"
+  },
+  {
+    "station_id": 1892,
+    "station_name": "Rákosszentmihály forgalmi iroda"
+  },
+  {
+    "station_id": 1893,
+    "station_name": "Rákóczi tér"
+  },
+  {
+    "station_id": 1894,
+    "station_name": "Rákóczi tér M"
+  },
+  {
+    "station_id": 1895,
+    "station_name": "Rákóczitanya"
+  },
+  {
+    "station_id": 1896,
+    "station_name": "Ráróspuszta"
+  },
+  {
+    "station_id": 1897,
+    "station_name": "Rátka"
+  },
+  {
+    "station_id": 1898,
+    "station_name": "Rátót"
+  },
+  {
+    "station_id": 1899,
+    "station_name": "Rédics"
+  },
+  {
+    "station_id": 1900,
+    "station_name": "Répcelak"
+  },
+  {
+    "station_id": 1901,
+    "station_name": "Répáspuszta"
+  },
+  {
+    "station_id": 1902,
+    "station_name": "Rétszilas"
+  },
+  {
+    "station_id": 1903,
+    "station_name": "Rétszilas alsó"
+  },
+  {
+    "station_id": 1904,
+    "station_name": "Rétság"
+  },
+  {
+    "station_id": 1905,
+    "station_name": "Révfülöp"
+  },
+  {
+    "station_id": 1906,
+    "station_name": "Rókus vasútállomás"
+  },
+  {
+    "station_id": 1907,
+    "station_name": "Rókusi templom"
+  },
+  {
+    "station_id": 1908,
+    "station_name": "Rókusi víztorony"
+  },
+  {
+    "station_id": 1909,
+    "station_name": "Rómaifürdő"
+  },
+  {
+    "station_id": 1910,
+    "station_name": "Rózsa utca (József Attila sugárút)"
+  },
+  {
+    "station_id": 1911,
+    "station_name": "Rózsavölgy alsó"
+  },
+  {
+    "station_id": 1912,
+    "station_name": "Rózsavölgy felső"
+  },
+  {
+    "station_id": 1913,
+    "station_name": "Röszke"
+  },
+  {
+    "station_id": 1914,
+    "station_name": "Röszke elágazás"
+  },
+  {
+    "station_id": 1915,
+    "station_name": "Röszke oh."
+  },
+  {
+    "station_id": 1916,
+    "station_name": "SR1"
+  },
+  {
+    "station_id": 1917,
+    "station_name": "SR2"
+  },
+  {
+    "station_id": 1918,
+    "station_name": "Sajóecseg"
+  },
+  {
+    "station_id": 1919,
+    "station_name": "Sajókaza"
+  },
+  {
+    "station_id": 1920,
+    "station_name": "Sajókeresztúr"
+  },
+  {
+    "station_id": 1921,
+    "station_name": "Sajónémeti"
+  },
+  {
+    "station_id": 1922,
+    "station_name": "Sajószentpéter"
+  },
+  {
+    "station_id": 1923,
+    "station_name": "Sajószentpéter-Piactér"
+  },
+  {
+    "station_id": 1924,
+    "station_name": "Sajószöged"
+  },
+  {
+    "station_id": 1925,
+    "station_name": "Sajószöged-OVIT iparvágány kiágazás"
+  },
+  {
+    "station_id": 1926,
+    "station_name": "Salgótarján"
+  },
+  {
+    "station_id": 1927,
+    "station_name": "Salgótarján külső"
+  },
+  {
+    "station_id": 1928,
+    "station_name": "Salgótarján-Acélgyártelep"
+  },
+  {
+    "station_id": 1929,
+    "station_name": "Salgótarjáni utca, temető"
+  },
+  {
+    "station_id": 1930,
+    "station_name": "Salköveskút-Vassurány"
+  },
+  {
+    "station_id": 1931,
+    "station_name": "Sallai telep"
+  },
+  {
+    "station_id": 1932,
+    "station_name": "Sarkad"
+  },
+  {
+    "station_id": 1933,
+    "station_name": "Sarkadi Cukorgyár"
+  },
+  {
+    "station_id": 1934,
+    "station_name": "Sarkadkeresztúr"
+  },
+  {
+    "station_id": 1935,
+    "station_name": "Sashalom"
+  },
+  {
+    "station_id": 1936,
+    "station_name": "Sasrét"
+  },
+  {
+    "station_id": 1937,
+    "station_name": "Savoya park"
+  },
+  {
+    "station_id": 1938,
+    "station_name": "Savoyai Jenő tér"
+  },
+  {
+    "station_id": 1939,
+    "station_name": "Segesd"
+  },
+  {
+    "station_id": 1940,
+    "station_name": "Sellye"
+  },
+  {
+    "station_id": 1941,
+    "station_name": "Sellye forgalmi iroda"
+  },
+  {
+    "station_id": 1942,
+    "station_name": "Selmeci utca"
+  },
+  {
+    "station_id": 1943,
+    "station_name": "Selyemrét"
+  },
+  {
+    "station_id": 1944,
+    "station_name": "Selymes"
+  },
+  {
+    "station_id": 1945,
+    "station_name": "Selyp"
+  },
+  {
+    "station_id": 1946,
+    "station_name": "Semmelweis Klinikák"
+  },
+  {
+    "station_id": 1947,
+    "station_name": "Seregélyes"
+  },
+  {
+    "station_id": 1948,
+    "station_name": "Seregélyes-Szőlőhegy"
+  },
+  {
+    "station_id": 1949,
+    "station_name": "Siklós"
+  },
+  {
+    "station_id": 1950,
+    "station_name": "Siklósi szőlők"
+  },
+  {
+    "station_id": 1951,
+    "station_name": "Simontornya"
+  },
+  {
+    "station_id": 1952,
+    "station_name": "Sirató"
+  },
+  {
+    "station_id": 1953,
+    "station_name": "Sirok"
+  },
+  {
+    "station_id": 1954,
+    "station_name": "Siófok"
+  },
+  {
+    "station_id": 1955,
+    "station_name": "Siófok B/1 kitérő iparvágány kiágazás"
+  },
+  {
+    "station_id": 1956,
+    "station_name": "Siófok-Teher"
+  },
+  {
+    "station_id": 1957,
+    "station_name": "Siójut"
+  },
+  {
+    "station_id": 1958,
+    "station_name": "Sióvölgy"
+  },
+  {
+    "station_id": 1959,
+    "station_name": "Solt"
+  },
+  {
+    "station_id": 1960,
+    "station_name": "Soltszentimre"
+  },
+  {
+    "station_id": 1961,
+    "station_name": "Soltvadkert"
+  },
+  {
+    "station_id": 1962,
+    "station_name": "Soltvadkert forgalmi kitérő"
+  },
+  {
+    "station_id": 1963,
+    "station_name": "Soltész Nagy Kálmán utca"
+  },
+  {
+    "station_id": 1964,
+    "station_name": "Solymár"
+  },
+  {
+    "station_id": 1965,
+    "station_name": "Som-Nagyberény"
+  },
+  {
+    "station_id": 1966,
+    "station_name": "Somlóvásárhely"
+  },
+  {
+    "station_id": 1967,
+    "station_name": "Somodor"
+  },
+  {
+    "station_id": 1968,
+    "station_name": "Somogyaszaló"
+  },
+  {
+    "station_id": 1969,
+    "station_name": "Somogyi utca"
+  },
+  {
+    "station_id": 1970,
+    "station_name": "Somogyjád"
+  },
+  {
+    "station_id": 1971,
+    "station_name": "Somogymeggyes"
+  },
+  {
+    "station_id": 1972,
+    "station_name": "Somogyszentpál"
+  },
+  {
+    "station_id": 1973,
+    "station_name": "Somogyszentpál felső"
+  },
+  {
+    "station_id": 1974,
+    "station_name": "Somogyszob"
+  },
+  {
+    "station_id": 1975,
+    "station_name": "Somogyudvarhely"
+  },
+  {
+    "station_id": 1976,
+    "station_name": "Somogyvár"
+  },
+  {
+    "station_id": 1977,
+    "station_name": "Somoskőújfalu"
+  },
+  {
+    "station_id": 1978,
+    "station_name": "Sopron"
+  },
+  {
+    "station_id": 1979,
+    "station_name": "Sopron-Déli"
+  },
+  {
+    "station_id": 1980,
+    "station_name": "Sopron-Rendező"
+  },
+  {
+    "station_id": 1981,
+    "station_name": "Sopron-Rendező déli elágazás"
+  },
+  {
+    "station_id": 1982,
+    "station_name": "Sopron-Rendező keleti elágazás"
+  },
+  {
+    "station_id": 1983,
+    "station_name": "Sopronkövesd"
+  },
+  {
+    "station_id": 1984,
+    "station_name": "Sorkifalud"
+  },
+  {
+    "station_id": 1985,
+    "station_name": "Soroksár"
+  },
+  {
+    "station_id": 1986,
+    "station_name": "Soroksár felső"
+  },
+  {
+    "station_id": 1987,
+    "station_name": "Soroksár, Hősök tere"
+  },
+  {
+    "station_id": 1988,
+    "station_name": "Soroksár-Terminál"
+  },
+  {
+    "station_id": 1989,
+    "station_name": "Soroksári út"
+  },
+  {
+    "station_id": 1990,
+    "station_name": "Soroksári út rendező"
+  },
+  {
+    "station_id": 1991,
+    "station_name": "Sorompóőrhely"
+  },
+  {
+    "station_id": 1992,
+    "station_name": "Soványhát"
+  },
+  {
+    "station_id": 1993,
+    "station_name": "Sportcentrum"
+  },
+  {
+    "station_id": 1994,
+    "station_name": "Stimecz-ház"
+  },
+  {
+    "station_id": 1995,
+    "station_name": "Strandfürdő"
+  },
+  {
+    "station_id": 1996,
+    "station_name": "Sumony"
+  },
+  {
+    "station_id": 1997,
+    "station_name": "Svábhegy"
+  },
+  {
+    "station_id": 1998,
+    "station_name": "Szabadbattyán"
+  },
+  {
+    "station_id": 1999,
+    "station_name": "Szabadegyháza"
+  },
+  {
+    "station_id": 2000,
+    "station_name": "Szabadifürdő"
+  },
+  {
+    "station_id": 2001,
+    "station_name": "Szabadisóstó"
+  },
+  {
+    "station_id": 2002,
+    "station_name": "Szabadkai út"
+  },
+  {
+    "station_id": 2003,
+    "station_name": "Szabadkikötő"
+  },
+  {
+    "station_id": 2004,
+    "station_name": "Szabadkígyós"
+  },
+  {
+    "station_id": 2005,
+    "station_name": "Szabadszállás"
+  },
+  {
+    "station_id": 2006,
+    "station_name": "Szabadságliget"
+  },
+  {
+    "station_id": 2007,
+    "station_name": "Szabadságtelep"
+  },
+  {
+    "station_id": 2008,
+    "station_name": "Szabótelep"
+  },
+  {
+    "station_id": 2009,
+    "station_name": "Szajol"
+  },
+  {
+    "station_id": 2010,
+    "station_name": "Szakmár"
+  },
+  {
+    "station_id": 2011,
+    "station_name": "Szakály-Hőgyész"
+  },
+  {
+    "station_id": 2012,
+    "station_name": "Szalajka-Fatelep"
+  },
+  {
+    "station_id": 2013,
+    "station_name": "Szalajka-Fátyolvízesés"
+  },
+  {
+    "station_id": 2014,
+    "station_name": "Szalajka-Halastó"
+  },
+  {
+    "station_id": 2015,
+    "station_name": "Szalajkaház"
+  },
+  {
+    "station_id": 2016,
+    "station_name": "Szalajkavölgy-Lovaspálya"
+  },
+  {
+    "station_id": 2017,
+    "station_name": "Szalatnak"
+  },
+  {
+    "station_id": 2018,
+    "station_name": "Szalkszentmárton"
+  },
+  {
+    "station_id": 2019,
+    "station_name": "Szalonna"
+  },
+  {
+    "station_id": 2020,
+    "station_name": "Szalámigyár"
+  },
+  {
+    "station_id": 2021,
+    "station_name": "Szank"
+  },
+  {
+    "station_id": 2022,
+    "station_name": "Szany-Rábaszentandrás"
+  },
+  {
+    "station_id": 2023,
+    "station_name": "Szarvas"
+  },
+  {
+    "station_id": 2024,
+    "station_name": "Szarvas csárda tér"
+  },
+  {
+    "station_id": 2025,
+    "station_name": "Szarvaskő"
+  },
+  {
+    "station_id": 2026,
+    "station_name": "Szatina-Kishajmás"
+  },
+  {
+    "station_id": 2027,
+    "station_name": "Szatymaz"
+  },
+  {
+    "station_id": 2028,
+    "station_name": "Szatymazi utca"
+  },
+  {
+    "station_id": 2029,
+    "station_name": "Szedres"
+  },
+  {
+    "station_id": 2030,
+    "station_name": "Szeged"
+  },
+  {
+    "station_id": 2031,
+    "station_name": "Szeged KÖFI"
+  },
+  {
+    "station_id": 2032,
+    "station_name": "Szeged Plaza"
+  },
+  {
+    "station_id": 2033,
+    "station_name": "Szeged vasútállomás"
+  },
+  {
+    "station_id": 2034,
+    "station_name": "Szeged-Rendező"
+  },
+  {
+    "station_id": 2035,
+    "station_name": "Szeged-Rókus"
+  },
+  {
+    "station_id": 2036,
+    "station_name": "Szeged-Rókus pályavasúti határpont 0+46"
+  },
+  {
+    "station_id": 2037,
+    "station_name": "Szeged-SZKT keresztezés"
+  },
+  {
+    "station_id": 2038,
+    "station_name": "Szeged-Tisza"
+  },
+  {
+    "station_id": 2039,
+    "station_name": "Szeghalom"
+  },
+  {
+    "station_id": 2040,
+    "station_name": "Szegi"
+  },
+  {
+    "station_id": 2041,
+    "station_name": "Szegvár"
+  },
+  {
+    "station_id": 2042,
+    "station_name": "Szekszárd"
+  },
+  {
+    "station_id": 2043,
+    "station_name": "Szekszárd-Palánk"
+  },
+  {
+    "station_id": 2044,
+    "station_name": "Szelevény"
+  },
+  {
+    "station_id": 2045,
+    "station_name": "Szellőhát"
+  },
+  {
+    "station_id": 2046,
+    "station_name": "Szemeretelep"
+  },
+  {
+    "station_id": 2047,
+    "station_name": "Szendrő"
+  },
+  {
+    "station_id": 2048,
+    "station_name": "Szendrő felső"
+  },
+  {
+    "station_id": 2049,
+    "station_name": "Szendrőlád"
+  },
+  {
+    "station_id": 2050,
+    "station_name": "Szent Anna tér"
+  },
+  {
+    "station_id": 2051,
+    "station_name": "Szent Anna utca"
+  },
+  {
+    "station_id": 2052,
+    "station_name": "Szent Gellért tér – Műegyetem"
+  },
+  {
+    "station_id": 2053,
+    "station_name": "Szent Gellért tér – Műegyetem M"
+  },
+  {
+    "station_id": 2054,
+    "station_name": "Szent Gellért-templom"
+  },
+  {
+    "station_id": 2055,
+    "station_name": "Szent György tér"
+  },
+  {
+    "station_id": 2056,
+    "station_name": "Szent Imre herceg utca"
+  },
+  {
+    "station_id": 2057,
+    "station_name": "Szent Imre tér"
+  },
+  {
+    "station_id": 2058,
+    "station_name": "Szent István tér (Újpesti piac)"
+  },
+  {
+    "station_id": 2059,
+    "station_name": "Szent István utca"
+  },
+  {
+    "station_id": 2060,
+    "station_name": "Szent János Kórház"
+  },
+  {
+    "station_id": 2061,
+    "station_name": "Szent Lukács Gyógyfürdő"
+  },
+  {
+    "station_id": 2062,
+    "station_name": "Szent László Görögkatolikus Gimnázium"
+  },
+  {
+    "station_id": 2063,
+    "station_name": "Szent László tér"
+  },
+  {
+    "station_id": 2064,
+    "station_name": "Szent Margit Kórház"
+  },
+  {
+    "station_id": 2065,
+    "station_name": "Szenta"
+  },
+  {
+    "station_id": 2066,
+    "station_name": "Szentannapuszta"
+  },
+  {
+    "station_id": 2067,
+    "station_name": "Szentdénes"
+  },
+  {
+    "station_id": 2068,
+    "station_name": "Szentendre"
+  },
+  {
+    "station_id": 2069,
+    "station_name": "Szentes"
+  },
+  {
+    "station_id": 2070,
+    "station_name": "Szentetornya"
+  },
+  {
+    "station_id": 2071,
+    "station_name": "Szentgotthárd"
+  },
+  {
+    "station_id": 2072,
+    "station_name": "Szentgál"
+  },
+  {
+    "station_id": 2073,
+    "station_name": "Szentistvántelep"
+  },
+  {
+    "station_id": 2074,
+    "station_name": "Szentisvántelep"
+  },
+  {
+    "station_id": 2075,
+    "station_name": "Szentjakab"
+  },
+  {
+    "station_id": 2076,
+    "station_name": "Szentkozma"
+  },
+  {
+    "station_id": 2077,
+    "station_name": "Szentlélek tér"
+  },
+  {
+    "station_id": 2078,
+    "station_name": "Szentlélek tér H"
+  },
+  {
+    "station_id": 2079,
+    "station_name": "Szentléránt"
+  },
+  {
+    "station_id": 2080,
+    "station_name": "Szentlőrinc"
+  },
+  {
+    "station_id": 2081,
+    "station_name": "Szentmihálytelek"
+  },
+  {
+    "station_id": 2082,
+    "station_name": "Szentmártonkáta"
+  },
+  {
+    "station_id": 2083,
+    "station_name": "Szentmártonpuszta"
+  },
+  {
+    "station_id": 2084,
+    "station_name": "Szentpéterfölde kitérő"
+  },
+  {
+    "station_id": 2085,
+    "station_name": "Szentpéterfölde rakodó"
+  },
+  {
+    "station_id": 2086,
+    "station_name": "Szepes"
+  },
+  {
+    "station_id": 2087,
+    "station_name": "Szepeshalom"
+  },
+  {
+    "station_id": 2088,
+    "station_name": "Szepezdfürdő"
+  },
+  {
+    "station_id": 2089,
+    "station_name": "Szerecseny"
+  },
+  {
+    "station_id": 2090,
+    "station_name": "Szerencs"
+  },
+  {
+    "station_id": 2091,
+    "station_name": "Szerencs utca / Bánkút utca"
+  },
+  {
+    "station_id": 2092,
+    "station_name": "Szerep"
+  },
+  {
+    "station_id": 2093,
+    "station_name": "Szeszgyár forgalmi kitérő"
+  },
+  {
+    "station_id": 2094,
+    "station_name": "Szigetcsép"
+  },
+  {
+    "station_id": 2095,
+    "station_name": "Szigethalom"
+  },
+  {
+    "station_id": 2096,
+    "station_name": "Szigethalom alsó"
+  },
+  {
+    "station_id": 2097,
+    "station_name": "Szigetmajor"
+  },
+  {
+    "station_id": 2098,
+    "station_name": "Szigetszentmiklós"
+  },
+  {
+    "station_id": 2099,
+    "station_name": "Szigetszentmiklós alsó"
+  },
+  {
+    "station_id": 2100,
+    "station_name": "Szigetszentmiklós-Gyártelep"
+  },
+  {
+    "station_id": 2101,
+    "station_name": "Szigetszentmárton-Szigetújfalu"
+  },
+  {
+    "station_id": 2102,
+    "station_name": "Szigetvár"
+  },
+  {
+    "station_id": 2103,
+    "station_name": "Szihalom"
+  },
+  {
+    "station_id": 2104,
+    "station_name": "Szikra"
+  },
+  {
+    "station_id": 2105,
+    "station_name": "Szikszó"
+  },
+  {
+    "station_id": 2106,
+    "station_name": "Szikszó-Vásártér"
+  },
+  {
+    "station_id": 2107,
+    "station_name": "Szikáncs"
+  },
+  {
+    "station_id": 2108,
+    "station_name": "Szil-Sopronnémeti"
+  },
+  {
+    "station_id": 2109,
+    "station_name": "Szilasliget"
+  },
+  {
+    "station_id": 2110,
+    "station_name": "Szilvágy"
+  },
+  {
+    "station_id": 2111,
+    "station_name": "Szilvásvárad"
+  },
+  {
+    "station_id": 2112,
+    "station_name": "Szilvásvárad-Szalajkavölgy"
+  },
+  {
+    "station_id": 2113,
+    "station_name": "Szinva elágazás"
+  },
+  {
+    "station_id": 2114,
+    "station_name": "Szinvapark/Centrum"
+  },
+  {
+    "station_id": 2115,
+    "station_name": "Szirmabesenyő"
+  },
+  {
+    "station_id": 2116,
+    "station_name": "Szivárvány kitérő"
+  },
+  {
+    "station_id": 2117,
+    "station_name": "Szob"
+  },
+  {
+    "station_id": 2118,
+    "station_name": "Szob alsó"
+  },
+  {
+    "station_id": 2119,
+    "station_name": "Szokolya"
+  },
+  {
+    "station_id": 2120,
+    "station_name": "Szokolya-Mányoki"
+  },
+  {
+    "station_id": 2121,
+    "station_name": "Szokolya-Riezner"
+  },
+  {
+    "station_id": 2122,
+    "station_name": "Szolnok"
+  },
+  {
+    "station_id": 2123,
+    "station_name": "Szolnok A elágazás"
+  },
+  {
+    "station_id": 2124,
+    "station_name": "Szolnok B elágazás"
+  },
+  {
+    "station_id": 2125,
+    "station_name": "Szolnok C elágazás"
+  },
+  {
+    "station_id": 2126,
+    "station_name": "Szolnok D elágazás"
+  },
+  {
+    "station_id": 2127,
+    "station_name": "Szolnok Déli Ipartelepi rendező"
+  },
+  {
+    "station_id": 2128,
+    "station_name": "Szolnok E elágazás"
+  },
+  {
+    "station_id": 2129,
+    "station_name": "Szolnok régi rendező"
+  },
+  {
+    "station_id": 2130,
+    "station_name": "Szolnok-Keleti indító"
+  },
+  {
+    "station_id": 2131,
+    "station_name": "Szolnok-Kénsavgyár elágazás"
+  },
+  {
+    "station_id": 2132,
+    "station_name": "Szolnok-Magasfogadó"
+  },
+  {
+    "station_id": 2133,
+    "station_name": "Szolnok-Magasfogadó elágazás"
+  },
+  {
+    "station_id": 2134,
+    "station_name": "Szolnok-Nyugati indító"
+  },
+  {
+    "station_id": 2135,
+    "station_name": "Szolnok-Nyugati indító elágazás"
+  },
+  {
+    "station_id": 2136,
+    "station_name": "Szolnok-Rendező"
+  },
+  {
+    "station_id": 2137,
+    "station_name": "Szolnok-Teher"
+  },
+  {
+    "station_id": 2138,
+    "station_name": "Szombathely"
+  },
+  {
+    "station_id": 2139,
+    "station_name": "Szombathely-Rendező"
+  },
+  {
+    "station_id": 2140,
+    "station_name": "Szombathely-Szőlős"
+  },
+  {
+    "station_id": 2141,
+    "station_name": "Szomfovai delta"
+  },
+  {
+    "station_id": 2142,
+    "station_name": "Szorgalmatos"
+  },
+  {
+    "station_id": 2143,
+    "station_name": "Sztaravoda-patak"
+  },
+  {
+    "station_id": 2144,
+    "station_name": "Szugló utca / Nagy Lajos király útja"
+  },
+  {
+    "station_id": 2145,
+    "station_name": "Szuhakálló-Múcsony"
+  },
+  {
+    "station_id": 2146,
+    "station_name": "Szurdokpüspöki"
+  },
+  {
+    "station_id": 2147,
+    "station_name": "Szák-Szend"
+  },
+  {
+    "station_id": 2148,
+    "station_name": "Szántód"
+  },
+  {
+    "station_id": 2149,
+    "station_name": "Szár"
+  },
+  {
+    "station_id": 2150,
+    "station_name": "Szárazd"
+  },
+  {
+    "station_id": 2151,
+    "station_name": "Szárazrét"
+  },
+  {
+    "station_id": 2152,
+    "station_name": "Szárföld"
+  },
+  {
+    "station_id": 2153,
+    "station_name": "Szárliget"
+  },
+  {
+    "station_id": 2154,
+    "station_name": "Szárliget forgalmi iroda"
+  },
+  {
+    "station_id": 2155,
+    "station_name": "Szászberek"
+  },
+  {
+    "station_id": 2156,
+    "station_name": "Szászvár"
+  },
+  {
+    "station_id": 2157,
+    "station_name": "Száva kocsiszín"
+  },
+  {
+    "station_id": 2158,
+    "station_name": "Százhalombatta"
+  },
+  {
+    "station_id": 2159,
+    "station_name": "Széchenyi István tér"
+  },
+  {
+    "station_id": 2160,
+    "station_name": "Széchenyi fürdő"
+  },
+  {
+    "station_id": 2161,
+    "station_name": "Széchenyi tér"
+  },
+  {
+    "station_id": 2162,
+    "station_name": "Széchenyi-hegy, Gyermekvasút"
+  },
+  {
+    "station_id": 2163,
+    "station_name": "Széchenyihegy"
+  },
+  {
+    "station_id": 2164,
+    "station_name": "Szécsény"
+  },
+  {
+    "station_id": 2165,
+    "station_name": "Szécsény forgalmi iroda"
+  },
+  {
+    "station_id": 2166,
+    "station_name": "Székelyhíd utca"
+  },
+  {
+    "station_id": 2167,
+    "station_name": "Székesfehérvár"
+  },
+  {
+    "station_id": 2168,
+    "station_name": "Székesfehérvár KSZG kiágazás"
+  },
+  {
+    "station_id": 2169,
+    "station_name": "Székesfehérvár ÉV ipvk. pvh."
+  },
+  {
+    "station_id": 2170,
+    "station_name": "Székesfehérvár-Gáztelep iparvágány"
+  },
+  {
+    "station_id": 2171,
+    "station_name": "Székesfehérvár-Ikarus iparvágány kiágazás"
+  },
+  {
+    "station_id": 2172,
+    "station_name": "Székesfehérvár-Konténerterminál iparvágány kiágazás"
+  },
+  {
+    "station_id": 2173,
+    "station_name": "Székesfehérvár-Könnyűfémmű ipvk. pvh."
+  },
+  {
+    "station_id": 2174,
+    "station_name": "Székkutas"
+  },
+  {
+    "station_id": 2175,
+    "station_name": "Szélhegy"
+  },
+  {
+    "station_id": 2176,
+    "station_name": "Széll Kálmán tér"
+  },
+  {
+    "station_id": 2177,
+    "station_name": "Széll Kálmán tér M"
+  },
+  {
+    "station_id": 2178,
+    "station_name": "Széna tér"
+  },
+  {
+    "station_id": 2179,
+    "station_name": "Szépilona kocsiszín"
+  },
+  {
+    "station_id": 2180,
+    "station_name": "Szépjuhászné"
+  },
+  {
+    "station_id": 2181,
+    "station_name": "Szépvölgyi út"
+  },
+  {
+    "station_id": 2182,
+    "station_name": "Szörény"
+  },
+  {
+    "station_id": 2183,
+    "station_name": "Szúnyogvár"
+  },
+  {
+    "station_id": 2184,
+    "station_name": "Szügy"
+  },
+  {
+    "station_id": 2185,
+    "station_name": "Szülőotthon"
+  },
+  {
+    "station_id": 2186,
+    "station_name": "Szüret utca"
+  },
+  {
+    "station_id": 2187,
+    "station_name": "Sződ-Sződliget"
+  },
+  {
+    "station_id": 2188,
+    "station_name": "Szőkéd"
+  },
+  {
+    "station_id": 2189,
+    "station_name": "Szőlősnyaraló"
+  },
+  {
+    "station_id": 2190,
+    "station_name": "Szőny"
+  },
+  {
+    "station_id": 2191,
+    "station_name": "Szőny-Déli"
+  },
+  {
+    "station_id": 2192,
+    "station_name": "Szőreg"
+  },
+  {
+    "station_id": 2193,
+    "station_name": "Sáferkút"
+  },
+  {
+    "station_id": 2194,
+    "station_name": "Sámod"
+  },
+  {
+    "station_id": 2195,
+    "station_name": "Sámsoni út"
+  },
+  {
+    "station_id": 2196,
+    "station_name": "Sáp"
+  },
+  {
+    "station_id": 2197,
+    "station_name": "Sárbogárd"
+  },
+  {
+    "station_id": 2198,
+    "station_name": "Sárdipuszta"
+  },
+  {
+    "station_id": 2199,
+    "station_name": "Sáregres"
+  },
+  {
+    "station_id": 2200,
+    "station_name": "Sárfű utca"
+  },
+  {
+    "station_id": 2201,
+    "station_name": "Sárhida"
+  },
+  {
+    "station_id": 2202,
+    "station_name": "Sárosd"
+  },
+  {
+    "station_id": 2203,
+    "station_name": "Sárospatak"
+  },
+  {
+    "station_id": 2204,
+    "station_name": "Sárpentele"
+  },
+  {
+    "station_id": 2205,
+    "station_name": "Sárpilis-Várdomb"
+  },
+  {
+    "station_id": 2206,
+    "station_name": "Sárrétudvari"
+  },
+  {
+    "station_id": 2207,
+    "station_name": "Sárszentmihály"
+  },
+  {
+    "station_id": 2208,
+    "station_name": "Sártó elágazás"
+  },
+  {
+    "station_id": 2209,
+    "station_name": "Sárvár"
+  },
+  {
+    "station_id": 2210,
+    "station_name": "Sáránd"
+  },
+  {
+    "station_id": 2211,
+    "station_name": "Sásd"
+  },
+  {
+    "station_id": 2212,
+    "station_name": "Sáta"
+  },
+  {
+    "station_id": 2213,
+    "station_name": "Sátoraljaújhely"
+  },
+  {
+    "station_id": 2214,
+    "station_name": "Sávoly"
+  },
+  {
+    "station_id": 2215,
+    "station_name": "Sírkert út"
+  },
+  {
+    "station_id": 2216,
+    "station_name": "Sóly"
+  },
+  {
+    "station_id": 2217,
+    "station_name": "Sóstó"
+  },
+  {
+    "station_id": 2218,
+    "station_name": "Sóstógyógyfürdő"
+  },
+  {
+    "station_id": 2219,
+    "station_name": "Sóstóhegy"
+  },
+  {
+    "station_id": 2220,
+    "station_name": "Sóstóhegyi elágazás"
+  },
+  {
+    "station_id": 2221,
+    "station_name": "Sörgyár"
+  },
+  {
+    "station_id": 2222,
+    "station_name": "Sülysáp"
+  },
+  {
+    "station_id": 2223,
+    "station_name": "Sümeg"
+  },
+  {
+    "station_id": 2224,
+    "station_name": "Sümegi Bazaltbánya"
+  },
+  {
+    "station_id": 2225,
+    "station_name": "Süttő"
+  },
+  {
+    "station_id": 2226,
+    "station_name": "Süttő felső"
+  },
+  {
+    "station_id": 2227,
+    "station_name": "Süveg utca"
+  },
+  {
+    "station_id": 2228,
+    "station_name": "Tab"
+  },
+  {
+    "station_id": 2229,
+    "station_name": "Tajó"
+  },
+  {
+    "station_id": 2230,
+    "station_name": "Taksony"
+  },
+  {
+    "station_id": 2231,
+    "station_name": "Taktaharkány"
+  },
+  {
+    "station_id": 2232,
+    "station_name": "Taktaszada"
+  },
+  {
+    "station_id": 2233,
+    "station_name": "Találkozások háza"
+  },
+  {
+    "station_id": 2234,
+    "station_name": "Tamásipuszta"
+  },
+  {
+    "station_id": 2235,
+    "station_name": "Tapolca"
+  },
+  {
+    "station_id": 2236,
+    "station_name": "Tapolca-Repülőtér iparvágány kiágazás"
+  },
+  {
+    "station_id": 2237,
+    "station_name": "Tapolca-Szigetelőanyag V. ipvk."
+  },
+  {
+    "station_id": 2238,
+    "station_name": "Tar"
+  },
+  {
+    "station_id": 2239,
+    "station_name": "Tarcal"
+  },
+  {
+    "station_id": 2240,
+    "station_name": "Tardosi Kőbányák"
+  },
+  {
+    "station_id": 2241,
+    "station_name": "Tarján"
+  },
+  {
+    "station_id": 2242,
+    "station_name": "Tarjánpuszta"
+  },
+  {
+    "station_id": 2243,
+    "station_name": "Tarjánpuszta forgalmi iroda"
+  },
+  {
+    "station_id": 2244,
+    "station_name": "Tarnaszentmiklós"
+  },
+  {
+    "station_id": 2245,
+    "station_name": "Tarnaszentmária"
+  },
+  {
+    "station_id": 2246,
+    "station_name": "Tas vezér utca"
+  },
+  {
+    "station_id": 2247,
+    "station_name": "Taszár"
+  },
+  {
+    "station_id": 2248,
+    "station_name": "Tata"
+  },
+  {
+    "station_id": 2249,
+    "station_name": "Tata forgalmi iroda"
+  },
+  {
+    "station_id": 2250,
+    "station_name": "Tatabánya"
+  },
+  {
+    "station_id": 2251,
+    "station_name": "Tatabánya elágazás"
+  },
+  {
+    "station_id": 2252,
+    "station_name": "Tatabánya forgalmi iroda"
+  },
+  {
+    "station_id": 2253,
+    "station_name": "Tatárvár"
+  },
+  {
+    "station_id": 2254,
+    "station_name": "Tavasz utca"
+  },
+  {
+    "station_id": 2255,
+    "station_name": "Tedej"
+  },
+  {
+    "station_id": 2256,
+    "station_name": "Teklafalu"
+  },
+  {
+    "station_id": 2257,
+    "station_name": "Telekgerendás"
+  },
+  {
+    "station_id": 2258,
+    "station_name": "Telekgerendás elágazás"
+  },
+  {
+    "station_id": 2259,
+    "station_name": "Teleki László tér"
+  },
+  {
+    "station_id": 2260,
+    "station_name": "Temető"
+  },
+  {
+    "station_id": 2261,
+    "station_name": "Templom tér"
+  },
+  {
+    "station_id": 2262,
+    "station_name": "Tengelic"
+  },
+  {
+    "station_id": 2263,
+    "station_name": "Terebesi utca"
+  },
+  {
+    "station_id": 2264,
+    "station_name": "Thököly utca"
+  },
+  {
+    "station_id": 2265,
+    "station_name": "Thököly út"
+  },
+  {
+    "station_id": 2266,
+    "station_name": "Tiborszállás"
+  },
+  {
+    "station_id": 2267,
+    "station_name": "Tihamér elágazás"
+  },
+  {
+    "station_id": 2268,
+    "station_name": "Tihamér utca"
+  },
+  {
+    "station_id": 2269,
+    "station_name": "Timót utca"
+  },
+  {
+    "station_id": 2270,
+    "station_name": "Tinódi utca"
+  },
+  {
+    "station_id": 2271,
+    "station_name": "Tisza Lajos körút (Károlyi utca)"
+  },
+  {
+    "station_id": 2272,
+    "station_name": "Tisza-parti végállomás"
+  },
+  {
+    "station_id": 2273,
+    "station_name": "Tiszaalpár"
+  },
+  {
+    "station_id": 2274,
+    "station_name": "Tiszaalpár alsó"
+  },
+  {
+    "station_id": 2275,
+    "station_name": "Tiszaalpár felső"
+  },
+  {
+    "station_id": 2276,
+    "station_name": "Tiszabercel"
+  },
+  {
+    "station_id": 2277,
+    "station_name": "Tiszabercel-Vásártér"
+  },
+  {
+    "station_id": 2278,
+    "station_name": "Tiszabezdéd"
+  },
+  {
+    "station_id": 2279,
+    "station_name": "Tiszacsege"
+  },
+  {
+    "station_id": 2280,
+    "station_name": "Tiszadada"
+  },
+  {
+    "station_id": 2281,
+    "station_name": "Tiszadob"
+  },
+  {
+    "station_id": 2282,
+    "station_name": "Tiszaeszlár"
+  },
+  {
+    "station_id": 2283,
+    "station_name": "Tiszaföldvár"
+  },
+  {
+    "station_id": 2284,
+    "station_name": "Tiszafüred"
+  },
+  {
+    "station_id": 2285,
+    "station_name": "Tiszafüred-Gyártelep"
+  },
+  {
+    "station_id": 2286,
+    "station_name": "Tiszafüredi Hajógyár ipvk."
+  },
+  {
+    "station_id": 2287,
+    "station_name": "Tiszai pályaudvar"
+  },
+  {
+    "station_id": 2288,
+    "station_name": "Tiszajenő alsó"
+  },
+  {
+    "station_id": 2289,
+    "station_name": "Tiszajenő-Vezseny"
+  },
+  {
+    "station_id": 2290,
+    "station_name": "Tiszakécske"
+  },
+  {
+    "station_id": 2291,
+    "station_name": "Tiszalök"
+  },
+  {
+    "station_id": 2292,
+    "station_name": "Tiszalök forgalmi iroda"
+  },
+  {
+    "station_id": 2293,
+    "station_name": "Tiszalöki Vízművek"
+  },
+  {
+    "station_id": 2294,
+    "station_name": "Tiszalúc"
+  },
+  {
+    "station_id": 2295,
+    "station_name": "Tiszapalkonya-Erőmű"
+  },
+  {
+    "station_id": 2296,
+    "station_name": "Tiszasas"
+  },
+  {
+    "station_id": 2297,
+    "station_name": "Tiszaszentimre"
+  },
+  {
+    "station_id": 2298,
+    "station_name": "Tiszaszőlős"
+  },
+  {
+    "station_id": 2299,
+    "station_name": "Tiszatelek"
+  },
+  {
+    "station_id": 2300,
+    "station_name": "Tiszatenyő"
+  },
+  {
+    "station_id": 2301,
+    "station_name": "Tiszatenyő elágazás"
+  },
+  {
+    "station_id": 2302,
+    "station_name": "Tiszaug"
+  },
+  {
+    "station_id": 2303,
+    "station_name": "Tiszaug kiágazás"
+  },
+  {
+    "station_id": 2304,
+    "station_name": "Tiszaug-Tiszahídfő"
+  },
+  {
+    "station_id": 2305,
+    "station_name": "Tiszavasvári"
+  },
+  {
+    "station_id": 2306,
+    "station_name": "Tiszavasvári 520/521. sz. ipvk."
+  },
+  {
+    "station_id": 2307,
+    "station_name": "Tiszavárkony"
+  },
+  {
+    "station_id": 2308,
+    "station_name": "Tiszaújváros"
+  },
+  {
+    "station_id": 2309,
+    "station_name": "Tisztavíz"
+  },
+  {
+    "station_id": 2310,
+    "station_name": "Tokaj"
+  },
+  {
+    "station_id": 2311,
+    "station_name": "Tokod"
+  },
+  {
+    "station_id": 2312,
+    "station_name": "Tokod forgalmi iroda"
+  },
+  {
+    "station_id": 2313,
+    "station_name": "Tokodi elágazás"
+  },
+  {
+    "station_id": 2314,
+    "station_name": "Tokorcs forgalmi kitérő"
+  },
+  {
+    "station_id": 2315,
+    "station_name": "Tolmács"
+  },
+  {
+    "station_id": 2316,
+    "station_name": "Tolmács-hegy"
+  },
+  {
+    "station_id": 2317,
+    "station_name": "Tolna-Mözs"
+  },
+  {
+    "station_id": 2318,
+    "station_name": "Tolnanémedi"
+  },
+  {
+    "station_id": 2319,
+    "station_name": "Tompa"
+  },
+  {
+    "station_id": 2320,
+    "station_name": "Tompapuszta"
+  },
+  {
+    "station_id": 2321,
+    "station_name": "Toponár"
+  },
+  {
+    "station_id": 2322,
+    "station_name": "Toppancshíd"
+  },
+  {
+    "station_id": 2323,
+    "station_name": "Tormásliget"
+  },
+  {
+    "station_id": 2324,
+    "station_name": "Tornanádaska"
+  },
+  {
+    "station_id": 2325,
+    "station_name": "Tornyospálca"
+  },
+  {
+    "station_id": 2326,
+    "station_name": "Tornyospálca-Átrakó"
+  },
+  {
+    "station_id": 2327,
+    "station_name": "Torontál utca"
+  },
+  {
+    "station_id": 2328,
+    "station_name": "Trafó átjáró"
+  },
+  {
+    "station_id": 2329,
+    "station_name": "Tunyogmatolcs"
+  },
+  {
+    "station_id": 2330,
+    "station_name": "Tunyogmatolcs alsó"
+  },
+  {
+    "station_id": 2331,
+    "station_name": "Tura"
+  },
+  {
+    "station_id": 2332,
+    "station_name": "Tuzsér"
+  },
+  {
+    "station_id": 2333,
+    "station_name": "Tuzsér (széles)"
+  },
+  {
+    "station_id": 2334,
+    "station_name": "Táborfalva"
+  },
+  {
+    "station_id": 2335,
+    "station_name": "Táborfalva-Fenyves rakodó"
+  },
+  {
+    "station_id": 2336,
+    "station_name": "Táborfalva-Postavágány iparvágány kiágazás"
+  },
+  {
+    "station_id": 2337,
+    "station_name": "Tállya"
+  },
+  {
+    "station_id": 2338,
+    "station_name": "Tápiógyörgye"
+  },
+  {
+    "station_id": 2339,
+    "station_name": "Tápiószecső"
+  },
+  {
+    "station_id": 2340,
+    "station_name": "Tápiószele"
+  },
+  {
+    "station_id": 2341,
+    "station_name": "Tápiószentmárton"
+  },
+  {
+    "station_id": 2342,
+    "station_name": "Tárnok"
+  },
+  {
+    "station_id": 2343,
+    "station_name": "Táska forgalmi kitérő"
+  },
+  {
+    "station_id": 2344,
+    "station_name": "Táskai elágazás"
+  },
+  {
+    "station_id": 2345,
+    "station_name": "Tát"
+  },
+  {
+    "station_id": 2346,
+    "station_name": "Téglás"
+  },
+  {
+    "station_id": 2347,
+    "station_name": "Tél utca / Pozsonyi utca"
+  },
+  {
+    "station_id": 2348,
+    "station_name": "Tétényliget"
+  },
+  {
+    "station_id": 2349,
+    "station_name": "Tímár utca"
+  },
+  {
+    "station_id": 2350,
+    "station_name": "Tócóvölgy"
+  },
+  {
+    "station_id": 2351,
+    "station_name": "Tófalu"
+  },
+  {
+    "station_id": 2352,
+    "station_name": "Tófej"
+  },
+  {
+    "station_id": 2353,
+    "station_name": "Tószeg"
+  },
+  {
+    "station_id": 2354,
+    "station_name": "Tószeg elágazás"
+  },
+  {
+    "station_id": 2355,
+    "station_name": "Tóth István utca"
+  },
+  {
+    "station_id": 2356,
+    "station_name": "Tóthtanya"
+  },
+  {
+    "station_id": 2357,
+    "station_name": "Tótkomlós"
+  },
+  {
+    "station_id": 2358,
+    "station_name": "Tóvároskert"
+  },
+  {
+    "station_id": 2359,
+    "station_name": "Tököl"
+  },
+  {
+    "station_id": 2360,
+    "station_name": "Török Flóris utca"
+  },
+  {
+    "station_id": 2361,
+    "station_name": "Törökbálint"
+  },
+  {
+    "station_id": 2362,
+    "station_name": "Törökfái"
+  },
+  {
+    "station_id": 2363,
+    "station_name": "Törökfái felső"
+  },
+  {
+    "station_id": 2364,
+    "station_name": "Törökszentmiklós"
+  },
+  {
+    "station_id": 2365,
+    "station_name": "Törökszentmiklós elágazás"
+  },
+  {
+    "station_id": 2366,
+    "station_name": "Törökőr"
+  },
+  {
+    "station_id": 2367,
+    "station_name": "Törösznek"
+  },
+  {
+    "station_id": 2368,
+    "station_name": "Türje"
+  },
+  {
+    "station_id": 2369,
+    "station_name": "Tüskevár"
+  },
+  {
+    "station_id": 2370,
+    "station_name": "Tőserdő"
+  },
+  {
+    "station_id": 2371,
+    "station_name": "Udvarhely kiágazás"
+  },
+  {
+    "station_id": 2372,
+    "station_name": "Ugod"
+  },
+  {
+    "station_id": 2373,
+    "station_name": "Ukk"
+  },
+  {
+    "station_id": 2374,
+    "station_name": "Ungvár utca"
+  },
+  {
+    "station_id": 2375,
+    "station_name": "Uzsa"
+  },
+  {
+    "station_id": 2376,
+    "station_name": "Uzsabánya"
+  },
+  {
+    "station_id": 2377,
+    "station_name": "Uzsabánya alsó"
+  },
+  {
+    "station_id": 2378,
+    "station_name": "VF 9"
+  },
+  {
+    "station_id": 2379,
+    "station_name": "Vadaskerti utca"
+  },
+  {
+    "station_id": 2380,
+    "station_name": "Vadaspark"
+  },
+  {
+    "station_id": 2381,
+    "station_name": "Vadmegfigyelő"
+  },
+  {
+    "station_id": 2382,
+    "station_name": "Vadna"
+  },
+  {
+    "station_id": 2383,
+    "station_name": "Vaja-Rohod"
+  },
+  {
+    "station_id": 2384,
+    "station_name": "Vajda Péter utca"
+  },
+  {
+    "station_id": 2385,
+    "station_name": "Vajszló"
+  },
+  {
+    "station_id": 2386,
+    "station_name": "Vajta"
+  },
+  {
+    "station_id": 2387,
+    "station_name": "Vas Gereben utca"
+  },
+  {
+    "station_id": 2388,
+    "station_name": "Vas Gereben utca / Ady Endre út"
+  },
+  {
+    "station_id": 2389,
+    "station_name": "Vasas-Hird"
+  },
+  {
+    "station_id": 2390,
+    "station_name": "Vasegerszeg"
+  },
+  {
+    "station_id": 2391,
+    "station_name": "Vasgyár"
+  },
+  {
+    "station_id": 2392,
+    "station_name": "Vasgyári evangélikus templom"
+  },
+  {
+    "station_id": 2393,
+    "station_name": "Vasvár"
+  },
+  {
+    "station_id": 2394,
+    "station_name": "Vaszar"
+  },
+  {
+    "station_id": 2395,
+    "station_name": "Vasúti emlékhely"
+  },
+  {
+    "station_id": 2396,
+    "station_name": "Vasútmúzeum"
+  },
+  {
+    "station_id": 2397,
+    "station_name": "Vasúttörténeti Park"
+  },
+  {
+    "station_id": 2398,
+    "station_name": "Vecsés"
+  },
+  {
+    "station_id": 2399,
+    "station_name": "Vecsés-Kertekalja"
+  },
+  {
+    "station_id": 2400,
+    "station_name": "Velence"
+  },
+  {
+    "station_id": 2401,
+    "station_name": "Velencefürdő"
+  },
+  {
+    "station_id": 2402,
+    "station_name": "Venyige utca"
+  },
+  {
+    "station_id": 2403,
+    "station_name": "Veres ács utca"
+  },
+  {
+    "station_id": 2404,
+    "station_name": "Veresegyház"
+  },
+  {
+    "station_id": 2405,
+    "station_name": "Veresegyház KÖFI"
+  },
+  {
+    "station_id": 2406,
+    "station_name": "Verpelét"
+  },
+  {
+    "station_id": 2407,
+    "station_name": "Verőce"
+  },
+  {
+    "station_id": 2408,
+    "station_name": "Verőce forgalmi iroda"
+  },
+  {
+    "station_id": 2409,
+    "station_name": "Verőce-Migazzi utca"
+  },
+  {
+    "station_id": 2410,
+    "station_name": "Veszkény"
+  },
+  {
+    "station_id": 2411,
+    "station_name": "Veszprém"
+  },
+  {
+    "station_id": 2412,
+    "station_name": "Veszprémvarsány"
+  },
+  {
+    "station_id": 2413,
+    "station_name": "Vetettfű"
+  },
+  {
+    "station_id": 2414,
+    "station_name": "Vica"
+  },
+  {
+    "station_id": 2415,
+    "station_name": "Vicziántelep"
+  },
+  {
+    "station_id": 2416,
+    "station_name": "Vigadó tér"
+  },
+  {
+    "station_id": 2417,
+    "station_name": "Villanyrendőr"
+  },
+  {
+    "station_id": 2418,
+    "station_name": "Villanytelep"
+  },
+  {
+    "station_id": 2419,
+    "station_name": "Villány"
+  },
+  {
+    "station_id": 2420,
+    "station_name": "Villány elágazás"
+  },
+  {
+    "station_id": 2421,
+    "station_name": "Villánykövesd"
+  },
+  {
+    "station_id": 2422,
+    "station_name": "Vilmaszállás"
+  },
+  {
+    "station_id": 2423,
+    "station_name": "Vilonya-Királyszentistván"
+  },
+  {
+    "station_id": 2424,
+    "station_name": "Világoshegy"
+  },
+  {
+    "station_id": 2425,
+    "station_name": "Vinye"
+  },
+  {
+    "station_id": 2426,
+    "station_name": "Vinár"
+  },
+  {
+    "station_id": 2427,
+    "station_name": "Vinár elágazás"
+  },
+  {
+    "station_id": 2428,
+    "station_name": "Virágvölgy"
+  },
+  {
+    "station_id": 2429,
+    "station_name": "Virányos"
+  },
+  {
+    "station_id": 2430,
+    "station_name": "Visontai Kombinát"
+  },
+  {
+    "station_id": 2431,
+    "station_name": "Visontai Kombinát forgalmi iroda"
+  },
+  {
+    "station_id": 2432,
+    "station_name": "Vitka"
+  },
+  {
+    "station_id": 2433,
+    "station_name": "Vitnyéd-Csermajor"
+  },
+  {
+    "station_id": 2434,
+    "station_name": "Vitéz utca"
+  },
+  {
+    "station_id": 2435,
+    "station_name": "Vitézipuszta"
+  },
+  {
+    "station_id": 2436,
+    "station_name": "Vokány"
+  },
+  {
+    "station_id": 2437,
+    "station_name": "Vontatási telep"
+  },
+  {
+    "station_id": 2438,
+    "station_name": "Vonyarcvashegy"
+  },
+  {
+    "station_id": 2439,
+    "station_name": "Vác"
+  },
+  {
+    "station_id": 2440,
+    "station_name": "Vác-Alsóváros"
+  },
+  {
+    "station_id": 2441,
+    "station_name": "Vác-DCM elágazás"
+  },
+  {
+    "station_id": 2442,
+    "station_name": "Váchartyán"
+  },
+  {
+    "station_id": 2443,
+    "station_name": "Váckisújfalu"
+  },
+  {
+    "station_id": 2444,
+    "station_name": "Vácrátót"
+  },
+  {
+    "station_id": 2445,
+    "station_name": "Vácrátót forgalmi iroda"
+  },
+  {
+    "station_id": 2446,
+    "station_name": "Vágány utca / Róbert Károly körút"
+  },
+  {
+    "station_id": 2447,
+    "station_name": "Vágóhíd utca"
+  },
+  {
+    "station_id": 2448,
+    "station_name": "Vám tér"
+  },
+  {
+    "station_id": 2449,
+    "station_name": "Vámoscsalád"
+  },
+  {
+    "station_id": 2450,
+    "station_name": "Vámosgyörk"
+  },
+  {
+    "station_id": 2451,
+    "station_name": "Vámosgyörk-Tartálypark iparvágány kiágazás"
+  },
+  {
+    "station_id": 2452,
+    "station_name": "Vámospércs"
+  },
+  {
+    "station_id": 2453,
+    "station_name": "Vámospércs 219/220 szelvény ipvk."
+  },
+  {
+    "station_id": 2454,
+    "station_name": "Váradi utca"
+  },
+  {
+    "station_id": 2455,
+    "station_name": "Váralja"
+  },
+  {
+    "station_id": 2456,
+    "station_name": "Várda"
+  },
+  {
+    "station_id": 2457,
+    "station_name": "Várfölde"
+  },
+  {
+    "station_id": 2458,
+    "station_name": "Várhegyalja"
+  },
+  {
+    "station_id": 2459,
+    "station_name": "Várkert Bazár"
+  },
+  {
+    "station_id": 2460,
+    "station_name": "Városföld"
+  },
+  {
+    "station_id": 2461,
+    "station_name": "Városföld elágazás"
+  },
+  {
+    "station_id": 2462,
+    "station_name": "Városház tér"
+  },
+  {
+    "station_id": 2463,
+    "station_name": "Városháza"
+  },
+  {
+    "station_id": 2464,
+    "station_name": "Városi park"
+  },
+  {
+    "station_id": 2465,
+    "station_name": "Városkút"
+  },
+  {
+    "station_id": 2466,
+    "station_name": "Városliget elágazás"
+  },
+  {
+    "station_id": 2467,
+    "station_name": "Városlőd"
+  },
+  {
+    "station_id": 2468,
+    "station_name": "Városlőd-Kislőd"
+  },
+  {
+    "station_id": 2469,
+    "station_name": "Városmajor"
+  },
+  {
+    "station_id": 2470,
+    "station_name": "Várpalota"
+  },
+  {
+    "station_id": 2471,
+    "station_name": "Várpalota-Új gyári elágazás"
+  },
+  {
+    "station_id": 2472,
+    "station_name": "Vásárcsarnok"
+  },
+  {
+    "station_id": 2473,
+    "station_name": "Vásárhelyi Pál utca"
+  },
+  {
+    "station_id": 2474,
+    "station_name": "Vásárosdombó"
+  },
+  {
+    "station_id": 2475,
+    "station_name": "Vásárosnamény"
+  },
+  {
+    "station_id": 2476,
+    "station_name": "Vásárosnamény külső"
+  },
+  {
+    "station_id": 2477,
+    "station_name": "Vásáry István utca"
+  },
+  {
+    "station_id": 2478,
+    "station_name": "Vécsey utca"
+  },
+  {
+    "station_id": 2479,
+    "station_name": "Végegyháza"
+  },
+  {
+    "station_id": 2480,
+    "station_name": "Végegyháza alsó"
+  },
+  {
+    "station_id": 2481,
+    "station_name": "Vép"
+  },
+  {
+    "station_id": 2482,
+    "station_name": "Vértesszőlős"
+  },
+  {
+    "station_id": 2483,
+    "station_name": "Vértó"
+  },
+  {
+    "station_id": 2484,
+    "station_name": "Vésztő"
+  },
+  {
+    "station_id": 2485,
+    "station_name": "Vízimalom"
+  },
+  {
+    "station_id": 2486,
+    "station_name": "Víznyomó"
+  },
+  {
+    "station_id": 2487,
+    "station_name": "Vízvár"
+  },
+  {
+    "station_id": 2488,
+    "station_name": "Völgy utca"
+  },
+  {
+    "station_id": 2489,
+    "station_name": "Vörs"
+  },
+  {
+    "station_id": 2490,
+    "station_name": "Vörösmarty tér"
+  },
+  {
+    "station_id": 2491,
+    "station_name": "Vörösmarty tér, kihúzóvágányok"
+  },
+  {
+    "station_id": 2492,
+    "station_name": "Vörösmarty utca"
+  },
+  {
+    "station_id": 2493,
+    "station_name": "Vörösvárbánya"
+  },
+  {
+    "station_id": 2494,
+    "station_name": "Wesselényi utca"
+  },
+  {
+    "station_id": 2495,
+    "station_name": "Wesselényi utca / Erzsébet körút"
+  },
+  {
+    "station_id": 2496,
+    "station_name": "Weszprémy utca"
+  },
+  {
+    "station_id": 2497,
+    "station_name": "Zagyvapálfalva"
+  },
+  {
+    "station_id": 2498,
+    "station_name": "Zagyvarékas"
+  },
+  {
+    "station_id": 2499,
+    "station_name": "Zajda"
+  },
+  {
+    "station_id": 2500,
+    "station_name": "Zajta"
+  },
+  {
+    "station_id": 2501,
+    "station_name": "Zalabér-Batyk"
+  },
+  {
+    "station_id": 2502,
+    "station_name": "Zalacséb-Salomvár"
+  },
+  {
+    "station_id": 2503,
+    "station_name": "Zalaegerszeg"
+  },
+  {
+    "station_id": 2504,
+    "station_name": "Zalaegerszeg-Ola"
+  },
+  {
+    "station_id": 2505,
+    "station_name": "Zalagyömörő"
+  },
+  {
+    "station_id": 2506,
+    "station_name": "Zalahaláp"
+  },
+  {
+    "station_id": 2507,
+    "station_name": "Zalahaláp-ERDÉSZET ipvk. pvh."
+  },
+  {
+    "station_id": 2508,
+    "station_name": "Zalaháshágy-Szőce"
+  },
+  {
+    "station_id": 2509,
+    "station_name": "Zalakomár"
+  },
+  {
+    "station_id": 2510,
+    "station_name": "Zalalövő"
+  },
+  {
+    "station_id": 2511,
+    "station_name": "Zalapatakalja"
+  },
+  {
+    "station_id": 2512,
+    "station_name": "Zalaszentgrót"
+  },
+  {
+    "station_id": 2513,
+    "station_name": "Zalaszentgyörgy"
+  },
+  {
+    "station_id": 2514,
+    "station_name": "Zalaszentiván"
+  },
+  {
+    "station_id": 2515,
+    "station_name": "Zalaszentiván elágazás"
+  },
+  {
+    "station_id": 2516,
+    "station_name": "Zalaszentjakab"
+  },
+  {
+    "station_id": 2517,
+    "station_name": "Zalaszentlőrinc"
+  },
+  {
+    "station_id": 2518,
+    "station_name": "Zalaszentmihály-Pacsa"
+  },
+  {
+    "station_id": 2519,
+    "station_name": "Zamárdi"
+  },
+  {
+    "station_id": 2520,
+    "station_name": "Zamárdi felső"
+  },
+  {
+    "station_id": 2521,
+    "station_name": "Zebegény"
+  },
+  {
+    "station_id": 2522,
+    "station_name": "Zelemér"
+  },
+  {
+    "station_id": 2523,
+    "station_name": "Zemanek"
+  },
+  {
+    "station_id": 2524,
+    "station_name": "Zenta utca"
+  },
+  {
+    "station_id": 2525,
+    "station_name": "Zichyújfalu"
+  },
+  {
+    "station_id": 2526,
+    "station_name": "Ziliz"
+  },
+  {
+    "station_id": 2527,
+    "station_name": "Zirc"
+  },
+  {
+    "station_id": 2528,
+    "station_name": "Zrínyitelep"
+  },
+  {
+    "station_id": 2529,
+    "station_name": "Zsidóhegyhát rakodó"
+  },
+  {
+    "station_id": 2530,
+    "station_name": "Zsigmond tér"
+  },
+  {
+    "station_id": 2531,
+    "station_name": "Zsil utca"
+  },
+  {
+    "station_id": 2532,
+    "station_name": "Zsujta"
+  },
+  {
+    "station_id": 2533,
+    "station_name": "Zsófialiget"
+  },
+  {
+    "station_id": 2534,
+    "station_name": "Zugló"
+  },
+  {
+    "station_id": 2535,
+    "station_name": "Zugló kocsiszín"
+  },
+  {
+    "station_id": 2536,
+    "station_name": "Zugló vasútállomás"
+  },
+  {
+    "station_id": 2537,
+    "station_name": "Zuhatag sor"
+  },
+  {
+    "station_id": 2538,
+    "station_name": "Zádor"
+  },
+  {
+    "station_id": 2539,
+    "station_name": "Záhony"
+  },
+  {
+    "station_id": 2540,
+    "station_name": "Záhony elágazás"
+  },
+  {
+    "station_id": 2541,
+    "station_name": "Záhony határ vágányfonódás-elágazás"
+  },
+  {
+    "station_id": 2542,
+    "station_name": "Záhony oh. - Чоп (Дружба)"
+  },
+  {
+    "station_id": 2543,
+    "station_name": "Záhony-Fehérolaj átfejtő"
+  },
+  {
+    "station_id": 2544,
+    "station_name": "Záhony-Fehérolaj átfejtő iparvágány kiágazás"
+  },
+  {
+    "station_id": 2545,
+    "station_name": "Záhony-Rendező"
+  },
+  {
+    "station_id": 2546,
+    "station_name": "Záhony-Átrakó"
+  },
+  {
+    "station_id": 2547,
+    "station_name": "Zákány"
+  },
+  {
+    "station_id": 2548,
+    "station_name": "Zánka-Erzsébettábor"
+  },
+  {
+    "station_id": 2549,
+    "station_name": "Zánka-Köveskál"
+  },
+  {
+    "station_id": 2550,
+    "station_name": "Zólyomi lépcső"
+  },
+  {
+    "station_id": 2551,
+    "station_name": "Ábrahám Géza utca"
+  },
+  {
+    "station_id": 2552,
+    "station_name": "Ábrahámhegy"
+  },
+  {
+    "station_id": 2553,
+    "station_name": "Ács"
+  },
+  {
+    "station_id": 2554,
+    "station_name": "Ács forgalmi iroda"
+  },
+  {
+    "station_id": 2555,
+    "station_name": "Ádánd"
+  },
+  {
+    "station_id": 2556,
+    "station_name": "Ágasegyháza"
+  },
+  {
+    "station_id": 2557,
+    "station_name": "Ágerdőmajor"
+  },
+  {
+    "station_id": 2558,
+    "station_name": "Ágfalva"
+  },
+  {
+    "station_id": 2559,
+    "station_name": "Állampuszta"
+  },
+  {
+    "station_id": 2560,
+    "station_name": "Állatkert"
+  },
+  {
+    "station_id": 2561,
+    "station_name": "Árpád Vezér Általános Iskola"
+  },
+  {
+    "station_id": 2562,
+    "station_name": "Árpád híd, fordítóvágány"
+  },
+  {
+    "station_id": 2563,
+    "station_name": "Árpád utca"
+  },
+  {
+    "station_id": 2564,
+    "station_name": "Árpádföld"
+  },
+  {
+    "station_id": 2565,
+    "station_name": "Árpádszállás"
+  },
+  {
+    "station_id": 2566,
+    "station_name": "Ászár-Keményítőgyár kiágazás"
+  },
+  {
+    "station_id": 2567,
+    "station_name": "Ásásduna"
+  },
+  {
+    "station_id": 2568,
+    "station_name": "Áta"
+  },
+  {
+    "station_id": 2569,
+    "station_name": "Écs"
+  },
+  {
+    "station_id": 2570,
+    "station_name": "Égerláp"
+  },
+  {
+    "station_id": 2571,
+    "station_name": "Élessarok"
+  },
+  {
+    "station_id": 2572,
+    "station_name": "Érd"
+  },
+  {
+    "station_id": 2573,
+    "station_name": "Érd alsó"
+  },
+  {
+    "station_id": 2574,
+    "station_name": "Érd alsó elágazás"
+  },
+  {
+    "station_id": 2575,
+    "station_name": "Érd elágazás"
+  },
+  {
+    "station_id": 2576,
+    "station_name": "Érd felső"
+  },
+  {
+    "station_id": 2577,
+    "station_name": "Érdliget"
+  },
+  {
+    "station_id": 2578,
+    "station_name": "Érhát"
+  },
+  {
+    "station_id": 2579,
+    "station_name": "Óbuda"
+  },
+  {
+    "station_id": 2580,
+    "station_name": "Óbudai rendelőintézet"
+  },
+  {
+    "station_id": 2581,
+    "station_name": "Óbékásmegyer"
+  },
+  {
+    "station_id": 2582,
+    "station_name": "Óbög"
+  },
+  {
+    "station_id": 2583,
+    "station_name": "Óceánárok utca"
+  },
+  {
+    "station_id": 2584,
+    "station_name": "Ócsa"
+  },
+  {
+    "station_id": 2585,
+    "station_name": "Ócsai szőlők"
+  },
+  {
+    "station_id": 2586,
+    "station_name": "Ódinnyés forgalmi kitérő"
+  },
+  {
+    "station_id": 2587,
+    "station_name": "Ófehértó"
+  },
+  {
+    "station_id": 2588,
+    "station_name": "Ónodi utca"
+  },
+  {
+    "station_id": 2589,
+    "station_name": "Ópályi"
+  },
+  {
+    "station_id": 2590,
+    "station_name": "Ózd"
+  },
+  {
+    "station_id": 2591,
+    "station_name": "Ózd alsó"
+  },
+  {
+    "station_id": 2592,
+    "station_name": "Ököritófülpös"
+  },
+  {
+    "station_id": 2593,
+    "station_name": "Ölbő-Alsószeleste"
+  },
+  {
+    "station_id": 2594,
+    "station_name": "Öregcsertő"
+  },
+  {
+    "station_id": 2595,
+    "station_name": "Öreglak"
+  },
+  {
+    "station_id": 2596,
+    "station_name": "Örkény"
+  },
+  {
+    "station_id": 2597,
+    "station_name": "Örs vezér tere"
+  },
+  {
+    "station_id": 2598,
+    "station_name": "Örs vezér tere M+H"
+  },
+  {
+    "station_id": 2599,
+    "station_name": "Örvényes"
+  },
+  {
+    "station_id": 2600,
+    "station_name": "Öskü"
+  },
+  {
+    "station_id": 2601,
+    "station_name": "Öttevény"
+  },
+  {
+    "station_id": 2602,
+    "station_name": "Öttevény forgalmi iroda"
+  },
+  {
+    "station_id": 2603,
+    "station_name": "Ötvös forgalmi kitérő"
+  },
+  {
+    "station_id": 2604,
+    "station_name": "Ötvöskónyi"
+  },
+  {
+    "station_id": 2605,
+    "station_name": "Öv utca"
+  },
+  {
+    "station_id": 2606,
+    "station_name": "Új köztemető"
+  },
+  {
+    "station_id": 2607,
+    "station_name": "Új köztemető (Kozma utca)"
+  },
+  {
+    "station_id": 2608,
+    "station_name": "Újbuda-központ"
+  },
+  {
+    "station_id": 2609,
+    "station_name": "Újbuda-központ M"
+  },
+  {
+    "station_id": 2610,
+    "station_name": "Újbög"
+  },
+  {
+    "station_id": 2611,
+    "station_name": "Újdombrád"
+  },
+  {
+    "station_id": 2612,
+    "station_name": "Újfehértó"
+  },
+  {
+    "station_id": 2613,
+    "station_name": "Újgyőri főtér"
+  },
+  {
+    "station_id": 2614,
+    "station_name": "Újgyőri piac"
+  },
+  {
+    "station_id": 2615,
+    "station_name": "Újkenéz"
+  },
+  {
+    "station_id": 2616,
+    "station_name": "Újkér"
+  },
+  {
+    "station_id": 2617,
+    "station_name": "Újkótaj"
+  },
+  {
+    "station_id": 2618,
+    "station_name": "Újpalota"
+  },
+  {
+    "station_id": 2619,
+    "station_name": "Újpalota, Erdőkerülő utca"
+  },
+  {
+    "station_id": 2620,
+    "station_name": "Újpest"
+  },
+  {
+    "station_id": 2621,
+    "station_name": "Újpest-központ"
+  },
+  {
+    "station_id": 2622,
+    "station_name": "Újpest-központ M"
+  },
+  {
+    "station_id": 2623,
+    "station_name": "Újpest-központ, kihúzóvágányok"
+  },
+  {
+    "station_id": 2624,
+    "station_name": "Újpest-városkapu"
+  },
+  {
+    "station_id": 2625,
+    "station_name": "Újpesti rendelőintézet"
+  },
+  {
+    "station_id": 2626,
+    "station_name": "Újszeged"
+  },
+  {
+    "station_id": 2627,
+    "station_name": "Újszentmargita"
+  },
+  {
+    "station_id": 2628,
+    "station_name": "Újszász"
+  },
+  {
+    "station_id": 2629,
+    "station_name": "Újszász elágazás"
+  },
+  {
+    "station_id": 2630,
+    "station_name": "Újtikos"
+  },
+  {
+    "station_id": 2631,
+    "station_name": "Újudvar"
+  },
+  {
+    "station_id": 2632,
+    "station_name": "Újvenyim"
+  },
+  {
+    "station_id": 2633,
+    "station_name": "Újváros"
+  },
+  {
+    "station_id": 2634,
+    "station_name": "Úrihegy"
+  },
+  {
+    "station_id": 2635,
+    "station_name": "Üllő"
+  },
+  {
+    "station_id": 2636,
+    "station_name": "Üröm"
+  },
+  {
+    "station_id": 2637,
+    "station_name": "Őcsény"
+  },
+  {
+    "station_id": 2638,
+    "station_name": "Őrbottyán"
+  },
+  {
+    "station_id": 2639,
+    "station_name": "Őrhalom"
+  },
+  {
+    "station_id": 2640,
+    "station_name": "Őrhegy A elágazás"
+  },
+  {
+    "station_id": 2641,
+    "station_name": "Őrhegy B elágazás"
+  },
+  {
+    "station_id": 2642,
+    "station_name": "Őrház"
+  },
+  {
+    "station_id": 2643,
+    "station_name": "Őriszentpéter"
+  },
+  {
+    "station_id": 2644,
+    "station_name": "Őrlőmű"
+  },
+  {
+    "station_id": 2645,
+    "station_name": "Őrtilos"
+  },
+  {
+    "station_id": 2646,
+    "station_name": "Ősz utca"
+  },
+  {
+    "station_id": 2647,
+    "station_name": "Őszeszék"
+  }
+]
