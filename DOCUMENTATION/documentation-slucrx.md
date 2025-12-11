@@ -1,40 +1,4 @@
-# TRAIN DELAYS & WEATHER DATA WAREHOUSE
--   Bernáth Máté (SLUCRX)
--   2025/12/10
-
-## TECHNICAL DETAILS
--   GitHub repository: https://github.com/bernath-mate/AWS-delays-and-weather
--   Contributors added to repository: szabild\@yahoo.com and balint.matyus\@gmail.com
--   Course: Large-Scale Data Architectures - 2025/26 Autumn (COURSE CODE)
--   Instructor: Borbásné-Szabó Ildikó
--   Final Project executed in AWS Learner Lab \[ALLv2EN-US-LTI13-135597\]
-
-## STAKEHOLDERS & VALUE
-### Target Audience:
-
-MÁV Pályafenntartó Zrt. – Primary stakeholder responsible for train operations and infrastructure management
-
-Infrastructure Planning Department – Uses insights to prioritize targeted infrastructure upgrades where impact is greatest
-
-Operations Teams – Monitor which lines are most affected by delays for resource allocation and scheduling optimization
-
-### Business Benefits:
-
-Identifies high-impact problem regions – Determines which regions and stations experience the most significant delays
-
-Correlates delays with weather events – Quantifies the relationship between adverse weather conditions and train delays to support data-driven decision-making
-
-Optimizes resource allocation – With limited funding, MÁV can strategically upgrade infrastructure on the most affected lines rather than spreading resources thinly
-
-Enables trend analysis – Tracks reliability patterns over time to monitor improvements and identify emerging problem zones
-
-Supports weather impact quantification – Provides evidence of extreme weather's contribution to delays for planning and budgeting purposes
-
-### KPIs & ANALYSIS
-1. MEDIAN DELAY
-- Which regions are most affected by delays? Is there a signficant effect of extreme weather days?
-- ![](media/paste-15.png)
-# **TRAIN DELAYS & WEATHER DATA WAREHOUSE**
+# **TRAIN DELAYS & WEATHER AWS FINAL PROJECT**
 
 > Bernáth Máté (SLUCRX)
 >
@@ -2780,4 +2744,5 @@ LIMIT 10;
 
 
 # WEEK2 UPDATE TAKE VIDEO
+
 
