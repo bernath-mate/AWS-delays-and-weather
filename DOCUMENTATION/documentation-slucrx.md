@@ -136,7 +136,7 @@
 >
 > Amazon Athena in current form does not cost much, but if more queries are run or a dashboard is implemented with QuickQight, this would increase (billed based on query numbers)
 
-![](images/paste-16.png)
+![](media/paste-16.png)
 
 ## 1. PREPROCESS R SCRIPTS
 
@@ -2744,6 +2744,7 @@ LIMIT 10;
 
 
 # WEEK2 UPDATE TAKE VIDEO
+
 
 
 
