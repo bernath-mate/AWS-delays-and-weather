@@ -389,9 +389,11 @@ print("successful transformation, CSV exported")
 
 ``` csv
 date,station_id,station_name,total_delay_minutes,train_count,avg_delay_minutes
-2025-06-01,Abaliget,-6,18,-0.3333333333333333
-2025-06-01,Abaújszántó,-15,18,-0.8333333333333334
-2025-06-01,Abaújszántó fürdő,5,18,0.2777777777777778
+2025-06-01,30,Abaliget,2,10,0.2
+2025-06-01,32,Abaújszántó,2,9,0.2222222222222222
+2025-06-01,33,Abaújszántó fürdő,7,16,0.4375
+<img width="137" height="115" alt="image" src="https://github.com/user-attachments/assets/f41937bd-15c1-4704-9ef3-1c565e663d91" />
+
 [203 321 more rows]
 ```
 
@@ -1406,3 +1408,4 @@ LIMIT 10;
 -   unified_all VIEW HAS NEW DATA ![](media/image-33.png)
 
 ### 7.5 WEEK2 UPDATE VIDEO IN SLIDES
+
