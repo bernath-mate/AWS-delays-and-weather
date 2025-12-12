@@ -408,7 +408,7 @@ date,station_id,station_name,total_delay_minutes,train_count,avg_delay_minutes
 -   8 regions\*176 days = 1408 rows with 7 columns
 
 ``` csv
-location_id latitude;longitude;time;temperature_2m_mean (°C);precipitation_sum (mm);wind_gusts_10m_max (km/h)
+location_id;latitude;longitude;time;temperature_2m_mean (°C);precipitation_sum (mm);wind_gusts_10m_max (km/h)
 0;48,1195;20,85;2025-06-01;21,8;1,3; 38,2
 0;48,1195;20,85;2025-06-02;23,4;0;38,5
 0;48,1195;20,85;2025-06-03;22,5;1,1;42,8
@@ -1408,4 +1408,5 @@ LIMIT 10;
 -   unified_all VIEW HAS NEW DATA ![](media/image-33.png)
 
 ### 7.5 WEEK2 UPDATE VIDEO IN SLIDES
+
 
