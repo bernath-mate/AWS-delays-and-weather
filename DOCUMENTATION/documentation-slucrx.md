@@ -620,10 +620,11 @@ def lambda_handler(event, context):
 
 ### 4.1 delays-update-weekly-ETL.py
 
--   appends the new week's delay data to already existing delays_all table in Athena Database from the folder raw-data/delays/weekly-update
+-   appends the new week's delay data to already existing delays_all table in Athena Database from the folder processed-data/delays/ with direct insert after creating a staging table
 
 ``` python
 import sys
+import time
 import re
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
@@ -646,6 +647,24 @@ athena_client = boto3.client('athena', region_name='us-east-1')
 
 BUCKET = 'delays-weather-slucrx'
 
+def wait_for_query_completion(client, query_id, max_retries=120):
+    """Wait for Athena query to complete"""
+    for attempt in range(max_retries):
+        try:
+            response = client.get_query_execution(QueryExecutionId=query_id)
+            status = response['QueryExecution']['Status']['State']
+            
+            if status in ['SUCCEEDED', 'FAILED', 'CANCELLED']:
+                return status
+            
+            print(f"  waiting for query {query_id}... status: {status}")
+            time.sleep(1)
+        except Exception as e:
+            print(f"  error checking query status: {str(e)}")
+            time.sleep(1)
+    
+    raise Exception(f"query {query_id} did not complete after {max_retries} attempts")
+
 try:
     print("starting delays-update-weekly-ETL")
     
@@ -654,7 +673,7 @@ try:
         print("scanning for latest delays CSV filename in weekly-updates")
         response = s3.list_objects_v2(
             Bucket=BUCKET,
-            Prefix='raw-data/delays/weekly-updates/'
+            Prefix='raw-data/delays/'
         )
         
         if 'Contents' not in response or len(response['Contents']) == 0:
@@ -662,7 +681,7 @@ try:
         
         # Get latest file by modification date
         files = sorted(response['Contents'], key=lambda x: x['LastModified'], reverse=True)
-        latest_file = files[0]['Key']  # ← FIX: files[0] not files['Key']
+        latest_file = files[0]['Key']
         filename = latest_file.split('/')[-1]
         
         print(f"latest delay file: {filename}")
@@ -688,7 +707,7 @@ try:
     try:
         print(f"reading ONLY new week's delay CSV: delay_data_{WEEK_IDENTIFIER}.csv")
         
-        weekly_csv_path = f"s3://{BUCKET}/raw-data/delays/weekly-updates/delay_data_{WEEK_IDENTIFIER}.csv"
+        weekly_csv_path = f"s3://{BUCKET}/raw-data/delays/delay_data_{WEEK_IDENTIFIER}.csv"
         
         df_new_week = spark.read \
             .option("header", "true") \
@@ -721,52 +740,115 @@ try:
         print(f"failed to apply schema: {str(e)}")
         raise
     
-    # ===== APPEND NEW WEEK TO processed-data =====
+    # ===== WRITE TO TEMP STAGING PATH =====
     try:
-        output_path = f"s3://{BUCKET}/processed-data/delays_all/"
-        print(f"appending new week ({new_week_count} rows) to: {output_path}")
+        temp_s3_path = f"s3://{BUCKET}/temp/delays_staging_{WEEK_IDENTIFIER}/"
+        print(f"writing processed delays to temp S3 path: {temp_s3_path}")
         
         df_final.coalesce(1).write \
-            .mode("append") \
+            .mode("overwrite") \
             .option("header", "true") \
-            .csv(output_path)
+            .csv(temp_s3_path)
         
-        print(f"successfully appended {new_week_count} new delay rows to delays_all")
+        print(f"successfully wrote {new_week_count} rows to temp path")
     except Exception as e:
-        print(f"failed to append delay data: {str(e)}")
+        print(f"error writing to temp path: {str(e)}")
         raise
     
-    # ===== REFRESH ATHENA METADATA =====
+    # ===== INSERT INTO ATHENA TABLE (DIRECT METHOD) =====
     try:
-        print("running MSCK REPAIR TABLE on delays_all")
-        repair_query = "MSCK REPAIR TABLE delays_all"
+        print("inserting delay data into Athena table")
+        
+        # Step 1: Create temporary external table pointing to staged data
+        temp_table_name = f"delays_staged_{WEEK_IDENTIFIER.replace('-', '_')}"
+        
+        create_temp_query = f"""
+        CREATE EXTERNAL TABLE IF NOT EXISTS {temp_table_name} (
+            date DATE,
+            station_name STRING,
+            station_id INT,
+            total_delay_minutes DOUBLE,
+            train_count INT,
+            avg_delay_minutes DOUBLE
+        )
+        ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+        WITH SERDEPROPERTIES ('field.delim' = ',')
+        STORED AS TEXTFILE
+        LOCATION 's3://{BUCKET}/temp/delays_staging_{WEEK_IDENTIFIER}/'
+        TBLPROPERTIES ('skip.header.line.count' = '1')
+        """
+        
+        print(f"creating temp table: {temp_table_name}")
         response = athena_client.start_query_execution(
-            QueryString=repair_query,
+            QueryString=create_temp_query,
             QueryExecutionContext={'Database': 'delays_weather'},
             ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
         )
         query_id = response['QueryExecutionId']
-        print(f"MSCK repair started: {query_id}")
+        status = wait_for_query_completion(athena_client, query_id)
+        print(f"temp table created with status: {status}")
+        
+        # Step 2: Insert from temp table into delays_all
+        insert_query = f"""
+        INSERT INTO delays_all
+        SELECT 
+            date,
+            station_id,
+            station_name,
+            total_delay_minutes,
+            train_count,
+            avg_delay_minutes
+        FROM {temp_table_name}
+        """
+        
+        print(f"inserting from {temp_table_name} into delays_all")
+        response = athena_client.start_query_execution(
+            QueryString=insert_query,
+            QueryExecutionContext={'Database': 'delays_weather'},
+            ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
+        )
+        query_id = response['QueryExecutionId']
+        print(f"INSERT query started: {query_id}")
+        
+        status = wait_for_query_completion(athena_client, query_id)
+        
+        if status == 'SUCCEEDED':
+            print(f"INSERT completed successfully - delay data is now in Athena")
+        else:
+            print(f"warning: INSERT query returned status: {status}")
+        
+        # Step 3: Drop temporary table
+        drop_temp_query = f"DROP TABLE IF EXISTS {temp_table_name}"
+        response = athena_client.start_query_execution(
+            QueryString=drop_temp_query,
+            QueryExecutionContext={'Database': 'delays_weather'},
+            ResultConfiguration={'OutputLocation': f's3://{BUCKET}/query-results/'}
+        )
+        query_id = response['QueryExecutionId']
+        wait_for_query_completion(athena_client, query_id)
+        print(f"temp table dropped")
+        
     except Exception as e:
-        print(f"warning: failed to run MSCK repair: {str(e)}")
+        print(f"error with INSERT into delays_all: {str(e)}")
+        raise
     
     print("delays-update-weekly-ETL completed successfully")
-    job.commit()
 
 except Exception as e:
     print(f"ETL job failed: {str(e)}")
     import traceback
     traceback.print_exc()
+    raise
+
+finally:
     job.commit()
-    sys.exit(1)
 ```
 
 ![](media/image-27.png) ![](media/image-31.png)
 
 ### 4.2 weather-update-weekly-ETL.py
 
--   API is used to call daily weather data for the 8 regions --\> ETL to add extreme flags --\> added to weather_last_week table in
--   appends the new week's weather data to already existing weather_all table in Athena Database from the folder raw-data/weather/weekly-update where the ETL exported the csv from the API
+-   API is used to call daily weather data for the 8 regions, then satging in temporary path and direct insert into weather_all table in Athena Database
 -   mean temperature, maximum wind gust, sum of precipitation --\> converted to three binary columns: extreme_temperature where mean_temp outside of -5 Celsius and +25 Celsius ; extreme_wind where max gust is above 45 km/h ; extreme_precipitation where sum is above 5 mm
 -   only constraint is 5 day lag for factual data, but that is not really problematic
 
@@ -1408,6 +1490,7 @@ LIMIT 10;
 -   unified_all VIEW HAS NEW DATA ![](media/image-33.png)
 
 ### 7.5 WEEK2 UPDATE VIDEO IN SLIDES
+
 
 
 
